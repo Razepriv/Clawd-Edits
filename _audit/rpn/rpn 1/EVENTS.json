@@ -1,0 +1,128 @@
+{
+  "video": "D:/video editor/Styles/rpn/rpn 1.mp4",
+  "duration_s": 53.86,
+  "resolution": "720x1280",
+  "fps": 23.98,
+  "aspect_ratio": "9:16",
+  "audio": {
+    "codec": "aac_he",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "silence_regions": [],
+    "music_present": true,
+    "estimated_bpm": "95-105 (range; not confirmed)"
+  },
+  "transcript_source": "faster-whisper base, en (word-level)",
+  "scene_changes_threshold_0_25": [2.92, 4.42, 4.88, 5.26, 7.05, 12.14, 13.85, 16.31, 21.02, 21.94, 23.27, 23.48, 23.69, 23.90, 24.11, 25.90, 26.44, 26.86, 27.44, 28.24, 29.36, 32.20, 34.74, 36.16, 37.12, 39.75, 40.37, 43.38, 46.55, 50.68],
+  "format_mode": "split_screen_persistent_broll_on_top_face_on_bottom",
+  "format_phases": [
+    {"t_start": 0.00,  "t_end": 7.05,  "mode": "split_screen",                "notes": "Split throughout: LTX-2.3 UI or sample video on top; face-bottom with gaming-LED studio"},
+    {"t_start": 7.05,  "t_end": 12.14, "mode": "face_fullframe",              "notes": "Host fills full frame; no split — emphasis beat 'whether you have a PC, a MacBook, a Mac Mini'"},
+    {"t_start": 12.14, "t_end": 23.27, "mode": "split_screen",                "notes": "Returns to split; B-roll swaps rapidly through LTX generation samples"},
+    {"t_start": 23.27, "t_end": 26.86, "mode": "rapid_flash_montage",         "notes": "Cluster of 5 scene cuts in ~1s — rapid montage of LTX sample videos (flash-cut pairs)"},
+    {"t_start": 26.86, "t_end": 34.74, "mode": "split_screen",                "notes": "Back to split; B-roll continues with LTX samples"},
+    {"t_start": 34.74, "t_end": 50.68, "mode": "split_screen_plus_stacked_captions", "notes": "Split with double-caption tracks: top caption on B-roll (sometimes baked into the LTX sample), bottom retro-pixel caption in the face region"},
+    {"t_start": 50.68, "t_end": 53.86, "mode": "face_fullframe_giant_cta",    "notes": "Full-frame face; giant 'Ltx' product-name logo-style caption overlaid center"}
+  ],
+  "events": [
+    {"t_start": 0.00, "t_end": 2.92, "type": "composite", "kind": "split_screen_broll_top_face_bottom", "geometry": {"top_region": "0..~48% height, B-roll", "bottom_region": "~48..100% height, face close-up"}, "label": "Top: LTX-2.3 app home with 'Next-generation quality, now supporting portrait' hero + 'Recent Projects' grid (bear, rooster, cowboy, old-man, nightclub-man thumbnails). Bottom: host in Mets cap, black hoodie, gaming-studio w/ red-lit monitors", "evidence": "f_0001", "confidence": "VERIFIED"},
+    {"t_start": 0.00, "t_end": 2.76, "type": "voiceover", "text": "You no longer have to pay 50 bucks a month for AI video generation.", "confidence": "VERIFIED"},
+    {"t_start": 0.20, "t_end": 2.70, "type": "caption_retro_pixel", "style": "white all-caps, pixel/8-bit retro font (Press Start 2P-style), slight drop shadow, center-frame over split divider", "example_words": ["YOU NO LONGER"], "confidence": "VERIFIED"},
+
+    {"t_start": 2.92, "t_end": 3.02, "type": "transition", "kind": "hard_cut", "description": "Cut B-roll to stylized anime cel-shaded illustration (yellow/red close-up of a face w/ red eye-glow, anime style)", "evidence": "sc_001", "confidence": "VERIFIED"},
+    {"t_start": 2.92, "t_end": 4.42, "type": "overlay_top_broll", "kind": "ltx_sample_anime_closeup", "label": "Anime-style cel-shaded face with red color grading, yellow goggles + red eye-glow — LTX 2.3 sample 'A NEW MODEL' beat", "evidence": "sc_001", "confidence": "VERIFIED"},
+    {"t_start": 2.94, "t_end": 7.04, "type": "voiceover", "text": "A new model, LTX 2.3, can run locally on consumer GPUs.", "confidence": "VERIFIED"},
+
+    {"t_start": 4.42, "t_end": 4.98, "type": "transition", "kind": "rapid_broll_swap", "description": "3 rapid scene cuts at 4.42, 4.88, 5.26 — swapping B-roll samples (LTX showreel 'consumer GPUs' beat)", "evidence": "sc_002, sc_003, sc_004", "confidence": "VERIFIED"},
+    {"t_start": 4.42, "t_end": 7.05, "type": "overlay_top_broll", "kind": "ltx_showreel_fast_swap", "label": "Fast succession of LTX samples (various stylistic generations) — signals 'multiple outputs' conceptually", "evidence": "sc_002, sc_003, sc_004", "confidence": "VERIFIED"},
+
+    {"t_start": 7.05, "t_end": 7.15, "type": "transition", "kind": "hard_cut", "description": "Cut to full-frame face (split-screen collapses)", "evidence": "sc_005", "confidence": "VERIFIED"},
+    {"t_start": 7.05, "t_end": 12.14, "type": "a_roll", "kind": "face_fullframe", "label": "Full-frame face close-up, Mets cap + hoodie, hand gestures prominent. Gaming-studio background (warm green/red LED bokeh left; red-lit monitor panel right)", "evidence": "sc_005", "confidence": "VERIFIED"},
+    {"t_start": 7.12, "t_end": 9.50, "type": "voiceover", "text": "So whether you have a PC, a MacBook, a Mac Mini,", "confidence": "VERIFIED"},
+    {"t_start": 9.50, "t_end": 10.00, "type": "caption_emphasis_italic_serif", "text": "for", "style": "italic serif (Cormorant/Playfair italic), white, center-frame mid-height, no pill, standalone word", "evidence": "sc_006", "confidence": "VERIFIED"},
+    {"t_start": 9.78, "t_end": 11.90, "type": "voiceover", "text": "you can have run a production grade video model", "confidence": "VERIFIED"},
+    {"t_start": 10.80, "t_end": 11.90, "type": "caption_emphasis_italic_serif", "text": "for free", "style": "italic serif, white, no pill", "evidence": "f_0050", "confidence": "VERIFIED"},
+
+    {"t_start": 11.90, "t_end": 14.86, "type": "voiceover", "text": "for free directly in your machine, which gives you a lot of advantages.", "confidence": "VERIFIED"},
+    {"t_start": 12.14, "t_end": 12.24, "type": "transition", "kind": "hard_cut", "description": "Back to split-screen mode, top swaps to LTX node-graph UI (ComfyUI-style)", "evidence": "sc_006", "confidence": "VERIFIED"},
+    {"t_start": 12.14, "t_end": 13.85, "type": "overlay_top_broll", "kind": "ltx_comfyui_nodegraph", "label": "ComfyUI-like node graph screenshot showing LTX 2.3 pipeline (Prepare Frames, CLIP Text Encode, LTXVLatent, LTX Preprocess, LTXSampler, LTX Sampling Process, LTX KSA nodes with wired connections) — demonstrates local-rig configurability", "evidence": "sc_005", "confidence": "VERIFIED"},
+
+    {"t_start": 13.85, "t_end": 13.95, "type": "transition", "kind": "hard_cut", "description": "B-roll swap to burning-house cinematic LTX sample with 'Ltx' overlay", "evidence": "sc_007", "confidence": "VERIFIED"},
+    {"t_start": 13.85, "t_end": 16.31, "type": "overlay_top_broll", "kind": "ltx_sample_burning_house", "label": "Cinematic wheat-field + burning farm house at dusk, 'Ltx' logo overlay floating in smoke (LTX sample with baked-in brand mark)", "evidence": "sc_007", "confidence": "VERIFIED"},
+    {"t_start": 15.08, "t_end": 16.96, "type": "voiceover", "text": "It's not living on someone's server somewhere.", "confidence": "VERIFIED"},
+
+    {"t_start": 16.31, "t_end": 16.41, "type": "transition", "kind": "hard_cut", "description": "B-roll swap to misty forest with three hooded figures (LTX sample)", "evidence": "sc_008", "confidence": "VERIFIED"},
+    {"t_start": 16.31, "t_end": 21.02, "type": "overlay_top_broll", "kind": "ltx_sample_hooded_figures_forest", "label": "Three hooded figures walking through a foggy moonlit forest with glowing blue-green particles, cinematic grade — LTX sample. Caption 'It's multimodal' is baked into the LTX sample video", "evidence": "sc_008", "confidence": "VERIFIED"},
+    {"t_start": 17.06, "t_end": 18.26, "type": "voiceover", "text": "You don't have to worry about subscription,", "confidence": "VERIFIED"},
+    {"t_start": 18.64, "t_end": 20.30, "type": "voiceover", "text": "creep, restrictions, or throttling,", "confidence": "VERIFIED"},
+    {"t_start": 20.58, "t_end": 21.84, "type": "voiceover", "text": "but let me tell you the really exciting part.", "confidence": "VERIFIED"},
+
+    {"t_start": 21.02, "t_end": 23.27, "type": "overlay_top_broll", "kind": "ltx_sample_closeup_host_like", "label": "Extreme close-up of the host (same Mets cap + hoodie, identical framing to bottom face) — suggesting the B-roll is a *match-cut to a higher-res or LTX-restyled version of the host himself*", "evidence": "sc_009", "confidence": "VERIFIED"},
+
+    {"t_start": 23.27, "t_end": 24.11, "type": "transition", "kind": "rapid_flash_montage", "description": "Five scene cuts in ~0.85s (23.27, 23.48, 23.69, 23.90, 24.11) = high-speed LTX showreel montage — 'most downloaded and highest benchmarking open source video model ever' beat", "evidence": "sc_011..sc_015", "confidence": "VERIFIED"},
+    {"t_start": 21.96, "t_end": 24.58, "type": "voiceover", "text": "LTX 2, which I covered before in this video,", "confidence": "VERIFIED"},
+
+    {"t_start": 24.11, "t_end": 25.90, "type": "overlay_top_broll", "kind": "ltx_sample_fantasy_warrior", "label": "Cloaked red-cape warrior with axe standing in burning medieval ruin village — LTX sample. Caption 'AND HIGHEST' overlaid in pixel retro font over the bottom face", "evidence": "sc_017", "confidence": "VERIFIED"},
+    {"t_start": 24.88, "t_end": 27.60, "type": "voiceover", "text": "was the most downloaded and highest benchmarking", "confidence": "VERIFIED"},
+
+    {"t_start": 25.90, "t_end": 29.36, "type": "transition", "kind": "rapid_broll_swap", "description": "Several cuts 25.9→29.36 swapping LTX samples", "evidence": "sc_016..sc_021", "confidence": "VERIFIED"},
+    {"t_start": 27.60, "t_end": 29.28, "type": "voiceover", "text": "open source video model ever.", "confidence": "VERIFIED"},
+
+    {"t_start": 29.36, "t_end": 32.20, "type": "overlay_top_broll", "kind": "ltx_sample_various", "label": "LTX sample continuing (caption 'VIDEO MODEL' in retro pixel font visible)", "evidence": "f_0115, sc_021", "confidence": "VERIFIED"},
+    {"t_start": 29.28, "t_end": 33.20, "type": "voiceover", "text": "LTX 2.3 improves on that model in every single way", "confidence": "VERIFIED"},
+
+    {"t_start": 32.20, "t_end": 34.74, "type": "overlay_top_broll", "kind": "ltx_sample_closeup_face_host", "label": "Another extreme close-up of face B-roll — 'AND WHAT WE GET' retro pixel caption over the bottom face region", "evidence": "sc_023", "confidence": "VERIFIED"},
+    {"t_start": 33.20, "t_end": 34.66, "type": "voiceover", "text": "based on community feedback.", "confidence": "VERIFIED"},
+
+    {"t_start": 34.74, "t_end": 34.84, "type": "transition", "kind": "hard_cut", "description": "Cut to 'nearly state-of-the-art model' beat", "evidence": "sc_023", "confidence": "VERIFIED"},
+    {"t_start": 34.78, "t_end": 36.98, "type": "voiceover", "text": "And what we get is a nearly state-of-the-art model", "confidence": "VERIFIED"},
+
+    {"t_start": 36.98, "t_end": 40.24, "type": "voiceover", "text": "where you have full control and ownership over your data and IP,", "confidence": "VERIFIED"},
+    {"t_start": 37.12, "t_end": 39.75, "type": "overlay_top_broll", "kind": "ltx_sample_axe_warrior", "label": "LTX sample: fur-clad warrior swinging a big axe in a dusty rocky-cave battle — caption 'you can use it without restriction.' baked into the LTX sample itself", "evidence": "sc_029", "confidence": "VERIFIED"},
+    {"t_start": 37.12, "t_end": 39.75, "type": "overlay_stacked_caption", "text": "LTX 2.3", "style": "retro pixel font, white with shadow, center-frame", "evidence": "sc_029", "confidence": "VERIFIED"},
+
+    {"t_start": 39.75, "t_end": 43.38, "type": "overlay_top_broll", "kind": "ltx_sample_female_riverside", "label": "LTX sample: young woman at riverside evening light — caption 'And it's completely free' baked into LTX sample (regular subtitle-style). Bottom caption 'OVER YOUR DATA' in retro pixel", "evidence": "sc_026", "confidence": "VERIFIED"},
+    {"t_start": 40.38, "t_end": 42.86, "type": "voiceover", "text": "which is a really big deal for creators and entrepreneurs,", "confidence": "VERIFIED"},
+
+    {"t_start": 42.86, "t_end": 45.10, "type": "voiceover", "text": "because this can power the products that you build.", "confidence": "VERIFIED"},
+    {"t_start": 43.38, "t_end": 46.55, "type": "overlay_top_broll", "kind": "ltx_sample_driving_woman", "label": "LTX sample: denim-jacket woman driving a vintage pickup truck through rural highway, hands on wheel — baked caption 'with open source in mind.' Bottom caption 'THIS' retro pixel", "evidence": "sc_028", "confidence": "VERIFIED"},
+
+    {"t_start": 46.55, "t_end": 50.68, "type": "overlay_top_broll", "kind": "ltx_sample_finale", "label": "Last LTX sample holding during CTA setup", "evidence": "sc_029, sc_030", "confidence": "VERIFIED"},
+    {"t_start": 45.28, "t_end": 49.00, "type": "voiceover", "text": "So if you want to try LTX 2.3 and run it on your local machine,", "confidence": "VERIFIED"},
+
+    {"t_start": 50.68, "t_end": 50.78, "type": "transition", "kind": "hard_cut", "description": "Cut to full-frame face for CTA, giant 'Ltx' product-name logo overlay", "evidence": "sc_030", "confidence": "VERIFIED"},
+    {"t_start": 50.68, "t_end": 53.86, "type": "a_roll", "kind": "face_fullframe_cta_with_logo_overlay", "label": "Full-frame face close-up. Giant 'Ltx' bold-sans white letters center-frame (product-name emphasis) + smaller retro pixel 'I'LL SEND YOU' caption below — stacked captioning", "evidence": "sc_030", "confidence": "VERIFIED"},
+    {"t_start": 49.40, "t_end": 51.48, "type": "voiceover", "text": "comment LTX, and I'll send you the model", "confidence": "VERIFIED"},
+    {"t_start": 51.48, "t_end": 53.66, "type": "voiceover", "text": "with full instructions on how to set it up.", "confidence": "VERIFIED"}
+  ],
+  "style_summary": {
+    "concept": "product-showcase reel where B-roll IS the product's own output (LTX 2.3 video samples) rather than a UI demo",
+    "narrative_arc": [
+      "hook_no_more_subscription",
+      "model_announcement_LTX_2_3",
+      "local_run_on_any_machine",
+      "ownership_benefits",
+      "community_feedback_improvement",
+      "state_of_the_art_positioning",
+      "ownership_data_IP",
+      "cta_comment_LTX_for_link"
+    ],
+    "signature_elements": [
+      "Persistent split-screen B-roll-top + face-bottom as default layout (not just hook-only like Nick 1)",
+      "B-rolls are the product's OWN sample outputs (LTX 2.3 generations) — not UI demos. Genius when the product is generative: every B-roll doubles as proof",
+      "Two parallel caption tracks can stack simultaneously — pixel/retro-font caption on the face region + subtitle-style caption on the B-roll top (sometimes baked into the LTX sample itself)",
+      "Italic-serif emphasis captions ('for free', 'for') for narrative pivots — reminiscent of Devin's emphasis slams but lighter-touch typographic treatment",
+      "Rapid flash-cut montage at narrative intensity peaks (5 cuts in ~1s at 23.27s)",
+      "Giant product-name logo overlay ('Ltx') on the final CTA shot — acts like a brand lock-up ring-off",
+      "Gaming/creator-studio backdrop — dark, warm+green LED practicals, red-lit monitor panels — conveys 'power user rig'",
+      "NY Mets cap as consistent visual identity + wedding-band hand-gestures",
+      "Shotgun/podcast mic bottom-center, always visible",
+      "Full-frame face only at emphasis beats (7.05-12.14s, 50.68-end); otherwise perma-split",
+      "Highest cut density audited (~1 per 1.8s)"
+    ],
+    "caption_philosophy": "Dual-track: retro pixel caption as the main narrator track + italic-serif emphasis at pivots. B-rolls often have their OWN baked subtitle tracks from LTX samples that the host synchronizes to his VO.",
+    "aspect_ratio_target": "9:16 Instagram Reels",
+    "color_accent": "No single brand-accent — LTX-sample warm/cinematic grades dominate (orange fire, green mist, red warrior cloaks). Brand comes from font + layout consistency, not hue.",
+    "contrast_with_other_styles": "Only style in our set that uses persistent split-screen as default and where B-roll IS the product's own output. Cut density higher than any other (1/1.8s vs. next-highest 1/2.5s VC 1). Emphasis captions are lighter italic serif (vs. Devin's heavy gradient slams)."
+  }
+}

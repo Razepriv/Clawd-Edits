@@ -1,0 +1,1756 @@
+{
+  "language": "en",
+  "language_prob": 0.9986560344696045,
+  "duration": 74.049875,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.76,
+      "text": " As of last week, Instagram dropped a f***ing massive update.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.2,
+          "word": " As",
+          "prob": 0.3435276448726654
+        },
+        {
+          "start": 0.2,
+          "end": 0.3,
+          "word": " of",
+          "prob": 0.8645395040512085
+        },
+        {
+          "start": 0.3,
+          "end": 0.56,
+          "word": " last",
+          "prob": 0.9769635796546936
+        },
+        {
+          "start": 0.56,
+          "end": 0.96,
+          "word": " week,",
+          "prob": 0.9935479760169983
+        },
+        {
+          "start": 1.4,
+          "end": 1.4,
+          "word": " Instagram",
+          "prob": 0.9493226408958435
+        },
+        {
+          "start": 1.4,
+          "end": 1.68,
+          "word": " dropped",
+          "prob": 0.5101742744445801
+        },
+        {
+          "start": 1.68,
+          "end": 2.02,
+          "word": " a",
+          "prob": 0.9744224548339844
+        },
+        {
+          "start": 2.02,
+          "end": 3.22,
+          "word": " f***ing",
+          "prob": 0.4772783915201823
+        },
+        {
+          "start": 3.22,
+          "end": 3.22,
+          "word": " massive",
+          "prob": 0.9579885005950928
+        },
+        {
+          "start": 3.22,
+          "end": 3.76,
+          "word": " update.",
+          "prob": 0.9680072069168091
+        }
+      ]
+    },
+    {
+      "start": 3.94,
+      "end": 8.72,
+      "text": " From now on, every single one of your videos has your potential to show up when someone searches",
+      "words": [
+        {
+          "start": 3.94,
+          "end": 4.06,
+          "word": " From",
+          "prob": 0.9669312238693237
+        },
+        {
+          "start": 4.06,
+          "end": 4.36,
+          "word": " now",
+          "prob": 0.9968931674957275
+        },
+        {
+          "start": 4.36,
+          "end": 4.74,
+          "word": " on,",
+          "prob": 0.9896480441093445
+        },
+        {
+          "start": 4.9,
+          "end": 5.12,
+          "word": " every",
+          "prob": 0.9797579050064087
+        },
+        {
+          "start": 5.12,
+          "end": 5.42,
+          "word": " single",
+          "prob": 0.997525155544281
+        },
+        {
+          "start": 5.42,
+          "end": 5.66,
+          "word": " one",
+          "prob": 0.9073408842086792
+        },
+        {
+          "start": 5.66,
+          "end": 5.76,
+          "word": " of",
+          "prob": 0.9801201224327087
+        },
+        {
+          "start": 5.76,
+          "end": 5.84,
+          "word": " your",
+          "prob": 0.9637427926063538
+        },
+        {
+          "start": 5.84,
+          "end": 6.12,
+          "word": " videos",
+          "prob": 0.19616509974002838
+        },
+        {
+          "start": 6.12,
+          "end": 6.32,
+          "word": " has",
+          "prob": 0.8678780198097229
+        },
+        {
+          "start": 6.32,
+          "end": 6.48,
+          "word": " your",
+          "prob": 0.3188358247280121
+        },
+        {
+          "start": 6.48,
+          "end": 6.84,
+          "word": " potential",
+          "prob": 0.9420833587646484
+        },
+        {
+          "start": 6.84,
+          "end": 7.12,
+          "word": " to",
+          "prob": 0.9921187162399292
+        },
+        {
+          "start": 7.12,
+          "end": 7.38,
+          "word": " show",
+          "prob": 0.989793062210083
+        },
+        {
+          "start": 7.38,
+          "end": 7.7,
+          "word": " up",
+          "prob": 0.994644045829773
+        },
+        {
+          "start": 7.7,
+          "end": 7.98,
+          "word": " when",
+          "prob": 0.9737079739570618
+        },
+        {
+          "start": 7.98,
+          "end": 8.3,
+          "word": " someone",
+          "prob": 0.9907008409500122
+        },
+        {
+          "start": 8.3,
+          "end": 8.72,
+          "word": " searches",
+          "prob": 0.9939035773277283
+        }
+      ]
+    },
+    {
+      "start": 8.72,
+      "end": 9.54,
+      "text": " on Google.",
+      "words": [
+        {
+          "start": 8.72,
+          "end": 9.22,
+          "word": " on",
+          "prob": 0.9760154485702515
+        },
+        {
+          "start": 9.22,
+          "end": 9.54,
+          "word": " Google.",
+          "prob": 0.9334127902984619
+        }
+      ]
+    },
+    {
+      "start": 9.8,
+      "end": 14.72,
+      "text": " But with 95 million posts going up on Instagram every day, your video will start to get",
+      "words": [
+        {
+          "start": 9.8,
+          "end": 9.94,
+          "word": " But",
+          "prob": 0.9523569941520691
+        },
+        {
+          "start": 9.94,
+          "end": 10.22,
+          "word": " with",
+          "prob": 0.8721987009048462
+        },
+        {
+          "start": 10.22,
+          "end": 10.82,
+          "word": " 95",
+          "prob": 0.8836579918861389
+        },
+        {
+          "start": 10.82,
+          "end": 11.12,
+          "word": " million",
+          "prob": 0.7797549366950989
+        },
+        {
+          "start": 11.12,
+          "end": 11.44,
+          "word": " posts",
+          "prob": 0.8427183628082275
+        },
+        {
+          "start": 11.44,
+          "end": 11.8,
+          "word": " going",
+          "prob": 0.9702198505401611
+        },
+        {
+          "start": 11.8,
+          "end": 11.96,
+          "word": " up",
+          "prob": 0.9868062734603882
+        },
+        {
+          "start": 11.96,
+          "end": 12.06,
+          "word": " on",
+          "prob": 0.979852557182312
+        },
+        {
+          "start": 12.06,
+          "end": 12.3,
+          "word": " Instagram",
+          "prob": 0.9813976287841797
+        },
+        {
+          "start": 12.3,
+          "end": 12.86,
+          "word": " every",
+          "prob": 0.9312676787376404
+        },
+        {
+          "start": 12.86,
+          "end": 13.16,
+          "word": " day,",
+          "prob": 0.993171215057373
+        },
+        {
+          "start": 13.38,
+          "end": 13.44,
+          "word": " your",
+          "prob": 0.9662359356880188
+        },
+        {
+          "start": 13.44,
+          "end": 13.7,
+          "word": " video",
+          "prob": 0.9607664942741394
+        },
+        {
+          "start": 13.7,
+          "end": 14.08,
+          "word": " will",
+          "prob": 0.9061469435691833
+        },
+        {
+          "start": 14.08,
+          "end": 14.4,
+          "word": " start",
+          "prob": 0.9874431490898132
+        },
+        {
+          "start": 14.4,
+          "end": 14.58,
+          "word": " to",
+          "prob": 0.9813621640205383
+        },
+        {
+          "start": 14.58,
+          "end": 14.72,
+          "word": " get",
+          "prob": 0.9946117401123047
+        }
+      ]
+    },
+    {
+      "start": 14.72,
+      "end": 19.94,
+      "text": " buried if you don't start optimizing your caption for Google search and you need to do it fast.",
+      "words": [
+        {
+          "start": 14.72,
+          "end": 15.0,
+          "word": " buried",
+          "prob": 0.5675222277641296
+        },
+        {
+          "start": 15.0,
+          "end": 15.32,
+          "word": " if",
+          "prob": 0.8766580820083618
+        },
+        {
+          "start": 15.32,
+          "end": 15.42,
+          "word": " you",
+          "prob": 0.9973100423812866
+        },
+        {
+          "start": 15.42,
+          "end": 15.68,
+          "word": " don't",
+          "prob": 0.9710655510425568
+        },
+        {
+          "start": 15.68,
+          "end": 15.94,
+          "word": " start",
+          "prob": 0.9913695454597473
+        },
+        {
+          "start": 15.94,
+          "end": 16.46,
+          "word": " optimizing",
+          "prob": 0.871667742729187
+        },
+        {
+          "start": 16.46,
+          "end": 16.68,
+          "word": " your",
+          "prob": 0.9741629958152771
+        },
+        {
+          "start": 16.68,
+          "end": 16.96,
+          "word": " caption",
+          "prob": 0.8807715177536011
+        },
+        {
+          "start": 16.96,
+          "end": 17.34,
+          "word": " for",
+          "prob": 0.9694352746009827
+        },
+        {
+          "start": 17.34,
+          "end": 17.66,
+          "word": " Google",
+          "prob": 0.9732174873352051
+        },
+        {
+          "start": 17.66,
+          "end": 18.1,
+          "word": " search",
+          "prob": 0.6443305611610413
+        },
+        {
+          "start": 18.1,
+          "end": 18.46,
+          "word": " and",
+          "prob": 0.26894411444664
+        },
+        {
+          "start": 18.46,
+          "end": 18.56,
+          "word": " you",
+          "prob": 0.9764515161514282
+        },
+        {
+          "start": 18.56,
+          "end": 18.84,
+          "word": " need",
+          "prob": 0.9756314754486084
+        },
+        {
+          "start": 18.84,
+          "end": 19.16,
+          "word": " to",
+          "prob": 0.7205380797386169
+        },
+        {
+          "start": 19.16,
+          "end": 19.4,
+          "word": " do",
+          "prob": 0.9901968240737915
+        },
+        {
+          "start": 19.4,
+          "end": 19.62,
+          "word": " it",
+          "prob": 0.9958447813987732
+        },
+        {
+          "start": 19.62,
+          "end": 19.94,
+          "word": " fast.",
+          "prob": 0.8537278771400452
+        }
+      ]
+    },
+    {
+      "start": 20.38,
+      "end": 24.3,
+      "text": " So here are three steps to make sure that your video always pops up first.",
+      "words": [
+        {
+          "start": 20.38,
+          "end": 20.52,
+          "word": " So",
+          "prob": 0.9524867534637451
+        },
+        {
+          "start": 20.52,
+          "end": 20.7,
+          "word": " here",
+          "prob": 0.9386066198348999
+        },
+        {
+          "start": 20.7,
+          "end": 20.8,
+          "word": " are",
+          "prob": 0.9863892197608948
+        },
+        {
+          "start": 20.8,
+          "end": 21.14,
+          "word": " three",
+          "prob": 0.5365725755691528
+        },
+        {
+          "start": 21.14,
+          "end": 21.36,
+          "word": " steps",
+          "prob": 0.9879772067070007
+        },
+        {
+          "start": 21.36,
+          "end": 21.58,
+          "word": " to",
+          "prob": 0.9867414832115173
+        },
+        {
+          "start": 21.58,
+          "end": 21.7,
+          "word": " make",
+          "prob": 0.9961979985237122
+        },
+        {
+          "start": 21.7,
+          "end": 21.86,
+          "word": " sure",
+          "prob": 0.9973324537277222
+        },
+        {
+          "start": 21.86,
+          "end": 22.02,
+          "word": " that",
+          "prob": 0.9256600141525269
+        },
+        {
+          "start": 22.02,
+          "end": 22.18,
+          "word": " your",
+          "prob": 0.8452277183532715
+        },
+        {
+          "start": 22.18,
+          "end": 22.68,
+          "word": " video",
+          "prob": 0.7880175709724426
+        },
+        {
+          "start": 22.68,
+          "end": 23.38,
+          "word": " always",
+          "prob": 0.9659938216209412
+        },
+        {
+          "start": 23.38,
+          "end": 23.68,
+          "word": " pops",
+          "prob": 0.9955177903175354
+        },
+        {
+          "start": 23.68,
+          "end": 23.94,
+          "word": " up",
+          "prob": 0.9676607251167297
+        },
+        {
+          "start": 23.94,
+          "end": 24.3,
+          "word": " first.",
+          "prob": 0.986461341381073
+        }
+      ]
+    },
+    {
+      "start": 24.64,
+      "end": 28.08,
+      "text": " So to start, you need to actually make sure that you have the Google setting turned",
+      "words": [
+        {
+          "start": 24.64,
+          "end": 24.86,
+          "word": " So",
+          "prob": 0.9065220952033997
+        },
+        {
+          "start": 24.86,
+          "end": 24.94,
+          "word": " to",
+          "prob": 0.9548681378364563
+        },
+        {
+          "start": 24.94,
+          "end": 25.18,
+          "word": " start,",
+          "prob": 0.9936026930809021
+        },
+        {
+          "start": 25.4,
+          "end": 25.5,
+          "word": " you",
+          "prob": 0.9859265089035034
+        },
+        {
+          "start": 25.5,
+          "end": 25.58,
+          "word": " need",
+          "prob": 0.9925333261489868
+        },
+        {
+          "start": 25.58,
+          "end": 25.72,
+          "word": " to",
+          "prob": 0.9953481554985046
+        },
+        {
+          "start": 25.72,
+          "end": 25.98,
+          "word": " actually",
+          "prob": 0.8858398795127869
+        },
+        {
+          "start": 25.98,
+          "end": 26.2,
+          "word": " make",
+          "prob": 0.9953094124794006
+        },
+        {
+          "start": 26.2,
+          "end": 26.48,
+          "word": " sure",
+          "prob": 0.9988402724266052
+        },
+        {
+          "start": 26.48,
+          "end": 26.66,
+          "word": " that",
+          "prob": 0.7690626978874207
+        },
+        {
+          "start": 26.66,
+          "end": 26.82,
+          "word": " you",
+          "prob": 0.9779675006866455
+        },
+        {
+          "start": 26.82,
+          "end": 26.9,
+          "word": " have",
+          "prob": 0.9822145104408264
+        },
+        {
+          "start": 26.9,
+          "end": 27.04,
+          "word": " the",
+          "prob": 0.49690529704093933
+        },
+        {
+          "start": 27.04,
+          "end": 27.32,
+          "word": " Google",
+          "prob": 0.9544634222984314
+        },
+        {
+          "start": 27.32,
+          "end": 27.78,
+          "word": " setting",
+          "prob": 0.6642835140228271
+        },
+        {
+          "start": 27.78,
+          "end": 28.08,
+          "word": " turned",
+          "prob": 0.9939839243888855
+        }
+      ]
+    },
+    {
+      "start": 28.08,
+      "end": 28.36,
+      "text": " on.",
+      "words": [
+        {
+          "start": 28.08,
+          "end": 28.36,
+          "word": " on.",
+          "prob": 0.9930554032325745
+        }
+      ]
+    },
+    {
+      "start": 28.36,
+      "end": 33.7,
+      "text": " So, go over to your profile, open up your profile settings and then scroll down until you see",
+      "words": [
+        {
+          "start": 28.36,
+          "end": 28.86,
+          "word": " So,",
+          "prob": 0.5212239027023315
+        },
+        {
+          "start": 29.1,
+          "end": 29.22,
+          "word": " go",
+          "prob": 0.9700251817703247
+        },
+        {
+          "start": 29.22,
+          "end": 29.38,
+          "word": " over",
+          "prob": 0.9727560877799988
+        },
+        {
+          "start": 29.38,
+          "end": 29.54,
+          "word": " to",
+          "prob": 0.9906957149505615
+        },
+        {
+          "start": 29.54,
+          "end": 29.6,
+          "word": " your",
+          "prob": 0.978846549987793
+        },
+        {
+          "start": 29.6,
+          "end": 29.98,
+          "word": " profile,",
+          "prob": 0.9946988821029663
+        },
+        {
+          "start": 30.3,
+          "end": 30.52,
+          "word": " open",
+          "prob": 0.9791368246078491
+        },
+        {
+          "start": 30.52,
+          "end": 30.66,
+          "word": " up",
+          "prob": 0.9853874444961548
+        },
+        {
+          "start": 30.66,
+          "end": 30.76,
+          "word": " your",
+          "prob": 0.9894918203353882
+        },
+        {
+          "start": 30.76,
+          "end": 31.08,
+          "word": " profile",
+          "prob": 0.982119083404541
+        },
+        {
+          "start": 31.08,
+          "end": 31.52,
+          "word": " settings",
+          "prob": 0.9663755893707275
+        },
+        {
+          "start": 31.52,
+          "end": 31.84,
+          "word": " and",
+          "prob": 0.2611561715602875
+        },
+        {
+          "start": 31.84,
+          "end": 31.94,
+          "word": " then",
+          "prob": 0.876065194606781
+        },
+        {
+          "start": 31.94,
+          "end": 32.34,
+          "word": " scroll",
+          "prob": 0.9954087138175964
+        },
+        {
+          "start": 32.34,
+          "end": 32.7,
+          "word": " down",
+          "prob": 0.9908149838447571
+        },
+        {
+          "start": 32.7,
+          "end": 33.26,
+          "word": " until",
+          "prob": 0.9675801992416382
+        },
+        {
+          "start": 33.26,
+          "end": 33.44,
+          "word": " you",
+          "prob": 0.9937113523483276
+        },
+        {
+          "start": 33.44,
+          "end": 33.7,
+          "word": " see",
+          "prob": 0.9901062846183777
+        }
+      ]
+    },
+    {
+      "start": 33.7,
+      "end": 34.84,
+      "text": " account privacy.",
+      "words": [
+        {
+          "start": 33.7,
+          "end": 34.14,
+          "word": " account",
+          "prob": 0.544309675693512
+        },
+        {
+          "start": 34.14,
+          "end": 34.84,
+          "word": " privacy.",
+          "prob": 0.984792947769165
+        }
+      ]
+    },
+    {
+      "start": 35.2,
+      "end": 37.54,
+      "text": " And then you want to make sure that this setting is turned on.",
+      "words": [
+        {
+          "start": 35.2,
+          "end": 35.24,
+          "word": " And",
+          "prob": 0.8364332914352417
+        },
+        {
+          "start": 35.24,
+          "end": 35.34,
+          "word": " then",
+          "prob": 0.9570583701133728
+        },
+        {
+          "start": 35.34,
+          "end": 35.42,
+          "word": " you",
+          "prob": 0.9174731969833374
+        },
+        {
+          "start": 35.42,
+          "end": 35.52,
+          "word": " want",
+          "prob": 0.9660117030143738
+        },
+        {
+          "start": 35.52,
+          "end": 35.64,
+          "word": " to",
+          "prob": 0.9901532530784607
+        },
+        {
+          "start": 35.64,
+          "end": 35.8,
+          "word": " make",
+          "prob": 0.997261643409729
+        },
+        {
+          "start": 35.8,
+          "end": 35.96,
+          "word": " sure",
+          "prob": 0.9992114305496216
+        },
+        {
+          "start": 35.96,
+          "end": 36.1,
+          "word": " that",
+          "prob": 0.9510494470596313
+        },
+        {
+          "start": 36.1,
+          "end": 36.38,
+          "word": " this",
+          "prob": 0.9817101359367371
+        },
+        {
+          "start": 36.38,
+          "end": 36.78,
+          "word": " setting",
+          "prob": 0.9777973890304565
+        },
+        {
+          "start": 36.78,
+          "end": 37.0,
+          "word": " is",
+          "prob": 0.9794137477874756
+        },
+        {
+          "start": 37.0,
+          "end": 37.24,
+          "word": " turned",
+          "prob": 0.9867462515830994
+        },
+        {
+          "start": 37.24,
+          "end": 37.54,
+          "word": " on.",
+          "prob": 0.9927749633789062
+        }
+      ]
+    },
+    {
+      "start": 37.74,
+      "end": 41.88,
+      "text": " Then second, head over to the website, answer the public dot com.",
+      "words": [
+        {
+          "start": 37.74,
+          "end": 37.88,
+          "word": " Then",
+          "prob": 0.9537890553474426
+        },
+        {
+          "start": 37.88,
+          "end": 38.32,
+          "word": " second,",
+          "prob": 0.6545224189758301
+        },
+        {
+          "start": 38.54,
+          "end": 38.74,
+          "word": " head",
+          "prob": 0.9918702840805054
+        },
+        {
+          "start": 38.74,
+          "end": 38.9,
+          "word": " over",
+          "prob": 0.9847057461738586
+        },
+        {
+          "start": 38.9,
+          "end": 39.02,
+          "word": " to",
+          "prob": 0.9953292608261108
+        },
+        {
+          "start": 39.02,
+          "end": 39.1,
+          "word": " the",
+          "prob": 0.9874448776245117
+        },
+        {
+          "start": 39.1,
+          "end": 39.54,
+          "word": " website,",
+          "prob": 0.9514973163604736
+        },
+        {
+          "start": 39.86,
+          "end": 40.24,
+          "word": " answer",
+          "prob": 0.7576452493667603
+        },
+        {
+          "start": 40.24,
+          "end": 40.58,
+          "word": " the",
+          "prob": 0.4520231783390045
+        },
+        {
+          "start": 40.58,
+          "end": 40.98,
+          "word": " public",
+          "prob": 0.5032602548599243
+        },
+        {
+          "start": 40.98,
+          "end": 41.5,
+          "word": " dot",
+          "prob": 0.39733627438545227
+        },
+        {
+          "start": 41.5,
+          "end": 41.88,
+          "word": " com.",
+          "prob": 0.9334144592285156
+        }
+      ]
+    },
+    {
+      "start": 42.14,
+      "end": 44.2,
+      "text": " And then go ahead and search the topic of your video.",
+      "words": [
+        {
+          "start": 42.14,
+          "end": 42.2,
+          "word": " And",
+          "prob": 0.9582636952400208
+        },
+        {
+          "start": 42.2,
+          "end": 42.3,
+          "word": " then",
+          "prob": 0.9910242557525635
+        },
+        {
+          "start": 42.3,
+          "end": 42.46,
+          "word": " go",
+          "prob": 0.9650512933731079
+        },
+        {
+          "start": 42.46,
+          "end": 42.6,
+          "word": " ahead",
+          "prob": 0.9227001070976257
+        },
+        {
+          "start": 42.6,
+          "end": 42.72,
+          "word": " and",
+          "prob": 0.9778351187705994
+        },
+        {
+          "start": 42.72,
+          "end": 42.92,
+          "word": " search",
+          "prob": 0.9985578656196594
+        },
+        {
+          "start": 42.92,
+          "end": 43.14,
+          "word": " the",
+          "prob": 0.9814978837966919
+        },
+        {
+          "start": 43.14,
+          "end": 43.52,
+          "word": " topic",
+          "prob": 0.9888685941696167
+        },
+        {
+          "start": 43.52,
+          "end": 43.8,
+          "word": " of",
+          "prob": 0.9980959296226501
+        },
+        {
+          "start": 43.8,
+          "end": 43.88,
+          "word": " your",
+          "prob": 0.9673104286193848
+        },
+        {
+          "start": 43.88,
+          "end": 44.2,
+          "word": " video.",
+          "prob": 0.9978986978530884
+        }
+      ]
+    },
+    {
+      "start": 44.48,
+      "end": 48.02,
+      "text": " Now this will give you a wheel of the most popular searches for that topic.",
+      "words": [
+        {
+          "start": 44.48,
+          "end": 44.56,
+          "word": " Now",
+          "prob": 0.19003280997276306
+        },
+        {
+          "start": 44.56,
+          "end": 44.7,
+          "word": " this",
+          "prob": 0.7885581851005554
+        },
+        {
+          "start": 44.7,
+          "end": 44.76,
+          "word": " will",
+          "prob": 0.8779531717300415
+        },
+        {
+          "start": 44.76,
+          "end": 44.92,
+          "word": " give",
+          "prob": 0.9974871873855591
+        },
+        {
+          "start": 44.92,
+          "end": 45.1,
+          "word": " you",
+          "prob": 0.9933149218559265
+        },
+        {
+          "start": 45.1,
+          "end": 45.26,
+          "word": " a",
+          "prob": 0.987505316734314
+        },
+        {
+          "start": 45.26,
+          "end": 45.62,
+          "word": " wheel",
+          "prob": 0.7588788866996765
+        },
+        {
+          "start": 45.62,
+          "end": 45.9,
+          "word": " of",
+          "prob": 0.9899190664291382
+        },
+        {
+          "start": 45.9,
+          "end": 46.04,
+          "word": " the",
+          "prob": 0.9961403012275696
+        },
+        {
+          "start": 46.04,
+          "end": 46.28,
+          "word": " most",
+          "prob": 0.9940405488014221
+        },
+        {
+          "start": 46.28,
+          "end": 46.64,
+          "word": " popular",
+          "prob": 0.9897687435150146
+        },
+        {
+          "start": 46.64,
+          "end": 47.02,
+          "word": " searches",
+          "prob": 0.9894831776618958
+        },
+        {
+          "start": 47.02,
+          "end": 47.4,
+          "word": " for",
+          "prob": 0.9910138249397278
+        },
+        {
+          "start": 47.4,
+          "end": 47.62,
+          "word": " that",
+          "prob": 0.9945743680000305
+        },
+        {
+          "start": 47.62,
+          "end": 48.02,
+          "word": " topic.",
+          "prob": 0.9992152452468872
+        }
+      ]
+    },
+    {
+      "start": 48.28,
+      "end": 52.24,
+      "text": " So all you have to do is choose the most popular one that best fits your video and then make",
+      "words": [
+        {
+          "start": 48.28,
+          "end": 48.44,
+          "word": " So",
+          "prob": 0.978455126285553
+        },
+        {
+          "start": 48.44,
+          "end": 48.66,
+          "word": " all",
+          "prob": 0.8824403882026672
+        },
+        {
+          "start": 48.66,
+          "end": 48.76,
+          "word": " you",
+          "prob": 0.9842057228088379
+        },
+        {
+          "start": 48.76,
+          "end": 48.84,
+          "word": " have",
+          "prob": 0.992368757724762
+        },
+        {
+          "start": 48.84,
+          "end": 48.94,
+          "word": " to",
+          "prob": 0.9981813430786133
+        },
+        {
+          "start": 48.94,
+          "end": 49.08,
+          "word": " do",
+          "prob": 0.9992355108261108
+        },
+        {
+          "start": 49.08,
+          "end": 49.3,
+          "word": " is",
+          "prob": 0.9473990797996521
+        },
+        {
+          "start": 49.3,
+          "end": 49.48,
+          "word": " choose",
+          "prob": 0.3976806104183197
+        },
+        {
+          "start": 49.48,
+          "end": 49.62,
+          "word": " the",
+          "prob": 0.9752654433250427
+        },
+        {
+          "start": 49.62,
+          "end": 49.92,
+          "word": " most",
+          "prob": 0.9935805797576904
+        },
+        {
+          "start": 49.92,
+          "end": 50.3,
+          "word": " popular",
+          "prob": 0.9956501126289368
+        },
+        {
+          "start": 50.3,
+          "end": 50.54,
+          "word": " one",
+          "prob": 0.9901478886604309
+        },
+        {
+          "start": 50.54,
+          "end": 50.72,
+          "word": " that",
+          "prob": 0.6493638157844543
+        },
+        {
+          "start": 50.72,
+          "end": 51.06,
+          "word": " best",
+          "prob": 0.986543595790863
+        },
+        {
+          "start": 51.06,
+          "end": 51.24,
+          "word": " fits",
+          "prob": 0.969024658203125
+        },
+        {
+          "start": 51.24,
+          "end": 51.4,
+          "word": " your",
+          "prob": 0.9911642670631409
+        },
+        {
+          "start": 51.4,
+          "end": 51.64,
+          "word": " video",
+          "prob": 0.9955399632453918
+        },
+        {
+          "start": 51.64,
+          "end": 51.88,
+          "word": " and",
+          "prob": 0.7593792080879211
+        },
+        {
+          "start": 51.88,
+          "end": 51.98,
+          "word": " then",
+          "prob": 0.9864400029182434
+        },
+        {
+          "start": 51.98,
+          "end": 52.24,
+          "word": " make",
+          "prob": 0.989579975605011
+        }
+      ]
+    },
+    {
+      "start": 52.24,
+      "end": 54.16,
+      "text": " that the first line of your caption.",
+      "words": [
+        {
+          "start": 52.24,
+          "end": 52.54,
+          "word": " that",
+          "prob": 0.9914131164550781
+        },
+        {
+          "start": 52.54,
+          "end": 52.84,
+          "word": " the",
+          "prob": 0.978521466255188
+        },
+        {
+          "start": 52.84,
+          "end": 53.22,
+          "word": " first",
+          "prob": 0.9818383455276489
+        },
+        {
+          "start": 53.22,
+          "end": 53.48,
+          "word": " line",
+          "prob": 0.98386150598526
+        },
+        {
+          "start": 53.48,
+          "end": 53.68,
+          "word": " of",
+          "prob": 0.9866690635681152
+        },
+        {
+          "start": 53.68,
+          "end": 53.78,
+          "word": " your",
+          "prob": 0.14183908700942993
+        },
+        {
+          "start": 53.78,
+          "end": 54.16,
+          "word": " caption.",
+          "prob": 0.9663429856300354
+        }
+      ]
+    },
+    {
+      "start": 54.16,
+      "end": 58.98,
+      "text": " And then third, click on the search that you chose and then scroll down to find the people",
+      "words": [
+        {
+          "start": 54.16,
+          "end": 54.58,
+          "word": " And",
+          "prob": 0.5283459424972534
+        },
+        {
+          "start": 54.58,
+          "end": 54.74,
+          "word": " then",
+          "prob": 0.874757707118988
+        },
+        {
+          "start": 54.74,
+          "end": 55.12,
+          "word": " third,",
+          "prob": 0.844545841217041
+        },
+        {
+          "start": 55.3,
+          "end": 55.5,
+          "word": " click",
+          "prob": 0.971914529800415
+        },
+        {
+          "start": 55.5,
+          "end": 55.62,
+          "word": " on",
+          "prob": 0.9926729798316956
+        },
+        {
+          "start": 55.62,
+          "end": 55.74,
+          "word": " the",
+          "prob": 0.9642190933227539
+        },
+        {
+          "start": 55.74,
+          "end": 55.96,
+          "word": " search",
+          "prob": 0.9746944308280945
+        },
+        {
+          "start": 55.96,
+          "end": 56.2,
+          "word": " that",
+          "prob": 0.8606614470481873
+        },
+        {
+          "start": 56.2,
+          "end": 56.32,
+          "word": " you",
+          "prob": 0.9926705360412598
+        },
+        {
+          "start": 56.32,
+          "end": 56.64,
+          "word": " chose",
+          "prob": 0.9841873645782471
+        },
+        {
+          "start": 56.64,
+          "end": 56.86,
+          "word": " and",
+          "prob": 0.4470478892326355
+        },
+        {
+          "start": 56.86,
+          "end": 56.94,
+          "word": " then",
+          "prob": 0.918587863445282
+        },
+        {
+          "start": 56.94,
+          "end": 57.32,
+          "word": " scroll",
+          "prob": 0.9974687099456787
+        },
+        {
+          "start": 57.32,
+          "end": 57.7,
+          "word": " down",
+          "prob": 0.9926275610923767
+        },
+        {
+          "start": 57.7,
+          "end": 57.98,
+          "word": " to",
+          "prob": 0.9908355474472046
+        },
+        {
+          "start": 57.98,
+          "end": 58.28,
+          "word": " find",
+          "prob": 0.9942625164985657
+        },
+        {
+          "start": 58.28,
+          "end": 58.64,
+          "word": " the",
+          "prob": 0.9778011441230774
+        },
+        {
+          "start": 58.64,
+          "end": 58.98,
+          "word": " people",
+          "prob": 0.5698061585426331
+        }
+      ]
+    },
+    {
+      "start": 58.98,
+      "end": 60.58,
+      "text": " also searched section.",
+      "words": [
+        {
+          "start": 58.98,
+          "end": 59.46,
+          "word": " also",
+          "prob": 0.8035381436347961
+        },
+        {
+          "start": 59.46,
+          "end": 59.96,
+          "word": " searched",
+          "prob": 0.9070867896080017
+        },
+        {
+          "start": 59.96,
+          "end": 60.58,
+          "word": " section.",
+          "prob": 0.9447795748710632
+        }
+      ]
+    },
+    {
+      "start": 60.8,
+      "end": 64.36,
+      "text": " And then what you want to do for the rest of your caption is copy these search terms over",
+      "words": [
+        {
+          "start": 60.8,
+          "end": 60.86,
+          "word": " And",
+          "prob": 0.927255392074585
+        },
+        {
+          "start": 60.86,
+          "end": 60.94,
+          "word": " then",
+          "prob": 0.9551642537117004
+        },
+        {
+          "start": 60.94,
+          "end": 61.04,
+          "word": " what",
+          "prob": 0.8508468270301819
+        },
+        {
+          "start": 61.04,
+          "end": 61.14,
+          "word": " you",
+          "prob": 0.9376690983772278
+        },
+        {
+          "start": 61.14,
+          "end": 61.22,
+          "word": " want",
+          "prob": 0.6087033152580261
+        },
+        {
+          "start": 61.22,
+          "end": 61.28,
+          "word": " to",
+          "prob": 0.9927107095718384
+        },
+        {
+          "start": 61.28,
+          "end": 61.38,
+          "word": " do",
+          "prob": 0.9973975419998169
+        },
+        {
+          "start": 61.38,
+          "end": 61.54,
+          "word": " for",
+          "prob": 0.9915221929550171
+        },
+        {
+          "start": 61.54,
+          "end": 61.62,
+          "word": " the",
+          "prob": 0.9908157587051392
+        },
+        {
+          "start": 61.62,
+          "end": 61.76,
+          "word": " rest",
+          "prob": 0.966033399105072
+        },
+        {
+          "start": 61.76,
+          "end": 61.9,
+          "word": " of",
+          "prob": 0.997841477394104
+        },
+        {
+          "start": 61.9,
+          "end": 61.94,
+          "word": " your",
+          "prob": 0.3535200357437134
+        },
+        {
+          "start": 61.94,
+          "end": 62.3,
+          "word": " caption",
+          "prob": 0.7309573292732239
+        },
+        {
+          "start": 62.3,
+          "end": 62.68,
+          "word": " is",
+          "prob": 0.9618784189224243
+        },
+        {
+          "start": 62.68,
+          "end": 63.02,
+          "word": " copy",
+          "prob": 0.9880654811859131
+        },
+        {
+          "start": 63.02,
+          "end": 63.34,
+          "word": " these",
+          "prob": 0.6633519530296326
+        },
+        {
+          "start": 63.34,
+          "end": 63.66,
+          "word": " search",
+          "prob": 0.9808525443077087
+        },
+        {
+          "start": 63.66,
+          "end": 63.9,
+          "word": " terms",
+          "prob": 0.9830268025398254
+        },
+        {
+          "start": 63.9,
+          "end": 64.36,
+          "word": " over",
+          "prob": 0.9852985143661499
+        }
+      ]
+    },
+    {
+      "start": 64.36,
+      "end": 68.22,
+      "text": " and then try to best create a summary of your video with these search terms.",
+      "words": [
+        {
+          "start": 64.36,
+          "end": 64.72,
+          "word": " and",
+          "prob": 0.7507697939872742
+        },
+        {
+          "start": 64.72,
+          "end": 64.78,
+          "word": " then",
+          "prob": 0.9173470139503479
+        },
+        {
+          "start": 64.78,
+          "end": 64.98,
+          "word": " try",
+          "prob": 0.9915169477462769
+        },
+        {
+          "start": 64.98,
+          "end": 65.18,
+          "word": " to",
+          "prob": 0.9897196292877197
+        },
+        {
+          "start": 65.18,
+          "end": 65.52,
+          "word": " best",
+          "prob": 0.9879072308540344
+        },
+        {
+          "start": 65.52,
+          "end": 65.82,
+          "word": " create",
+          "prob": 0.9530720114707947
+        },
+        {
+          "start": 65.82,
+          "end": 66.0,
+          "word": " a",
+          "prob": 0.5418089032173157
+        },
+        {
+          "start": 66.0,
+          "end": 66.3,
+          "word": " summary",
+          "prob": 0.9989375472068787
+        },
+        {
+          "start": 66.3,
+          "end": 66.58,
+          "word": " of",
+          "prob": 0.9920459985733032
+        },
+        {
+          "start": 66.58,
+          "end": 66.72,
+          "word": " your",
+          "prob": 0.9523016214370728
+        },
+        {
+          "start": 66.72,
+          "end": 67.04,
+          "word": " video",
+          "prob": 0.9953722357749939
+        },
+        {
+          "start": 67.04,
+          "end": 67.36,
+          "word": " with",
+          "prob": 0.9944792985916138
+        },
+        {
+          "start": 67.36,
+          "end": 67.62,
+          "word": " these",
+          "prob": 0.9080149531364441
+        },
+        {
+          "start": 67.62,
+          "end": 67.88,
+          "word": " search",
+          "prob": 0.9971708655357361
+        },
+        {
+          "start": 67.88,
+          "end": 68.22,
+          "word": " terms.",
+          "prob": 0.9941771030426025
+        }
+      ]
+    },
+    {
+      "start": 68.46,
+      "end": 72.26,
+      "text": " And then once you're done, throw in a couple of hashtags and now your video is perfectly",
+      "words": [
+        {
+          "start": 68.46,
+          "end": 68.54,
+          "word": " And",
+          "prob": 0.9661505818367004
+        },
+        {
+          "start": 68.54,
+          "end": 68.74,
+          "word": " then",
+          "prob": 0.9917033910751343
+        },
+        {
+          "start": 68.74,
+          "end": 69.04,
+          "word": " once",
+          "prob": 0.8549191951751709
+        },
+        {
+          "start": 69.04,
+          "end": 69.26,
+          "word": " you're",
+          "prob": 0.9227381646633148
+        },
+        {
+          "start": 69.26,
+          "end": 69.42,
+          "word": " done,",
+          "prob": 0.9995757937431335
+        },
+        {
+          "start": 69.64,
+          "end": 69.76,
+          "word": " throw",
+          "prob": 0.8807172179222107
+        },
+        {
+          "start": 69.76,
+          "end": 69.86,
+          "word": " in",
+          "prob": 0.7572767734527588
+        },
+        {
+          "start": 69.86,
+          "end": 69.92,
+          "word": " a",
+          "prob": 0.9965434670448303
+        },
+        {
+          "start": 69.92,
+          "end": 70.12,
+          "word": " couple",
+          "prob": 0.9963815212249756
+        },
+        {
+          "start": 70.12,
+          "end": 70.28,
+          "word": " of",
+          "prob": 0.6873044967651367
+        },
+        {
+          "start": 70.28,
+          "end": 70.6,
+          "word": " hashtags",
+          "prob": 0.837001383304596
+        },
+        {
+          "start": 70.6,
+          "end": 71.0,
+          "word": " and",
+          "prob": 0.6799689531326294
+        },
+        {
+          "start": 71.0,
+          "end": 71.2,
+          "word": " now",
+          "prob": 0.9843855500221252
+        },
+        {
+          "start": 71.2,
+          "end": 71.34,
+          "word": " your",
+          "prob": 0.9754884839057922
+        },
+        {
+          "start": 71.34,
+          "end": 71.6,
+          "word": " video",
+          "prob": 0.9967449903488159
+        },
+        {
+          "start": 71.6,
+          "end": 71.8,
+          "word": " is",
+          "prob": 0.9945449829101562
+        },
+        {
+          "start": 71.8,
+          "end": 72.26,
+          "word": " perfectly",
+          "prob": 0.9151765704154968
+        }
+      ]
+    }
+  ]
+}

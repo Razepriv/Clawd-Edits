@@ -1,0 +1,1140 @@
+{
+  "language": "en",
+  "duration": 79.168,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.42,
+      "text": " Anthropic dropped a new Claude model three hours ago.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.56,
+          "word": " Anthropic"
+        },
+        {
+          "start": 0.56,
+          "end": 0.9,
+          "word": " dropped"
+        },
+        {
+          "start": 0.9,
+          "end": 1.3,
+          "word": " a"
+        },
+        {
+          "start": 1.3,
+          "end": 1.58,
+          "word": " new"
+        },
+        {
+          "start": 1.58,
+          "end": 1.94,
+          "word": " Claude"
+        },
+        {
+          "start": 1.94,
+          "end": 2.08,
+          "word": " model"
+        },
+        {
+          "start": 2.08,
+          "end": 2.76,
+          "word": " three"
+        },
+        {
+          "start": 2.76,
+          "end": 3.08,
+          "word": " hours"
+        },
+        {
+          "start": 3.08,
+          "end": 3.42,
+          "word": " ago."
+        }
+      ]
+    },
+    {
+      "start": 3.9,
+      "end": 10.4,
+      "text": " It is the second best model they have ever built and most people are going to miss what actually matters.",
+      "words": [
+        {
+          "start": 3.9,
+          "end": 4.14,
+          "word": " It"
+        },
+        {
+          "start": 4.14,
+          "end": 4.26,
+          "word": " is"
+        },
+        {
+          "start": 4.26,
+          "end": 4.4,
+          "word": " the"
+        },
+        {
+          "start": 4.4,
+          "end": 4.84,
+          "word": " second"
+        },
+        {
+          "start": 4.84,
+          "end": 5.14,
+          "word": " best"
+        },
+        {
+          "start": 5.14,
+          "end": 5.52,
+          "word": " model"
+        },
+        {
+          "start": 5.52,
+          "end": 5.78,
+          "word": " they"
+        },
+        {
+          "start": 5.78,
+          "end": 5.98,
+          "word": " have"
+        },
+        {
+          "start": 5.98,
+          "end": 6.42,
+          "word": " ever"
+        },
+        {
+          "start": 6.42,
+          "end": 6.72,
+          "word": " built"
+        },
+        {
+          "start": 6.72,
+          "end": 7.24,
+          "word": " and"
+        },
+        {
+          "start": 7.24,
+          "end": 7.54,
+          "word": " most"
+        },
+        {
+          "start": 7.54,
+          "end": 7.94,
+          "word": " people"
+        },
+        {
+          "start": 7.94,
+          "end": 8.24,
+          "word": " are"
+        },
+        {
+          "start": 8.24,
+          "end": 8.52,
+          "word": " going"
+        },
+        {
+          "start": 8.52,
+          "end": 8.72,
+          "word": " to"
+        },
+        {
+          "start": 8.72,
+          "end": 9.0,
+          "word": " miss"
+        },
+        {
+          "start": 9.0,
+          "end": 9.42,
+          "word": " what"
+        },
+        {
+          "start": 9.42,
+          "end": 10.0,
+          "word": " actually"
+        },
+        {
+          "start": 10.0,
+          "end": 10.4,
+          "word": " matters."
+        }
+      ]
+    },
+    {
+      "start": 10.96,
+      "end": 12.96,
+      "text": " Here is everything you need in 60 seconds.",
+      "words": [
+        {
+          "start": 10.96,
+          "end": 11.12,
+          "word": " Here"
+        },
+        {
+          "start": 11.12,
+          "end": 11.26,
+          "word": " is"
+        },
+        {
+          "start": 11.26,
+          "end": 11.6,
+          "word": " everything"
+        },
+        {
+          "start": 11.6,
+          "end": 11.76,
+          "word": " you"
+        },
+        {
+          "start": 11.76,
+          "end": 11.98,
+          "word": " need"
+        },
+        {
+          "start": 11.98,
+          "end": 12.24,
+          "word": " in"
+        },
+        {
+          "start": 12.24,
+          "end": 12.58,
+          "word": " 60"
+        },
+        {
+          "start": 12.58,
+          "end": 12.96,
+          "word": " seconds."
+        }
+      ]
+    },
+    {
+      "start": 13.32,
+      "end": 15.94,
+      "text": " It is called Claude Opus 4.7.",
+      "words": [
+        {
+          "start": 13.32,
+          "end": 13.4,
+          "word": " It"
+        },
+        {
+          "start": 13.4,
+          "end": 13.54,
+          "word": " is"
+        },
+        {
+          "start": 13.54,
+          "end": 13.8,
+          "word": " called"
+        },
+        {
+          "start": 13.8,
+          "end": 14.54,
+          "word": " Claude"
+        },
+        {
+          "start": 14.54,
+          "end": 14.96,
+          "word": " Opus"
+        },
+        {
+          "start": 14.96,
+          "end": 15.36,
+          "word": " 4"
+        },
+        {
+          "start": 15.36,
+          "end": 15.94,
+          "word": ".7."
+        }
+      ]
+    },
+    {
+      "start": 16.42,
+      "end": 23.46,
+      "text": " The best model Mythos is still locked away. Anthropic is testing safety stuff on 4.7 first.",
+      "words": [
+        {
+          "start": 16.42,
+          "end": 16.5,
+          "word": " The"
+        },
+        {
+          "start": 16.5,
+          "end": 17.0,
+          "word": " best"
+        },
+        {
+          "start": 17.0,
+          "end": 17.3,
+          "word": " model"
+        },
+        {
+          "start": 17.3,
+          "end": 17.82,
+          "word": " Mythos"
+        },
+        {
+          "start": 17.82,
+          "end": 18.3,
+          "word": " is"
+        },
+        {
+          "start": 18.3,
+          "end": 18.66,
+          "word": " still"
+        },
+        {
+          "start": 18.66,
+          "end": 19.16,
+          "word": " locked"
+        },
+        {
+          "start": 19.16,
+          "end": 19.46,
+          "word": " away."
+        },
+        {
+          "start": 20.06,
+          "end": 20.46,
+          "word": " Anthropic"
+        },
+        {
+          "start": 20.46,
+          "end": 20.74,
+          "word": " is"
+        },
+        {
+          "start": 20.74,
+          "end": 21.1,
+          "word": " testing"
+        },
+        {
+          "start": 21.1,
+          "end": 21.56,
+          "word": " safety"
+        },
+        {
+          "start": 21.56,
+          "end": 21.96,
+          "word": " stuff"
+        },
+        {
+          "start": 21.96,
+          "end": 22.32,
+          "word": " on"
+        },
+        {
+          "start": 22.32,
+          "end": 22.6,
+          "word": " 4"
+        },
+        {
+          "start": 22.6,
+          "end": 23.1,
+          "word": ".7"
+        },
+        {
+          "start": 23.1,
+          "end": 23.46,
+          "word": " first."
+        }
+      ]
+    },
+    {
+      "start": 23.66,
+      "end": 29.54,
+      "text": " It is a real jump. Claude's own benchmark went from 58% to 70%.",
+      "words": [
+        {
+          "start": 23.66,
+          "end": 23.78,
+          "word": " It"
+        },
+        {
+          "start": 23.78,
+          "end": 23.9,
+          "word": " is"
+        },
+        {
+          "start": 23.9,
+          "end": 24.0,
+          "word": " a"
+        },
+        {
+          "start": 24.0,
+          "end": 24.18,
+          "word": " real"
+        },
+        {
+          "start": 24.18,
+          "end": 24.42,
+          "word": " jump."
+        },
+        {
+          "start": 25.28,
+          "end": 25.66,
+          "word": " Claude's"
+        },
+        {
+          "start": 25.66,
+          "end": 25.92,
+          "word": " own"
+        },
+        {
+          "start": 25.92,
+          "end": 26.32,
+          "word": " benchmark"
+        },
+        {
+          "start": 26.32,
+          "end": 26.74,
+          "word": " went"
+        },
+        {
+          "start": 26.74,
+          "end": 27.0,
+          "word": " from"
+        },
+        {
+          "start": 27.0,
+          "end": 27.72,
+          "word": " 58"
+        },
+        {
+          "start": 27.72,
+          "end": 28.14,
+          "word": "%"
+        },
+        {
+          "start": 28.14,
+          "end": 28.44,
+          "word": " to"
+        },
+        {
+          "start": 28.44,
+          "end": 29.54,
+          "word": " 70%."
+        }
+      ]
+    },
+    {
+      "start": 30.0,
+      "end": 34.96,
+      "text": " Rakuten says it solves 3x more production tasks than the last version.",
+      "words": [
+        {
+          "start": 30.0,
+          "end": 30.58,
+          "word": " Rakuten"
+        },
+        {
+          "start": 30.58,
+          "end": 30.86,
+          "word": " says"
+        },
+        {
+          "start": 30.86,
+          "end": 31.26,
+          "word": " it"
+        },
+        {
+          "start": 31.26,
+          "end": 31.62,
+          "word": " solves"
+        },
+        {
+          "start": 31.62,
+          "end": 32.54,
+          "word": " 3x"
+        },
+        {
+          "start": 32.54,
+          "end": 32.88,
+          "word": " more"
+        },
+        {
+          "start": 32.88,
+          "end": 33.3,
+          "word": " production"
+        },
+        {
+          "start": 33.3,
+          "end": 33.72,
+          "word": " tasks"
+        },
+        {
+          "start": 33.72,
+          "end": 34.22,
+          "word": " than"
+        },
+        {
+          "start": 34.22,
+          "end": 34.32,
+          "word": " the"
+        },
+        {
+          "start": 34.32,
+          "end": 34.56,
+          "word": " last"
+        },
+        {
+          "start": 34.56,
+          "end": 34.96,
+          "word": " version."
+        }
+      ]
+    },
+    {
+      "start": 35.64,
+      "end": 39.76,
+      "text": " This is not a small update. Your old prompts might break.",
+      "words": [
+        {
+          "start": 35.64,
+          "end": 36.02,
+          "word": " This"
+        },
+        {
+          "start": 36.02,
+          "end": 36.4,
+          "word": " is"
+        },
+        {
+          "start": 36.4,
+          "end": 36.78,
+          "word": " not"
+        },
+        {
+          "start": 36.78,
+          "end": 37.02,
+          "word": " a"
+        },
+        {
+          "start": 37.02,
+          "end": 37.3,
+          "word": " small"
+        },
+        {
+          "start": 37.3,
+          "end": 37.74,
+          "word": " update."
+        },
+        {
+          "start": 38.08,
+          "end": 38.18,
+          "word": " Your"
+        },
+        {
+          "start": 38.18,
+          "end": 38.6,
+          "word": " old"
+        },
+        {
+          "start": 38.6,
+          "end": 38.94,
+          "word": " prompts"
+        },
+        {
+          "start": 38.94,
+          "end": 39.42,
+          "word": " might"
+        },
+        {
+          "start": 39.42,
+          "end": 39.76,
+          "word": " break."
+        }
+      ]
+    },
+    {
+      "start": 40.08,
+      "end": 42.74,
+      "text": " 4.7 follows instructions literally now.",
+      "words": [
+        {
+          "start": 40.08,
+          "end": 40.24,
+          "word": " 4"
+        },
+        {
+          "start": 40.24,
+          "end": 40.74,
+          "word": ".7"
+        },
+        {
+          "start": 40.74,
+          "end": 41.2,
+          "word": " follows"
+        },
+        {
+          "start": 41.2,
+          "end": 41.84,
+          "word": " instructions"
+        },
+        {
+          "start": 41.84,
+          "end": 42.4,
+          "word": " literally"
+        },
+        {
+          "start": 42.4,
+          "end": 42.74,
+          "word": " now."
+        }
+      ]
+    },
+    {
+      "start": 42.98,
+      "end": 47.5,
+      "text": " The lazy prompts you wrote six months ago, retune them or get weird results.",
+      "words": [
+        {
+          "start": 42.98,
+          "end": 43.06,
+          "word": " The"
+        },
+        {
+          "start": 43.06,
+          "end": 43.4,
+          "word": " lazy"
+        },
+        {
+          "start": 43.4,
+          "end": 43.78,
+          "word": " prompts"
+        },
+        {
+          "start": 43.78,
+          "end": 43.98,
+          "word": " you"
+        },
+        {
+          "start": 43.98,
+          "end": 44.1,
+          "word": " wrote"
+        },
+        {
+          "start": 44.1,
+          "end": 44.4,
+          "word": " six"
+        },
+        {
+          "start": 44.4,
+          "end": 44.54,
+          "word": " months"
+        },
+        {
+          "start": 44.54,
+          "end": 44.86,
+          "word": " ago,"
+        },
+        {
+          "start": 45.32,
+          "end": 45.82,
+          "word": " retune"
+        },
+        {
+          "start": 45.82,
+          "end": 46.08,
+          "word": " them"
+        },
+        {
+          "start": 46.08,
+          "end": 46.46,
+          "word": " or"
+        },
+        {
+          "start": 46.46,
+          "end": 46.76,
+          "word": " get"
+        },
+        {
+          "start": 46.76,
+          "end": 47.1,
+          "word": " weird"
+        },
+        {
+          "start": 47.1,
+          "end": 47.5,
+          "word": " results."
+        }
+      ]
+    },
+    {
+      "start": 47.86,
+      "end": 52.96,
+      "text": " Your API bill is going up. New tokenizer, more thinking, more output tokens.",
+      "words": [
+        {
+          "start": 47.86,
+          "end": 48.0,
+          "word": " Your"
+        },
+        {
+          "start": 48.0,
+          "end": 48.36,
+          "word": " API"
+        },
+        {
+          "start": 48.36,
+          "end": 48.64,
+          "word": " bill"
+        },
+        {
+          "start": 48.64,
+          "end": 48.88,
+          "word": " is"
+        },
+        {
+          "start": 48.88,
+          "end": 49.06,
+          "word": " going"
+        },
+        {
+          "start": 49.06,
+          "end": 49.32,
+          "word": " up."
+        },
+        {
+          "start": 49.78,
+          "end": 50.08,
+          "word": " New"
+        },
+        {
+          "start": 50.08,
+          "end": 50.68,
+          "word": " tokenizer,"
+        },
+        {
+          "start": 51.04,
+          "end": 51.16,
+          "word": " more"
+        },
+        {
+          "start": 51.16,
+          "end": 51.56,
+          "word": " thinking,"
+        },
+        {
+          "start": 52.02,
+          "end": 52.14,
+          "word": " more"
+        },
+        {
+          "start": 52.14,
+          "end": 52.48,
+          "word": " output"
+        },
+        {
+          "start": 52.48,
+          "end": 52.96,
+          "word": " tokens."
+        }
+      ]
+    },
+    {
+      "start": 53.58,
+      "end": 55.24,
+      "text": " Cost control is on you now.",
+      "words": [
+        {
+          "start": 53.58,
+          "end": 53.86,
+          "word": " Cost"
+        },
+        {
+          "start": 53.86,
+          "end": 54.26,
+          "word": " control"
+        },
+        {
+          "start": 54.26,
+          "end": 54.56,
+          "word": " is"
+        },
+        {
+          "start": 54.56,
+          "end": 54.78,
+          "word": " on"
+        },
+        {
+          "start": 54.78,
+          "end": 55.0,
+          "word": " you"
+        },
+        {
+          "start": 55.0,
+          "end": 55.24,
+          "word": " now."
+        }
+      ]
+    },
+    {
+      "start": 55.62,
+      "end": 57.62,
+      "text": " And here is the part nobody is talking about.",
+      "words": [
+        {
+          "start": 55.62,
+          "end": 55.74,
+          "word": " And"
+        },
+        {
+          "start": 55.74,
+          "end": 55.94,
+          "word": " here"
+        },
+        {
+          "start": 55.94,
+          "end": 56.08,
+          "word": " is"
+        },
+        {
+          "start": 56.08,
+          "end": 56.18,
+          "word": " the"
+        },
+        {
+          "start": 56.18,
+          "end": 56.42,
+          "word": " part"
+        },
+        {
+          "start": 56.42,
+          "end": 56.84,
+          "word": " nobody"
+        },
+        {
+          "start": 56.84,
+          "end": 57.1,
+          "word": " is"
+        },
+        {
+          "start": 57.1,
+          "end": 57.3,
+          "word": " talking"
+        },
+        {
+          "start": 57.3,
+          "end": 57.62,
+          "word": " about."
+        }
+      ]
+    },
+    {
+      "start": 58.5,
+      "end": 64.3,
+      "text": " Low effort 4.7 is basically the same quality as medium effort 4.6.",
+      "words": [
+        {
+          "start": 58.46,
+          "end": 58.8,
+          "word": " Low"
+        },
+        {
+          "start": 58.8,
+          "end": 59.06,
+          "word": " effort"
+        },
+        {
+          "start": 59.06,
+          "end": 59.36,
+          "word": " 4"
+        },
+        {
+          "start": 59.36,
+          "end": 59.94,
+          "word": ".7"
+        },
+        {
+          "start": 59.94,
+          "end": 60.34,
+          "word": " is"
+        },
+        {
+          "start": 60.34,
+          "end": 60.86,
+          "word": " basically"
+        },
+        {
+          "start": 60.86,
+          "end": 61.1,
+          "word": " the"
+        },
+        {
+          "start": 61.1,
+          "end": 61.46,
+          "word": " same"
+        },
+        {
+          "start": 61.46,
+          "end": 61.88,
+          "word": " quality"
+        },
+        {
+          "start": 61.88,
+          "end": 62.52,
+          "word": " as"
+        },
+        {
+          "start": 62.52,
+          "end": 63.02,
+          "word": " medium"
+        },
+        {
+          "start": 63.02,
+          "end": 63.44,
+          "word": " effort"
+        },
+        {
+          "start": 63.44,
+          "end": 63.74,
+          "word": " 4"
+        },
+        {
+          "start": 63.74,
+          "end": 64.3,
+          "word": ".6."
+        }
+      ]
+    },
+    {
+      "start": 64.94,
+      "end": 70.64,
+      "text": " Meaning you can get better work for less money if you know with setting to use.",
+      "words": [
+        {
+          "start": 64.94,
+          "end": 65.38,
+          "word": " Meaning"
+        },
+        {
+          "start": 65.38,
+          "end": 66.02,
+          "word": " you"
+        },
+        {
+          "start": 66.02,
+          "end": 66.18,
+          "word": " can"
+        },
+        {
+          "start": 66.18,
+          "end": 66.36,
+          "word": " get"
+        },
+        {
+          "start": 66.36,
+          "end": 66.76,
+          "word": " better"
+        },
+        {
+          "start": 66.76,
+          "end": 67.22,
+          "word": " work"
+        },
+        {
+          "start": 67.22,
+          "end": 67.66,
+          "word": " for"
+        },
+        {
+          "start": 67.66,
+          "end": 68.0,
+          "word": " less"
+        },
+        {
+          "start": 68.0,
+          "end": 68.38,
+          "word": " money"
+        },
+        {
+          "start": 68.38,
+          "end": 68.98,
+          "word": " if"
+        },
+        {
+          "start": 68.98,
+          "end": 69.1,
+          "word": " you"
+        },
+        {
+          "start": 69.1,
+          "end": 69.34,
+          "word": " know"
+        },
+        {
+          "start": 69.34,
+          "end": 69.72,
+          "word": " with"
+        },
+        {
+          "start": 69.72,
+          "end": 70.06,
+          "word": " setting"
+        },
+        {
+          "start": 70.06,
+          "end": 70.3,
+          "word": " to"
+        },
+        {
+          "start": 70.3,
+          "end": 70.64,
+          "word": " use."
+        }
+      ]
+    },
+    {
+      "start": 70.96,
+      "end": 73.8,
+      "text": " I am rebuilding three of my client automations on this today.",
+      "words": [
+        {
+          "start": 70.96,
+          "end": 71.04,
+          "word": " I"
+        },
+        {
+          "start": 71.04,
+          "end": 71.18,
+          "word": " am"
+        },
+        {
+          "start": 71.18,
+          "end": 71.46,
+          "word": " rebuilding"
+        },
+        {
+          "start": 71.46,
+          "end": 71.82,
+          "word": " three"
+        },
+        {
+          "start": 71.82,
+          "end": 71.94,
+          "word": " of"
+        },
+        {
+          "start": 71.94,
+          "end": 72.1,
+          "word": " my"
+        },
+        {
+          "start": 72.1,
+          "end": 72.32,
+          "word": " client"
+        },
+        {
+          "start": 72.32,
+          "end": 72.86,
+          "word": " automations"
+        },
+        {
+          "start": 72.86,
+          "end": 73.22,
+          "word": " on"
+        },
+        {
+          "start": 73.22,
+          "end": 73.4,
+          "word": " this"
+        },
+        {
+          "start": 73.4,
+          "end": 73.8,
+          "word": " today."
+        }
+      ]
+    },
+    {
+      "start": 74.46,
+      "end": 78.9,
+      "text": " Comment the word Opus and I will send you my updated prompt template for 4.7.",
+      "words": [
+        {
+          "start": 74.46,
+          "end": 74.66,
+          "word": " Comment"
+        },
+        {
+          "start": 74.66,
+          "end": 74.86,
+          "word": " the"
+        },
+        {
+          "start": 74.86,
+          "end": 75.04,
+          "word": " word"
+        },
+        {
+          "start": 75.04,
+          "end": 75.46,
+          "word": " Opus"
+        },
+        {
+          "start": 75.46,
+          "end": 75.66,
+          "word": " and"
+        },
+        {
+          "start": 75.66,
+          "end": 75.94,
+          "word": " I"
+        },
+        {
+          "start": 75.94,
+          "end": 76.08,
+          "word": " will"
+        },
+        {
+          "start": 76.08,
+          "end": 76.24,
+          "word": " send"
+        },
+        {
+          "start": 76.24,
+          "end": 76.42,
+          "word": " you"
+        },
+        {
+          "start": 76.42,
+          "end": 76.6,
+          "word": " my"
+        },
+        {
+          "start": 76.6,
+          "end": 77.06,
+          "word": " updated"
+        },
+        {
+          "start": 77.06,
+          "end": 77.36,
+          "word": " prompt"
+        },
+        {
+          "start": 77.36,
+          "end": 77.76,
+          "word": " template"
+        },
+        {
+          "start": 77.76,
+          "end": 78.2,
+          "word": " for"
+        },
+        {
+          "start": 78.2,
+          "end": 78.44,
+          "word": " 4"
+        },
+        {
+          "start": 78.44,
+          "end": 78.9,
+          "word": ".7."
+        }
+      ]
+    }
+  ]
+}

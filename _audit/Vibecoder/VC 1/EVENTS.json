@@ -1,0 +1,112 @@
+{
+  "video": "D:/video editor/Styles/Vibecoder/VC 1.mp4",
+  "duration_s": 40.45,
+  "resolution": "720x1280",
+  "fps": 23.98,
+  "aspect_ratio": "9:16",
+  "audio": {
+    "codec": "aac_he",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "silence_regions": [],
+    "music_present": true,
+    "estimated_bpm": "105-115 (range; not confirmed)"
+  },
+  "transcript_source": "faster-whisper base, en (word-level)",
+  "scene_changes_threshold_0_18": [0.959, 2.544, 2.586, 4.046, 6.590, 9.343, 9.384, 9.468, 10.636, 12.262, 13.805, 16.600, 29.863, 37.204, 38.789, 39.331],
+  "format_mode": "dramatic_ai_hook_then_framed_closeup_with_broll_inserts_then_cta",
+  "format_phases": [
+    {"t_start": 0.00,  "t_end": 9.34,  "mode": "ai_illustration_hook",     "notes": "3 AI-generated character illustrations with heavy RGB glitch. No face of the creator visible yet."},
+    {"t_start": 9.34,  "t_end": 10.64, "mode": "rgb_mosaic_glitch_transition", "notes": "Abstract color-block 'bad-tape/data-corruption' flash frames bridging hook → title card"},
+    {"t_start": 9.50,  "t_end": 12.26, "mode": "animated_title_card",      "notes": "'This is day 130 BUILDING YOU 100x' block-letter flyin on dark-navy starfield"},
+    {"t_start": 12.26, "t_end": 37.20, "mode": "rounded_frame_closeup_with_broll_inserts", "notes": "Face framed in rounded-rect floating window; B-roll screenshots use same rounded-frame treatment"},
+    {"t_start": 37.20, "t_end": 39.33, "mode": "cta_card",                 "notes": "Designed 'Comment Builder for the link' card with hand-drawn decorations on white bg"},
+    {"t_start": 39.33, "t_end": 40.45, "mode": "final_closeup_followcta",  "notes": "'Follow for more videos' tail shot, same rounded-frame closeup"}
+  ],
+  "events": [
+    {"t_start": 0.00, "t_end": 0.96, "type": "overlay_full_screen", "kind": "ai_illustration", "label": "AI-generated stylized villain character — curly-haired man with glowing red-orange eyes + fire aura around head, black suit jacket + white shirt, seated at glass desk in tech-office with AI-brain monitor behind. Heavy orange/red color grade", "evidence": "f_0001", "confidence": "VERIFIED"},
+    {"t_start": 0.00, "t_end": 6.20, "type": "voiceover", "text": "Anthropic just gave a heart attack to the lovable CEO and the Replit CEO because again someone from their own team leaked new features", "confidence": "VERIFIED"},
+    {"t_start": 0.20, "t_end": 9.30, "type": "caption_submagic", "kind": "dark_pill_small", "placement": "center_frame_mid_lower", "style": "white bold sans on dark translucent rounded-rect pill; 2-3 words/chunk; sits low within the illustration area"},
+
+    {"t_start": 0.96, "t_end": 1.06, "type": "transition", "kind": "hard_cut", "description": "Hard cut to the second illustration (shocked/heart-attack character)", "evidence": "sc_001", "confidence": "VERIFIED"},
+    {"t_start": 0.96, "t_end": 2.55, "type": "overlay_full_screen", "kind": "ai_illustration", "label": "Stylized man leaning over a glowing holographic screen, mouth open in shock, surrounded by red-pink heart/pulse glitch; retro-futurist office monitors behind; heavy RGB-chromatic-aberration fringe", "evidence": "sc_001", "confidence": "VERIFIED"},
+
+    {"t_start": 2.55, "t_end": 2.65, "type": "transition", "kind": "flash_cut_pair", "description": "Two ultra-short scene-change hits 2.54 and 2.59 = rapid flash-cut pair into illustration 3", "evidence": "sc_002, sc_003", "confidence": "VERIFIED"},
+    {"t_start": 2.59, "t_end": 4.05, "type": "overlay_full_screen", "kind": "ai_illustration", "label": "Third character — bald man in grey tee at desktop, surrounded by jagged red-lightning electrical glitch painted across frame; tech-office lighting. Visual metaphor for 'heart attack/collapse'", "evidence": "sc_003", "confidence": "VERIFIED"},
+
+    {"t_start": 4.05, "t_end": 4.15, "type": "transition", "kind": "hard_cut", "description": "Hard cut from illustration to framed face close-up", "evidence": "sc_004", "confidence": "VERIFIED"},
+    {"t_start": 4.05, "t_end": 9.34, "type": "a_roll", "kind": "indoor_studio_rounded_frame", "label": "Host in dark studio (teal-grey wall, colorful graffiti-style art on left wall, framed print of red car on right), hair tied back, black t-shirt w/ small gold-yellow circular chest logo. Shot framed in rounded-rect floating window with black pillarbox margins (~15px top/sides)", "evidence": "sc_004, sc_005", "confidence": "VERIFIED"},
+    {"t_start": 6.20, "t_end": 9.52, "type": "voiceover", "text": "that can collapse their entire company mode. So welcome back guys. This is day", "confidence": "VERIFIED"},
+
+    {"t_start": 9.34, "t_end": 10.64, "type": "transition", "kind": "rgb_mosaic_glitch", "duration_frames": "~30 frames with 3 internal scene-detects at 9.34, 9.38, 9.47 + 10.64", "label": "Abstract color-block 'bad-tape' glitch: stacked horizontal bars of teal, purple, deep-blue, olive-green, brick-red, plus small floating rectangles of cyan/violet. Noisy starfield overlay", "evidence": "sc_007, sc_008", "confidence": "VERIFIED"},
+
+    {"t_start": 9.52, "t_end": 12.26, "type": "overlay_full_screen", "kind": "animated_title_card", "label": "Dark navy starfield + sequential fly-in typography: 'This is' (teal + blue + purple small colored blocks behind letters) → '1' (olive block) → 'BUILDING YOU 100x' big display typography, letters arrive with subtle scale-offset animation. Ends holding 'BUILDING YOU 100x' for ~0.5s", "evidence": "f_0040, f_0045, f_0048", "confidence": "VERIFIED"},
+    {"t_start": 10.24, "t_end": 14.90, "type": "voiceover", "text": "130 building you 100x Anthropic is building a full stack app builder inside Claude", "confidence": "VERIFIED"},
+
+    {"t_start": 12.26, "t_end": 12.36, "type": "transition", "kind": "hard_cut", "description": "Hard cut from title card back to rounded-frame face close-up", "evidence": "sc_010", "confidence": "VERIFIED"},
+    {"t_start": 12.26, "t_end": 13.81, "type": "a_roll", "kind": "indoor_studio_rounded_frame", "label": "Same host rounded-frame close-up — 'Anthropic' caption lands", "evidence": "f_0050, sc_010", "confidence": "VERIFIED"},
+
+    {"t_start": 13.81, "t_end": 13.91, "type": "transition", "kind": "hard_cut", "description": "Cut to B-roll insert of Claude desktop UI", "evidence": "sc_011", "confidence": "VERIFIED"},
+    {"t_start": 13.81, "t_end": 16.60, "type": "overlay_card", "kind": "broll_rounded_frame_claude_desktop", "label": "Rust/orange-tinted rounded-rect frame inside a dark stage. Inside: Claude desktop screenshot showing an 'Agent Fleet Overview' dashboard (8/12, 247, ACTIVE tiles), two sticky-note cards ('FIX AUTH FLOW by next week', 'Don't forget to eat dinner'), and a terminal panel on the right showing Claude running 'npx create-next-app@latest proposal-tracker' etc. + 'Cogitating 24s +570 tokens' + 'accept edits on (shift+tab to cycle)'. 'Claude.' pill logo at bottom of the frame card", "evidence": "f_0060", "confidence": "VERIFIED"},
+    {"t_start": 14.90, "t_end": 19.88, "type": "voiceover", "text": "You just need to type one prompt, front end, back end, deploy. You can also track how many users signed up for that artifact", "confidence": "VERIFIED"},
+
+    {"t_start": 16.60, "t_end": 16.70, "type": "transition", "kind": "hard_cut", "description": "Cut back to rounded-frame face close-up", "evidence": "sc_012", "confidence": "VERIFIED"},
+    {"t_start": 16.60, "t_end": 19.88, "type": "a_roll", "kind": "indoor_studio_rounded_frame", "label": "'end and deploy.' caption — continuing host narration in rounded frame", "evidence": "f_0070", "confidence": "VERIFIED"},
+
+    {"t_start": 19.88, "t_end": 26.86, "type": "a_roll_or_broll_alternation", "kind": "rounded_frame_mix", "label": "Alternation between rounded-frame host close-up and rounded-frame B-roll screenshots. No scene-detect hit in this span (threshold 0.18) — cuts are gentler/cross-dissolve-feeling or within-frame content changes", "sub_events": [
+      {"t": "~21.0", "kind": "broll_chat_picker", "label": "Rounded-frame screenshot of a Claude chat session picker (dark sidebar 'Ask Claude to write code…', Opus 4.5 chip, list of recent sessions 'Document food logging APIs', 'Build comprehensive Swift SDK for OpenLifeLog API', etc.)", "evidence": "f_0085"},
+      {"t": "~24.5", "kind": "broll_ios_settings_list", "label": "Rounded-frame screenshot of iOS-style settings list 'risks / irections / node' with a hand-cursor icon tapping an arrow", "evidence": "f_0100"}
+    ], "confidence": "VERIFIED"},
+    {"t_start": 19.88, "t_end": 26.86, "type": "voiceover", "text": "But here's what makes this insane. This isn't a standalone tool. It's all inside one app — multi-agent coordination, computer use, persistent memory", "confidence": "VERIFIED"},
+
+    {"t_start": 26.86, "t_end": 29.86, "type": "overlay_card", "kind": "broll_rounded_frame_claude_code_terminal", "label": "Rust-tinted rounded-rect frame containing a terminal running Claude Code v2.1.69 (pixel-monster icon, 'Opus 4.6 - Claude Max', /remote-control command, 'Remote Control connecting', 'is active. Code in CLI or at claude.ai/code/session/...') + a side panel listing 'Code' tasks (pending todos, posts). Desktop wallpaper rust/orange", "evidence": "f_0115", "confidence": "VERIFIED"},
+    {"t_start": 26.86, "t_end": 31.92, "type": "voiceover", "text": "and now a full stack builder on top of it because every vibe coding app is built just on top of their LLM API", "confidence": "VERIFIED"},
+
+    {"t_start": 29.86, "t_end": 29.96, "type": "transition", "kind": "hard_cut", "description": "Cut to retro CRT illustration", "evidence": "sc_013", "confidence": "VERIFIED"},
+    {"t_start": 29.86, "t_end": 34.86, "type": "overlay_card", "kind": "broll_retro_crt_illustration", "label": "Stylized 3D illustration of a retro CRT monitor on a messy tech desk (posters wall behind, red synthesizer-looking device right side, cassette stack left). Screen content animates between a Claude-sparkle (pink/magenta 4-point star) and a Claude-typing indicator pill (pink-orange gradient oval with thinking bar)", "evidence": "sc_013, f_0130", "confidence": "VERIFIED"},
+    {"t_start": 31.92, "t_end": 34.86, "type": "voiceover", "text": "But now the LLM can do the entire work that they're doing for consumers", "confidence": "VERIFIED"},
+
+    {"t_start": 34.86, "t_end": 37.20, "type": "a_roll", "kind": "indoor_studio_rounded_frame", "label": "Back to host rounded-frame close-up — 'to be a bloodbath' caption", "evidence": "f_0145", "confidence": "VERIFIED"},
+    {"t_start": 34.86, "t_end": 40.12, "type": "voiceover", "text": "This is going to be a bloodbath for many people. Comment Builder and I'll send you the exclusive link. Follow for more videos.", "confidence": "VERIFIED"},
+
+    {"t_start": 37.20, "t_end": 37.30, "type": "transition", "kind": "hard_cut", "description": "Cut to CTA card (white background with hand-drawn decorations)", "evidence": "sc_014", "confidence": "VERIFIED"},
+    {"t_start": 37.20, "t_end": 38.79, "type": "overlay_card", "kind": "cta_card_designed", "label": "Off-white background. Large 'Comment' in bold black sans-serif (Archivo/Sora-ish). Orange rounded-rect highlight sweeping across the word 'Comment' (draw-on animation) + black mouse-cursor arrow tucked inside the highlight. Below: '\"Builder\"' in same bold sans, then 'for the link.' in italic black serif (Playfair/Editorial-ish). Scattered hand-drawn decorations: purple tear-drop arrow, teal leaf chip, green-yellow marker-swipe, outlined pill/lozenge at top, small triangle cursor on the right. Caption chip 'the exclusive' animates in below", "evidence": "sc_014, f_0155", "confidence": "VERIFIED"},
+    {"t_start": 38.00, "t_end": 38.70, "type": "overlay_graphic", "kind": "orange_highlight_sweep", "color": "#F26A21", "description": "Orange rounded highlight draws L→R across 'Comment' with a small mouse-cursor chasing the leading edge", "confidence": "VERIFIED"},
+
+    {"t_start": 38.79, "t_end": 38.89, "type": "transition", "kind": "hard_cut", "description": "CTA card slides down + face pops back into rounded frame", "evidence": "sc_015", "confidence": "VERIFIED"},
+    {"t_start": 38.79, "t_end": 39.33, "type": "composite", "kind": "split_cta_plus_face", "label": "Top half still shows the CTA card (with 'the exclusive' pill caption); bottom half is the rounded-frame face close-up for 'the exclusive' beat", "evidence": "sc_015", "confidence": "VERIFIED"},
+
+    {"t_start": 39.33, "t_end": 40.45, "type": "a_roll", "kind": "indoor_studio_rounded_frame", "label": "Final full-height rounded-frame close-up with 'Follow for' caption — sign-off beat", "evidence": "sc_016", "confidence": "VERIFIED"}
+  ],
+  "style_summary": {
+    "concept": "drama-news-anchor breakdown with AI-illustration villains + framed studio close-ups + designed CTA card",
+    "narrative_arc": [
+      "hook_villain_illustrations_3x",
+      "rgb_mosaic_glitch_transition",
+      "series_title_card_day_N",
+      "face_explainer_beat_1",
+      "broll_insert_tool_screenshot",
+      "face_explainer_beat_2",
+      "broll_insert_tool_screenshot",
+      "retro_crt_metaphor_insert",
+      "face_conclusion_bloodbath",
+      "designed_cta_card_comment_word_for_link",
+      "face_follow_tail"
+    ],
+    "signature_elements": [
+      "AI-generated 'villain' character illustrations for the hook — heavy RGB/chromatic fringe + fire/lightning glitch metaphors",
+      "RGB mosaic glitch flash bar-code transition between hook and title card (unique to this style)",
+      "Persistent rounded-rectangle floating-window framing on ALL face and B-roll shots — creates 'video-inside-a-video' UI feel, 15 px black pillarbox",
+      "Series title card 'This is day N / BUILDING YOU 100x' uses colored-block-letterblock typography (teal/purple/blue/olive/brick bars peek behind words)",
+      "Designed CTA card with mixed typography (black sans 'Comment' + italic serif 'for the link'), orange highlight sweep over the action word, hand-drawn purple/teal/green accent decorations — feels like a magazine layout drop-in",
+      "Retro 3D CRT monitor still-life illustration used as a metaphor B-roll instead of a real screenshot (for 'LLM doing the work' beat)",
+      "Sticky-note callouts inside Claude screenshot B-roll ('FIX AUTH FLOW', 'Don't forget to eat dinner') — humanize the tool demo",
+      "Small gold-yellow circular host-brand chest logo on host's t-shirt — subtle personal-brand mark",
+      "Submagic dark-pill captions throughout, 2-3 words per chunk (same as Nick 1)"
+    ],
+    "caption_philosophy": "Submagic-dense dark-pill + bespoke CTA-card typography for the final ask",
+    "aspect_ratio_target": "9:16 Instagram Reels",
+    "color_accent": "#F26A21 orange (CTA highlight sweep) + dramatic warm red/orange in hook illustrations. No single cold accent; broad warm palette.",
+    "contrast_with_other_styles": "Uses AI-illustration hooks (unique vs. Devin/Nick who use face or real screenshots). Rounded-frame window persists throughout (no one else uses this). Has a designed CTA card + orange highlight sweep (Devin/Nick rely on face close-up for CTA)."
+  }
+}

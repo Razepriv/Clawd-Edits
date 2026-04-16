@@ -1,0 +1,1143 @@
+{
+  "language": "en",
+  "duration": 53.755625,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.76,
+      "text": " You no longer have to pay 50 bucks a month for AI video generation.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.08,
+          "word": " You"
+        },
+        {
+          "start": 0.08,
+          "end": 0.18,
+          "word": " no"
+        },
+        {
+          "start": 0.18,
+          "end": 0.4,
+          "word": " longer"
+        },
+        {
+          "start": 0.4,
+          "end": 0.58,
+          "word": " have"
+        },
+        {
+          "start": 0.58,
+          "end": 0.7,
+          "word": " to"
+        },
+        {
+          "start": 0.7,
+          "end": 0.86,
+          "word": " pay"
+        },
+        {
+          "start": 0.86,
+          "end": 1.18,
+          "word": " 50"
+        },
+        {
+          "start": 1.18,
+          "end": 1.38,
+          "word": " bucks"
+        },
+        {
+          "start": 1.38,
+          "end": 1.52,
+          "word": " a"
+        },
+        {
+          "start": 1.52,
+          "end": 1.62,
+          "word": " month"
+        },
+        {
+          "start": 1.62,
+          "end": 1.84,
+          "word": " for"
+        },
+        {
+          "start": 1.84,
+          "end": 2.02,
+          "word": " AI"
+        },
+        {
+          "start": 2.02,
+          "end": 2.32,
+          "word": " video"
+        },
+        {
+          "start": 2.32,
+          "end": 2.76,
+          "word": " generation."
+        }
+      ]
+    },
+    {
+      "start": 2.94,
+      "end": 7.04,
+      "text": " A new model, LTX 2.3, can run locally on consumer GPUs.",
+      "words": [
+        {
+          "start": 2.94,
+          "end": 2.96,
+          "word": " A"
+        },
+        {
+          "start": 2.96,
+          "end": 3.04,
+          "word": " new"
+        },
+        {
+          "start": 3.04,
+          "end": 3.34,
+          "word": " model,"
+        },
+        {
+          "start": 3.6,
+          "end": 4.02,
+          "word": " LTX"
+        },
+        {
+          "start": 4.02,
+          "end": 4.18,
+          "word": " 2"
+        },
+        {
+          "start": 4.18,
+          "end": 4.66,
+          "word": ".3,"
+        },
+        {
+          "start": 4.86,
+          "end": 4.92,
+          "word": " can"
+        },
+        {
+          "start": 4.92,
+          "end": 5.1,
+          "word": " run"
+        },
+        {
+          "start": 5.1,
+          "end": 5.62,
+          "word": " locally"
+        },
+        {
+          "start": 5.62,
+          "end": 6.02,
+          "word": " on"
+        },
+        {
+          "start": 6.02,
+          "end": 6.38,
+          "word": " consumer"
+        },
+        {
+          "start": 6.38,
+          "end": 7.04,
+          "word": " GPUs."
+        }
+      ]
+    },
+    {
+      "start": 7.12,
+      "end": 9.5,
+      "text": " So whether you have a PC, a MacBook, a Mac Mini,",
+      "words": [
+        {
+          "start": 7.12,
+          "end": 7.18,
+          "word": " So"
+        },
+        {
+          "start": 7.18,
+          "end": 7.38,
+          "word": " whether"
+        },
+        {
+          "start": 7.38,
+          "end": 7.52,
+          "word": " you"
+        },
+        {
+          "start": 7.52,
+          "end": 7.62,
+          "word": " have"
+        },
+        {
+          "start": 7.62,
+          "end": 7.78,
+          "word": " a"
+        },
+        {
+          "start": 7.78,
+          "end": 8.18,
+          "word": " PC,"
+        },
+        {
+          "start": 8.56,
+          "end": 8.56,
+          "word": " a"
+        },
+        {
+          "start": 8.56,
+          "end": 8.8,
+          "word": " MacBook,"
+        },
+        {
+          "start": 9.14,
+          "end": 9.14,
+          "word": " a"
+        },
+        {
+          "start": 9.14,
+          "end": 9.28,
+          "word": " Mac"
+        },
+        {
+          "start": 9.28,
+          "end": 9.5,
+          "word": " Mini,"
+        }
+      ]
+    },
+    {
+      "start": 9.78,
+      "end": 11.9,
+      "text": " you can have run a production grade video model",
+      "words": [
+        {
+          "start": 9.78,
+          "end": 9.86,
+          "word": " you"
+        },
+        {
+          "start": 9.86,
+          "end": 9.94,
+          "word": " can"
+        },
+        {
+          "start": 9.94,
+          "end": 10.06,
+          "word": " have"
+        },
+        {
+          "start": 10.06,
+          "end": 10.24,
+          "word": " run"
+        },
+        {
+          "start": 10.24,
+          "end": 10.42,
+          "word": " a"
+        },
+        {
+          "start": 10.42,
+          "end": 10.96,
+          "word": " production"
+        },
+        {
+          "start": 10.96,
+          "end": 11.3,
+          "word": " grade"
+        },
+        {
+          "start": 11.3,
+          "end": 11.6,
+          "word": " video"
+        },
+        {
+          "start": 11.6,
+          "end": 11.9,
+          "word": " model"
+        }
+      ]
+    },
+    {
+      "start": 11.9,
+      "end": 14.86,
+      "text": " for free directly in your machine, which gives you a lot of advantages.",
+      "words": [
+        {
+          "start": 11.9,
+          "end": 12.24,
+          "word": " for"
+        },
+        {
+          "start": 12.24,
+          "end": 12.58,
+          "word": " free"
+        },
+        {
+          "start": 12.58,
+          "end": 13.12,
+          "word": " directly"
+        },
+        {
+          "start": 13.12,
+          "end": 13.4,
+          "word": " in"
+        },
+        {
+          "start": 13.4,
+          "end": 13.48,
+          "word": " your"
+        },
+        {
+          "start": 13.48,
+          "end": 13.76,
+          "word": " machine,"
+        },
+        {
+          "start": 13.84,
+          "end": 13.92,
+          "word": " which"
+        },
+        {
+          "start": 13.92,
+          "end": 14.06,
+          "word": " gives"
+        },
+        {
+          "start": 14.06,
+          "end": 14.22,
+          "word": " you"
+        },
+        {
+          "start": 14.22,
+          "end": 14.24,
+          "word": " a"
+        },
+        {
+          "start": 14.24,
+          "end": 14.38,
+          "word": " lot"
+        },
+        {
+          "start": 14.38,
+          "end": 14.5,
+          "word": " of"
+        },
+        {
+          "start": 14.5,
+          "end": 14.86,
+          "word": " advantages."
+        }
+      ]
+    },
+    {
+      "start": 15.08,
+      "end": 16.96,
+      "text": " It's not living on someone's server somewhere.",
+      "words": [
+        {
+          "start": 15.08,
+          "end": 15.22,
+          "word": " It's"
+        },
+        {
+          "start": 15.22,
+          "end": 15.34,
+          "word": " not"
+        },
+        {
+          "start": 15.34,
+          "end": 15.64,
+          "word": " living"
+        },
+        {
+          "start": 15.64,
+          "end": 15.84,
+          "word": " on"
+        },
+        {
+          "start": 15.84,
+          "end": 16.42,
+          "word": " someone's"
+        },
+        {
+          "start": 16.42,
+          "end": 16.58,
+          "word": " server"
+        },
+        {
+          "start": 16.58,
+          "end": 16.96,
+          "word": " somewhere."
+        }
+      ]
+    },
+    {
+      "start": 17.06,
+      "end": 18.26,
+      "text": " You don't have to worry about subscription,",
+      "words": [
+        {
+          "start": 17.06,
+          "end": 17.08,
+          "word": " You"
+        },
+        {
+          "start": 17.08,
+          "end": 17.16,
+          "word": " don't"
+        },
+        {
+          "start": 17.16,
+          "end": 17.28,
+          "word": " have"
+        },
+        {
+          "start": 17.28,
+          "end": 17.42,
+          "word": " to"
+        },
+        {
+          "start": 17.42,
+          "end": 17.56,
+          "word": " worry"
+        },
+        {
+          "start": 17.56,
+          "end": 17.78,
+          "word": " about"
+        },
+        {
+          "start": 17.78,
+          "end": 18.26,
+          "word": " subscription,"
+        }
+      ]
+    },
+    {
+      "start": 18.64,
+      "end": 20.3,
+      "text": " creep, restrictions, or throttling,",
+      "words": [
+        {
+          "start": 18.64,
+          "end": 18.7,
+          "word": " creep,"
+        },
+        {
+          "start": 18.98,
+          "end": 19.38,
+          "word": " restrictions,"
+        },
+        {
+          "start": 19.76,
+          "end": 19.82,
+          "word": " or"
+        },
+        {
+          "start": 19.82,
+          "end": 20.3,
+          "word": " throttling,"
+        }
+      ]
+    },
+    {
+      "start": 20.58,
+      "end": 21.84,
+      "text": " but let me tell you the really exciting part.",
+      "words": [
+        {
+          "start": 20.58,
+          "end": 20.64,
+          "word": " but"
+        },
+        {
+          "start": 20.64,
+          "end": 20.7,
+          "word": " let"
+        },
+        {
+          "start": 20.7,
+          "end": 20.78,
+          "word": " me"
+        },
+        {
+          "start": 20.78,
+          "end": 20.92,
+          "word": " tell"
+        },
+        {
+          "start": 20.92,
+          "end": 20.98,
+          "word": " you"
+        },
+        {
+          "start": 20.98,
+          "end": 21.08,
+          "word": " the"
+        },
+        {
+          "start": 21.08,
+          "end": 21.3,
+          "word": " really"
+        },
+        {
+          "start": 21.3,
+          "end": 21.58,
+          "word": " exciting"
+        },
+        {
+          "start": 21.58,
+          "end": 21.84,
+          "word": " part."
+        }
+      ]
+    },
+    {
+      "start": 21.96,
+      "end": 24.58,
+      "text": " LTX 2, which I covered before in this video,",
+      "words": [
+        {
+          "start": 21.96,
+          "end": 22.4,
+          "word": " LTX"
+        },
+        {
+          "start": 22.4,
+          "end": 22.66,
+          "word": " 2,"
+        },
+        {
+          "start": 22.9,
+          "end": 23.1,
+          "word": " which"
+        },
+        {
+          "start": 23.1,
+          "end": 23.22,
+          "word": " I"
+        },
+        {
+          "start": 23.22,
+          "end": 23.42,
+          "word": " covered"
+        },
+        {
+          "start": 23.42,
+          "end": 23.74,
+          "word": " before"
+        },
+        {
+          "start": 23.74,
+          "end": 23.98,
+          "word": " in"
+        },
+        {
+          "start": 23.98,
+          "end": 24.26,
+          "word": " this"
+        },
+        {
+          "start": 24.26,
+          "end": 24.58,
+          "word": " video,"
+        }
+      ]
+    },
+    {
+      "start": 24.88,
+      "end": 27.6,
+      "text": " was the most downloaded and highest benchmarking",
+      "words": [
+        {
+          "start": 24.88,
+          "end": 24.98,
+          "word": " was"
+        },
+        {
+          "start": 24.98,
+          "end": 25.24,
+          "word": " the"
+        },
+        {
+          "start": 25.24,
+          "end": 25.54,
+          "word": " most"
+        },
+        {
+          "start": 25.54,
+          "end": 26.0,
+          "word": " downloaded"
+        },
+        {
+          "start": 26.0,
+          "end": 26.32,
+          "word": " and"
+        },
+        {
+          "start": 26.32,
+          "end": 26.72,
+          "word": " highest"
+        },
+        {
+          "start": 26.72,
+          "end": 27.6,
+          "word": " benchmarking"
+        }
+      ]
+    },
+    {
+      "start": 27.6,
+      "end": 29.28,
+      "text": " open source video model ever.",
+      "words": [
+        {
+          "start": 27.6,
+          "end": 27.84,
+          "word": " open"
+        },
+        {
+          "start": 27.84,
+          "end": 28.12,
+          "word": " source"
+        },
+        {
+          "start": 28.12,
+          "end": 28.4,
+          "word": " video"
+        },
+        {
+          "start": 28.4,
+          "end": 28.7,
+          "word": " model"
+        },
+        {
+          "start": 28.7,
+          "end": 29.28,
+          "word": " ever."
+        }
+      ]
+    },
+    {
+      "start": 29.28,
+      "end": 33.2,
+      "text": " LTX 2.3 improves on that model in every single way",
+      "words": [
+        {
+          "start": 29.28,
+          "end": 29.74,
+          "word": " LTX"
+        },
+        {
+          "start": 29.74,
+          "end": 29.9,
+          "word": " 2"
+        },
+        {
+          "start": 29.9,
+          "end": 30.4,
+          "word": ".3"
+        },
+        {
+          "start": 30.4,
+          "end": 31.0,
+          "word": " improves"
+        },
+        {
+          "start": 31.0,
+          "end": 31.3,
+          "word": " on"
+        },
+        {
+          "start": 31.3,
+          "end": 31.46,
+          "word": " that"
+        },
+        {
+          "start": 31.46,
+          "end": 31.8,
+          "word": " model"
+        },
+        {
+          "start": 31.8,
+          "end": 32.1,
+          "word": " in"
+        },
+        {
+          "start": 32.1,
+          "end": 32.54,
+          "word": " every"
+        },
+        {
+          "start": 32.54,
+          "end": 32.92,
+          "word": " single"
+        },
+        {
+          "start": 32.92,
+          "end": 33.2,
+          "word": " way"
+        }
+      ]
+    },
+    {
+      "start": 33.2,
+      "end": 34.66,
+      "text": " based on community feedback.",
+      "words": [
+        {
+          "start": 33.2,
+          "end": 33.8,
+          "word": " based"
+        },
+        {
+          "start": 33.8,
+          "end": 33.92,
+          "word": " on"
+        },
+        {
+          "start": 33.92,
+          "end": 34.24,
+          "word": " community"
+        },
+        {
+          "start": 34.24,
+          "end": 34.66,
+          "word": " feedback."
+        }
+      ]
+    },
+    {
+      "start": 34.78,
+      "end": 36.98,
+      "text": " And what we get is a nearly state-of-the-art model",
+      "words": [
+        {
+          "start": 34.78,
+          "end": 34.78,
+          "word": " And"
+        },
+        {
+          "start": 34.78,
+          "end": 34.9,
+          "word": " what"
+        },
+        {
+          "start": 34.9,
+          "end": 35.04,
+          "word": " we"
+        },
+        {
+          "start": 35.04,
+          "end": 35.2,
+          "word": " get"
+        },
+        {
+          "start": 35.2,
+          "end": 35.36,
+          "word": " is"
+        },
+        {
+          "start": 35.36,
+          "end": 35.5,
+          "word": " a"
+        },
+        {
+          "start": 35.5,
+          "end": 35.84,
+          "word": " nearly"
+        },
+        {
+          "start": 35.84,
+          "end": 36.32,
+          "word": " state"
+        },
+        {
+          "start": 36.32,
+          "end": 36.44,
+          "word": "-of"
+        },
+        {
+          "start": 36.44,
+          "end": 36.56,
+          "word": "-the"
+        },
+        {
+          "start": 36.56,
+          "end": 36.66,
+          "word": "-art"
+        },
+        {
+          "start": 36.66,
+          "end": 36.98,
+          "word": " model"
+        }
+      ]
+    },
+    {
+      "start": 36.98,
+      "end": 40.24,
+      "text": " where you have full control and ownership over your data and IP,",
+      "words": [
+        {
+          "start": 36.98,
+          "end": 37.14,
+          "word": " where"
+        },
+        {
+          "start": 37.14,
+          "end": 37.26,
+          "word": " you"
+        },
+        {
+          "start": 37.26,
+          "end": 37.38,
+          "word": " have"
+        },
+        {
+          "start": 37.38,
+          "end": 37.68,
+          "word": " full"
+        },
+        {
+          "start": 37.68,
+          "end": 38.1,
+          "word": " control"
+        },
+        {
+          "start": 38.1,
+          "end": 38.46,
+          "word": " and"
+        },
+        {
+          "start": 38.46,
+          "end": 38.9,
+          "word": " ownership"
+        },
+        {
+          "start": 38.9,
+          "end": 39.3,
+          "word": " over"
+        },
+        {
+          "start": 39.3,
+          "end": 39.46,
+          "word": " your"
+        },
+        {
+          "start": 39.46,
+          "end": 39.76,
+          "word": " data"
+        },
+        {
+          "start": 39.76,
+          "end": 39.96,
+          "word": " and"
+        },
+        {
+          "start": 39.96,
+          "end": 40.24,
+          "word": " IP,"
+        }
+      ]
+    },
+    {
+      "start": 40.38,
+      "end": 42.86,
+      "text": " which is a really big deal for creators and entrepreneurs,",
+      "words": [
+        {
+          "start": 40.38,
+          "end": 40.5,
+          "word": " which"
+        },
+        {
+          "start": 40.5,
+          "end": 40.6,
+          "word": " is"
+        },
+        {
+          "start": 40.6,
+          "end": 40.8,
+          "word": " a"
+        },
+        {
+          "start": 40.8,
+          "end": 41.22,
+          "word": " really"
+        },
+        {
+          "start": 41.22,
+          "end": 41.5,
+          "word": " big"
+        },
+        {
+          "start": 41.5,
+          "end": 41.76,
+          "word": " deal"
+        },
+        {
+          "start": 41.76,
+          "end": 41.94,
+          "word": " for"
+        },
+        {
+          "start": 41.94,
+          "end": 42.3,
+          "word": " creators"
+        },
+        {
+          "start": 42.3,
+          "end": 42.5,
+          "word": " and"
+        },
+        {
+          "start": 42.5,
+          "end": 42.86,
+          "word": " entrepreneurs,"
+        }
+      ]
+    },
+    {
+      "start": 42.86,
+      "end": 45.1,
+      "text": " because this can power the products that you build.",
+      "words": [
+        {
+          "start": 42.86,
+          "end": 43.22,
+          "word": " because"
+        },
+        {
+          "start": 43.22,
+          "end": 43.6,
+          "word": " this"
+        },
+        {
+          "start": 43.6,
+          "end": 43.78,
+          "word": " can"
+        },
+        {
+          "start": 43.78,
+          "end": 44.12,
+          "word": " power"
+        },
+        {
+          "start": 44.12,
+          "end": 44.28,
+          "word": " the"
+        },
+        {
+          "start": 44.28,
+          "end": 44.6,
+          "word": " products"
+        },
+        {
+          "start": 44.6,
+          "end": 44.78,
+          "word": " that"
+        },
+        {
+          "start": 44.78,
+          "end": 44.92,
+          "word": " you"
+        },
+        {
+          "start": 44.92,
+          "end": 45.1,
+          "word": " build."
+        }
+      ]
+    },
+    {
+      "start": 45.28,
+      "end": 49.0,
+      "text": " So if you want to try LTX 2.3 and run it on your local machine,",
+      "words": [
+        {
+          "start": 45.28,
+          "end": 45.36,
+          "word": " So"
+        },
+        {
+          "start": 45.36,
+          "end": 45.56,
+          "word": " if"
+        },
+        {
+          "start": 45.56,
+          "end": 45.62,
+          "word": " you"
+        },
+        {
+          "start": 45.62,
+          "end": 45.72,
+          "word": " want"
+        },
+        {
+          "start": 45.72,
+          "end": 45.8,
+          "word": " to"
+        },
+        {
+          "start": 45.8,
+          "end": 46.1,
+          "word": " try"
+        },
+        {
+          "start": 46.1,
+          "end": 46.82,
+          "word": " LTX"
+        },
+        {
+          "start": 46.82,
+          "end": 47.0,
+          "word": " 2"
+        },
+        {
+          "start": 47.0,
+          "end": 47.46,
+          "word": ".3"
+        },
+        {
+          "start": 47.46,
+          "end": 47.66,
+          "word": " and"
+        },
+        {
+          "start": 47.66,
+          "end": 47.86,
+          "word": " run"
+        },
+        {
+          "start": 47.86,
+          "end": 47.98,
+          "word": " it"
+        },
+        {
+          "start": 47.98,
+          "end": 48.14,
+          "word": " on"
+        },
+        {
+          "start": 48.14,
+          "end": 48.28,
+          "word": " your"
+        },
+        {
+          "start": 48.28,
+          "end": 48.66,
+          "word": " local"
+        },
+        {
+          "start": 48.66,
+          "end": 49.0,
+          "word": " machine,"
+        }
+      ]
+    },
+    {
+      "start": 49.4,
+      "end": 51.48,
+      "text": " comment LTX, and I'll send you the model",
+      "words": [
+        {
+          "start": 49.4,
+          "end": 49.62,
+          "word": " comment"
+        },
+        {
+          "start": 49.62,
+          "end": 50.4,
+          "word": " LTX,"
+        },
+        {
+          "start": 50.48,
+          "end": 50.7,
+          "word": " and"
+        },
+        {
+          "start": 50.7,
+          "end": 50.8,
+          "word": " I'll"
+        },
+        {
+          "start": 50.8,
+          "end": 50.98,
+          "word": " send"
+        },
+        {
+          "start": 50.98,
+          "end": 51.12,
+          "word": " you"
+        },
+        {
+          "start": 51.12,
+          "end": 51.2,
+          "word": " the"
+        },
+        {
+          "start": 51.2,
+          "end": 51.48,
+          "word": " model"
+        }
+      ]
+    },
+    {
+      "start": 51.48,
+      "end": 53.66,
+      "text": " with full instructions on how to set it up.",
+      "words": [
+        {
+          "start": 51.48,
+          "end": 51.74,
+          "word": " with"
+        },
+        {
+          "start": 51.74,
+          "end": 52.02,
+          "word": " full"
+        },
+        {
+          "start": 52.02,
+          "end": 52.58,
+          "word": " instructions"
+        },
+        {
+          "start": 52.58,
+          "end": 53.06,
+          "word": " on"
+        },
+        {
+          "start": 53.06,
+          "end": 53.18,
+          "word": " how"
+        },
+        {
+          "start": 53.18,
+          "end": 53.28,
+          "word": " to"
+        },
+        {
+          "start": 53.28,
+          "end": 53.46,
+          "word": " set"
+        },
+        {
+          "start": 53.46,
+          "end": 53.54,
+          "word": " it"
+        },
+        {
+          "start": 53.54,
+          "end": 53.66,
+          "word": " up."
+        }
+      ]
+    }
+  ]
+}

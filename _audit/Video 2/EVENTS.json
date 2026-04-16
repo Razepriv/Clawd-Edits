@@ -1,0 +1,83 @@
+{
+  "video": "D:/video editor/Video 2/Video_insta_2.mp4",
+  "duration_s": 79.168,
+  "resolution": "1080x1920",
+  "fps": 25,
+  "aspect_ratio": "9:16",
+  "video_codec": "h264 (Main)",
+  "pix_fmt": "yuv420p",
+  "encoder": "h264_nvenc (Lavc59.37.100)",
+  "audio": {
+    "codec": "aac (LC)",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "bitrate_kbps": 127,
+    "music_present": false,
+    "mono_vo_only": true
+  },
+  "transcript_source": "faster-whisper base, en (word-level)",
+  "scene_changes": [],
+  "format_mode": "single_continuous_a_roll_no_cuts",
+  "visual_inventory": {
+    "subject": "Razeen Shaheed — faux.thinker AI avatar",
+    "framing": "medium-tight, head + torso, direct-to-camera, subject fills ~60% of canvas height",
+    "wardrobe": "black pullover hoodie with drawstrings (classic faux.thinker wardrobe)",
+    "backdrop": "warm-LED plant shelf, trailing pothos, hexagonal wall panels, speaker/shelf assembly, chair back visible lower-left",
+    "lighting": "warm 2800-3200K keylight from above-right + rim from shelf LED + soft fill, no harsh shadows",
+    "color_grade": "warm natural, slightly lifted blacks, no stylized LUT",
+    "camera_motion": "static — no push-in, no handheld, no rack focus",
+    "gesture": "minimal hand-visible — shoulders-up framing, most energy is facial/vocal",
+    "audio_room": "dry, clean, consistent — likely de-noised + EQ'd VO, no room tone bleed"
+  },
+  "silence_regions_over_0_2s": [
+    {"start": 2.37, "end": 2.59, "duration": 0.21},
+    {"start": 3.45, "end": 4.05, "duration": 0.60},
+    {"start": 6.76, "end": 7.15, "duration": 0.38},
+    {"start": 9.09, "end": 9.32, "duration": 0.24},
+    {"start": 10.58, "end": 10.97, "duration": 0.40},
+    {"start": 13.02, "end": 13.32, "duration": 0.30},
+    {"start": 13.95, "end": 14.20, "duration": 0.24},
+    {"start": 15.99, "end": 16.38, "duration": 0.39},
+    {"start": 17.97, "end": 18.23, "duration": 0.26},
+    {"start": 19.50, "end": 20.02, "duration": 0.53},
+    {"start": 22.02, "end": 22.24, "duration": 0.22},
+    {"start": 24.48, "end": 25.22, "duration": 0.74},
+    {"start": 29.33, "end": 30.18, "duration": 0.85},
+    {"start": 33.89, "end": 34.17, "duration": 0.28},
+    {"start": 34.94, "end": 35.78, "duration": 0.84},
+    {"start": 37.85, "end": 38.08, "duration": 0.23},
+    {"start": 42.75, "end": 42.98, "duration": 0.23},
+    {"start": 44.92, "end": 45.38, "duration": 0.46},
+    {"start": 49.31, "end": 49.91, "duration": 0.60},
+    {"start": 53.08, "end": 53.63, "duration": 0.55}
+  ],
+  "beats": [
+    {"n": 1, "role": "HOOK",            "t_start": 0.00,  "t_end": 10.40, "vo": "Anthropic dropped a new Claude model three hours ago. It is the second best model they have ever built and most people are going to miss what actually matters.", "function": "pattern-interrupt + stakes"},
+    {"n": 2, "role": "PROMISE",         "t_start": 10.96, "t_end": 12.96, "vo": "Here is everything you need in 60 seconds.",                                                                                                                    "function": "contract with viewer"},
+    {"n": 3, "role": "NAME_REVEAL",     "t_start": 13.32, "t_end": 15.94, "vo": "It is called Claude Opus 4.7.",                                                                                                                                  "function": "the product name lands — candidate for EmphasisCaption"},
+    {"n": 4, "role": "CONTEXT_MYTHOS",  "t_start": 16.42, "t_end": 23.46, "vo": "The best model Mythos is still locked away. Anthropic is testing safety stuff on 4.7 first.",                                                                    "function": "hidden-information frame — candidate for FactoidCard + EmphasisCaption 'MYTHOS'"},
+    {"n": 5, "role": "PROOF_STAT_1",    "t_start": 23.66, "t_end": 29.54, "vo": "It is a real jump. Claude's own benchmark went from 58% to 70%.",                                                                                                "function": "quantified proof — candidate for RevenueChart or StatCounter (58 \u2192 70)"},
+    {"n": 6, "role": "PROOF_STAT_2",    "t_start": 30.00, "t_end": 34.96, "vo": "Rakuten says it solves 3x more production tasks than the last version.",                                                                                         "function": "third-party validation — candidate for FactoidCard 'Rakuten 3x'"},
+    {"n": 7, "role": "WARNING_BREAKING","t_start": 35.64, "t_end": 39.76, "vo": "This is not a small update. Your old prompts might break.",                                                                                                      "function": "stakes raise — candidate for EmphasisCaption 'NOT A SMALL UPDATE'"},
+    {"n": 8, "role": "WARNING_LITERAL", "t_start": 40.08, "t_end": 47.50, "vo": "4.7 follows instructions literally now. The lazy prompts you wrote six months ago, retune them or get weird results.",                                           "function": "behavior change detail — candidate for B-roll + EmphasisCaption 'LITERALLY'"},
+    {"n": 9, "role": "WARNING_COST",    "t_start": 47.86, "t_end": 55.24, "vo": "Your API bill is going up. New tokenizer, more thinking, more output tokens. Cost control is on you now.",                                                       "function": "cost warning — candidate for FactoidCard + EmphasisCaption 'YOUR BILL IS GOING UP'"},
+    {"n": 10, "role": "HIDDEN_INSIGHT", "t_start": 55.62, "t_end": 70.64, "vo": "And here is the part nobody is talking about. Low effort 4.7 is basically the same quality as medium effort 4.6. Meaning you can get better work for less money if you know which setting to use.", "function": "the actual payoff — EmphasisCaption 'LESS MONEY' or 'NOBODY IS TALKING ABOUT'"},
+    {"n": 11, "role": "CRED_PLUS_CTA",  "t_start": 70.96, "t_end": 78.90, "vo": "I am rebuilding three of my client automations on this today. Comment the word Opus and I will send you my updated prompt template for 4.7.",                    "function": "credibility + DMToast CTA"}
+  ],
+  "known_word_mishears_to_fix": [
+    {"wrong": "with setting", "right": "which setting", "beat": 10},
+    {"wrong": "Mythos",       "right": "(confirm spelling — possibly 'Mithos' or a code-name the user invented)", "beat": 4}
+  ],
+  "style_summary": {
+    "concept": "short-form AI-news announcement reel — Claude Opus 4.7 release + hidden-insight angle + DM-gated prompt template CTA",
+    "narrative_arc": ["hook_pattern_interrupt", "promise_60_seconds", "name_reveal", "context_mythos_tease", "proof_benchmark_stat", "proof_rakuten_stat", "warning_not_small", "warning_literal", "warning_cost", "hidden_insight_low_effort_same_quality", "credibility_cta_opus"],
+    "alignment_with_faux_thinker_template": {
+      "target_length": "25-45 s (style guide §2) \u2014 current video is 79 s; either extend target or trim script",
+      "profile_card_anchor": "creator name is NOT spoken in this script \u2014 ProfileCard will need an alternate anchor beat (e.g. Opus logo card or skip entirely)",
+      "revenue_chart_candidate": "beat 5 (58 \u2192 70) maps well to RevenueChart-style animated stat reveal",
+      "b_roll_candidates": ["Anthropic homepage", "Claude UI", "Rakuten case study page / blog", "API pricing page for 'bill going up' beat"],
+      "emphasis_caption_candidates": "multiple candidates (MYTHOS / NOT A SMALL UPDATE / LITERALLY / LESS MONEY) \u2014 style guide says emphasis caption stands alone; need to pick 1\u20132",
+      "dm_toast_cta": "beat 11 \u2014 trigger word 'Opus', payload 'updated prompt template for 4.7'"
+    }
+  }
+}

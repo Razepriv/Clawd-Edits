@@ -1,0 +1,516 @@
+{
+  "language": "en",
+  "language_prob": 0.9798429608345032,
+  "duration": 31.1466875,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.76,
+      "text": " I am Razeen, solo founder of Webversarina. With AI tools and a laptop, I have built voice agents",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.22,
+          "word": " I",
+          "prob": 0.8261449337005615
+        },
+        {
+          "start": 0.22,
+          "end": 0.36,
+          "word": " am",
+          "prob": 0.8865475058555603
+        },
+        {
+          "start": 0.36,
+          "end": 0.72,
+          "word": " Razeen,",
+          "prob": 0.4860641062259674
+        },
+        {
+          "start": 1.1,
+          "end": 1.28,
+          "word": " solo",
+          "prob": 0.43344178795814514
+        },
+        {
+          "start": 1.28,
+          "end": 1.66,
+          "word": " founder",
+          "prob": 0.9866335391998291
+        },
+        {
+          "start": 1.66,
+          "end": 1.94,
+          "word": " of",
+          "prob": 0.9836624264717102
+        },
+        {
+          "start": 1.94,
+          "end": 2.56,
+          "word": " Webversarina.",
+          "prob": 0.45625949651002884
+        },
+        {
+          "start": 3.26,
+          "end": 3.4,
+          "word": " With",
+          "prob": 0.9135806560516357
+        },
+        {
+          "start": 3.4,
+          "end": 3.74,
+          "word": " AI",
+          "prob": 0.9501356482505798
+        },
+        {
+          "start": 3.74,
+          "end": 4.08,
+          "word": " tools",
+          "prob": 0.9162009954452515
+        },
+        {
+          "start": 4.08,
+          "end": 4.58,
+          "word": " and",
+          "prob": 0.973975419998169
+        },
+        {
+          "start": 4.58,
+          "end": 4.7,
+          "word": " a",
+          "prob": 0.9196732044219971
+        },
+        {
+          "start": 4.7,
+          "end": 5.04,
+          "word": " laptop,",
+          "prob": 0.9917080998420715
+        },
+        {
+          "start": 5.48,
+          "end": 5.56,
+          "word": " I",
+          "prob": 0.9731436371803284
+        },
+        {
+          "start": 5.56,
+          "end": 5.72,
+          "word": " have",
+          "prob": 0.9804520010948181
+        },
+        {
+          "start": 5.72,
+          "end": 6.08,
+          "word": " built",
+          "prob": 0.9715399146080017
+        },
+        {
+          "start": 6.08,
+          "end": 6.42,
+          "word": " voice",
+          "prob": 0.8336336612701416
+        },
+        {
+          "start": 6.42,
+          "end": 6.76,
+          "word": " agents",
+          "prob": 0.9664753675460815
+        }
+      ]
+    },
+    {
+      "start": 6.76,
+      "end": 13.44,
+      "text": " for clinics, automations that save 20-plus hours a week and full apps shipped in days. This",
+      "words": [
+        {
+          "start": 6.76,
+          "end": 6.96,
+          "word": " for",
+          "prob": 0.9931589961051941
+        },
+        {
+          "start": 6.96,
+          "end": 7.24,
+          "word": " clinics,",
+          "prob": 0.8929641842842102
+        },
+        {
+          "start": 7.92,
+          "end": 8.4,
+          "word": " automations",
+          "prob": 0.9253149032592773
+        },
+        {
+          "start": 8.4,
+          "end": 8.82,
+          "word": " that",
+          "prob": 0.9653627276420593
+        },
+        {
+          "start": 8.82,
+          "end": 9.06,
+          "word": " save",
+          "prob": 0.5433083176612854
+        },
+        {
+          "start": 9.06,
+          "end": 9.64,
+          "word": " 20",
+          "prob": 0.9189835786819458
+        },
+        {
+          "start": 9.64,
+          "end": 10.04,
+          "word": "-plus",
+          "prob": 0.5380380973219872
+        },
+        {
+          "start": 10.04,
+          "end": 10.36,
+          "word": " hours",
+          "prob": 0.9797108769416809
+        },
+        {
+          "start": 10.36,
+          "end": 10.56,
+          "word": " a",
+          "prob": 0.9810464978218079
+        },
+        {
+          "start": 10.56,
+          "end": 10.84,
+          "word": " week",
+          "prob": 0.9993491768836975
+        },
+        {
+          "start": 10.84,
+          "end": 11.36,
+          "word": " and",
+          "prob": 0.5266178250312805
+        },
+        {
+          "start": 11.36,
+          "end": 11.72,
+          "word": " full",
+          "prob": 0.9700539112091064
+        },
+        {
+          "start": 11.72,
+          "end": 12.1,
+          "word": " apps",
+          "prob": 0.9299619197845459
+        },
+        {
+          "start": 12.1,
+          "end": 12.58,
+          "word": " shipped",
+          "prob": 0.8754523396492004
+        },
+        {
+          "start": 12.58,
+          "end": 12.78,
+          "word": " in",
+          "prob": 0.976455807685852
+        },
+        {
+          "start": 12.78,
+          "end": 12.98,
+          "word": " days.",
+          "prob": 0.991775631904602
+        },
+        {
+          "start": 13.32,
+          "end": 13.44,
+          "word": " This",
+          "prob": 0.9678586721420288
+        }
+      ]
+    },
+    {
+      "start": 13.44,
+      "end": 20.72,
+      "text": " page is where I share all of it. Real tutorials using N10, Claude and cursor, real client projects,",
+      "words": [
+        {
+          "start": 13.44,
+          "end": 13.76,
+          "word": " page",
+          "prob": 0.9880440831184387
+        },
+        {
+          "start": 13.76,
+          "end": 14.02,
+          "word": " is",
+          "prob": 0.9915385842323303
+        },
+        {
+          "start": 14.02,
+          "end": 14.24,
+          "word": " where",
+          "prob": 0.993118166923523
+        },
+        {
+          "start": 14.24,
+          "end": 14.46,
+          "word": " I",
+          "prob": 0.9821994304656982
+        },
+        {
+          "start": 14.46,
+          "end": 14.8,
+          "word": " share",
+          "prob": 0.9978963136672974
+        },
+        {
+          "start": 14.8,
+          "end": 15.2,
+          "word": " all",
+          "prob": 0.9847179055213928
+        },
+        {
+          "start": 15.2,
+          "end": 15.36,
+          "word": " of",
+          "prob": 0.9869930744171143
+        },
+        {
+          "start": 15.36,
+          "end": 15.54,
+          "word": " it.",
+          "prob": 0.991779625415802
+        },
+        {
+          "start": 16.12,
+          "end": 16.28,
+          "word": " Real",
+          "prob": 0.9372329711914062
+        },
+        {
+          "start": 16.28,
+          "end": 16.58,
+          "word": " tutorials",
+          "prob": 0.9015705585479736
+        },
+        {
+          "start": 16.58,
+          "end": 17.16,
+          "word": " using",
+          "prob": 0.9223551750183105
+        },
+        {
+          "start": 17.16,
+          "end": 17.66,
+          "word": " N10,",
+          "prob": 0.34840425848960876
+        },
+        {
+          "start": 18.04,
+          "end": 18.34,
+          "word": " Claude",
+          "prob": 0.7366126775741577
+        },
+        {
+          "start": 18.34,
+          "end": 18.58,
+          "word": " and",
+          "prob": 0.675074577331543
+        },
+        {
+          "start": 18.58,
+          "end": 18.9,
+          "word": " cursor,",
+          "prob": 0.27397972345352173
+        },
+        {
+          "start": 19.78,
+          "end": 19.9,
+          "word": " real",
+          "prob": 0.6765967607498169
+        },
+        {
+          "start": 19.9,
+          "end": 20.16,
+          "word": " client",
+          "prob": 0.626177191734314
+        },
+        {
+          "start": 20.16,
+          "end": 20.72,
+          "word": " projects,",
+          "prob": 0.8398779034614563
+        }
+      ]
+    },
+    {
+      "start": 21.3,
+      "end": 27.08,
+      "text": " honest tool breakdowns, no sponsorships, no fluff. If you are a solo founder or business owner",
+      "words": [
+        {
+          "start": 21.3,
+          "end": 21.66,
+          "word": " honest",
+          "prob": 0.9574541449546814
+        },
+        {
+          "start": 21.66,
+          "end": 22.04,
+          "word": " tool",
+          "prob": 0.8872745037078857
+        },
+        {
+          "start": 22.04,
+          "end": 22.74,
+          "word": " breakdowns,",
+          "prob": 0.9823186695575714
+        },
+        {
+          "start": 23.04,
+          "end": 23.12,
+          "word": " no",
+          "prob": 0.9628269672393799
+        },
+        {
+          "start": 23.12,
+          "end": 23.74,
+          "word": " sponsorships,",
+          "prob": 0.9637083113193512
+        },
+        {
+          "start": 24.16,
+          "end": 24.32,
+          "word": " no",
+          "prob": 0.9939275979995728
+        },
+        {
+          "start": 24.32,
+          "end": 24.56,
+          "word": " fluff.",
+          "prob": 0.9740779995918274
+        },
+        {
+          "start": 24.92,
+          "end": 25.04,
+          "word": " If",
+          "prob": 0.9448321461677551
+        },
+        {
+          "start": 25.04,
+          "end": 25.18,
+          "word": " you",
+          "prob": 0.9954930543899536
+        },
+        {
+          "start": 25.18,
+          "end": 25.32,
+          "word": " are",
+          "prob": 0.9837504029273987
+        },
+        {
+          "start": 25.32,
+          "end": 25.42,
+          "word": " a",
+          "prob": 0.9828491806983948
+        },
+        {
+          "start": 25.42,
+          "end": 25.68,
+          "word": " solo",
+          "prob": 0.9944098591804504
+        },
+        {
+          "start": 25.68,
+          "end": 26.12,
+          "word": " founder",
+          "prob": 0.9873694777488708
+        },
+        {
+          "start": 26.12,
+          "end": 26.46,
+          "word": " or",
+          "prob": 0.9435901641845703
+        },
+        {
+          "start": 26.46,
+          "end": 26.74,
+          "word": " business",
+          "prob": 0.9809234142303467
+        },
+        {
+          "start": 26.74,
+          "end": 27.08,
+          "word": " owner",
+          "prob": 0.9825831651687622
+        }
+      ]
+    },
+    {
+      "start": 27.08,
+      "end": 31.0,
+      "text": " figuring out AI, hit follow. First tutorial drops this week.",
+      "words": [
+        {
+          "start": 27.08,
+          "end": 27.44,
+          "word": " figuring",
+          "prob": 0.63340824842453
+        },
+        {
+          "start": 27.44,
+          "end": 27.72,
+          "word": " out",
+          "prob": 0.9893053770065308
+        },
+        {
+          "start": 27.72,
+          "end": 28.04,
+          "word": " AI,",
+          "prob": 0.8345356583595276
+        },
+        {
+          "start": 28.5,
+          "end": 28.64,
+          "word": " hit",
+          "prob": 0.7079247832298279
+        },
+        {
+          "start": 28.64,
+          "end": 28.94,
+          "word": " follow.",
+          "prob": 0.8850411772727966
+        },
+        {
+          "start": 29.54,
+          "end": 29.76,
+          "word": " First",
+          "prob": 0.6606051921844482
+        },
+        {
+          "start": 29.76,
+          "end": 30.1,
+          "word": " tutorial",
+          "prob": 0.7041423916816711
+        },
+        {
+          "start": 30.1,
+          "end": 30.46,
+          "word": " drops",
+          "prob": 0.8229642510414124
+        },
+        {
+          "start": 30.46,
+          "end": 30.76,
+          "word": " this",
+          "prob": 0.9280856847763062
+        },
+        {
+          "start": 30.76,
+          "end": 31.0,
+          "word": " week.",
+          "prob": 0.9939697980880737
+        }
+      ]
+    }
+  ]
+}

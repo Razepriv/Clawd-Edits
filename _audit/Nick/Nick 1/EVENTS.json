@@ -1,0 +1,106 @@
+{
+  "video": "D:/video editor/Styles/Nick/Nick 1.mp4",
+  "duration_s": 44.84,
+  "resolution": "720x1280",
+  "fps": 23.97,
+  "aspect_ratio": "9:16",
+  "audio": {
+    "codec": "aac",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "silence_regions": [],
+    "music_present": true,
+    "estimated_bpm": "90-100 (range; not confirmed)"
+  },
+  "transcript_source": "faster-whisper base, en (word-level timestamps)",
+  "scene_changes": [1.418, 4.171, 6.632, 12.430, 19.271, 22.775, 24.527, 26.737, 33.870, 36.248, 40.961, 41.044],
+  "format_mode": "split_then_fullbleed_then_closeup",
+  "format_phases": [
+    {"t_start": 0.00,  "t_end": 1.42,  "mode": "face_closeup",     "notes": "pre-split tight face on Nick, no B-roll yet"},
+    {"t_start": 1.42,  "t_end": 4.17,  "mode": "split_screen_top_broll", "notes": "top ~50% SKILLS logo B-roll + bottom ~50% face close-up"},
+    {"t_start": 4.17,  "t_end": 40.96, "mode": "fullbleed_broll",   "notes": "full-frame B-roll screenshots, face not visible; captions persist"},
+    {"t_start": 40.96, "t_end": 44.84, "mode": "face_closeup_cta",  "notes": "return to tight face, caption style switches to white/no-pill for the CTA"}
+  ],
+  "events": [
+    {"t_start": 0.00, "t_end": 1.42, "type": "a_roll", "kind": "indoor_studio_face_closeup", "label": "Tight face close-up of Nick, white wall + black acoustic panels behind, shotgun mic bottom", "evidence": "f_0001", "confidence": "VERIFIED"},
+    {"t_start": 0.00, "t_end": 4.10, "type": "voiceover", "text": "If you're using Claude code but not using skills, you're basically missing out on 90% of the fun.", "confidence": "VERIFIED"},
+    {"t_start": 0.30, "t_end": 4.10, "type": "caption_submagic", "kind": "dark_pill_rounded_rect", "placement": "center_frame_upper_on_closeup_or_under_split_divider", "example_words": ["If you're", "using Claude", "code", "but not using", "skills, you're", "basically", "missing out", "on 90% of"], "style": "white sans-serif on dark translucent rounded-rect pill, 2-3 words per beat", "confidence": "VERIFIED"},
+
+    {"t_start": 1.42, "t_end": 1.52, "type": "transition", "kind": "hard_cut", "description": "Hard cut from face close-up into split-screen with SKILLS logo appearing top half", "evidence": "sc_001", "confidence": "VERIFIED"},
+    {"t_start": 1.42, "t_end": 4.17, "type": "layout", "kind": "split_screen_top_broll", "geometry": {"top_region": "0..~50% height, B-roll", "bottom_region": "~50..100% height, face close-up"}, "label": "Split screen: SKILLS logo B-roll over Nick's face", "evidence": "sc_001", "confidence": "VERIFIED"},
+    {"t_start": 1.42, "t_end": 4.17, "type": "overlay_graphic", "kind": "skills_logo_still", "label": "'SKILLS — THE OPEN AGENT SKILLS ECOSYSTEM' logo lockup on black background, letters in white distressed/stencil font with subtle RGB-glitch fringe", "evidence": "f_0008, sc_001", "confidence": "VERIFIED"},
+    {"t_start": 1.90, "t_end": 3.80, "type": "overlay_graphic", "kind": "red_slash_negation", "label": "Red diagonal slash drawing across SKILLS logo (upper-right → lower-left), indicating 'NOT using skills'", "color": "#E1251C (crimson/red)", "evidence": "f_0010, f_0015", "confidence": "VERIFIED"},
+
+    {"t_start": 4.17, "t_end": 4.27, "type": "transition", "kind": "hard_cut", "description": "Hard cut from split-screen to full-bleed beige desktop with ZIP file", "evidence": "sc_002", "confidence": "VERIFIED"},
+    {"t_start": 4.17, "t_end": 6.63, "type": "overlay_full_screen", "kind": "desktop_zip_icon", "label": "macOS beige desktop wallpaper with 'crabracadabra-brand-guidelines.zip' file icon selected (blue label) + cursor hovering", "evidence": "sc_002, f_0020", "confidence": "VERIFIED"},
+    {"t_start": 4.38, "t_end": 8.62, "type": "voiceover", "text": "Skills are like superpowers for AI, so instead of writing the same long prompts over and over again,", "confidence": "VERIFIED"},
+
+    {"t_start": 6.63, "t_end": 6.73, "type": "transition", "kind": "hard_cut", "description": "Hard cut to Claude desktop app prompt screen", "evidence": "sc_003", "confidence": "VERIFIED"},
+    {"t_start": 6.63, "t_end": 12.43, "type": "overlay_full_screen", "kind": "claude_app_prompt", "label": "Claude desktop: 'What's new, Mahesh?' heading + empty prompt input, Sonnet 4.5 model chip, Research toggle, orange send button", "evidence": "sc_003", "confidence": "VERIFIED"},
+    {"t_start": 8.92, "t_end": 12.08, "type": "voiceover", "text": "you just install a skill once and then your AI becomes an expert at that task forever.", "confidence": "VERIFIED"},
+    {"t_start": 11.50, "t_end": 12.40, "type": "overlay_card", "kind": "claude_tool_call_toast", "label": "White rounded card with user message + 'Checking for the Crabracadabra brand guidelines skill' tool-call row (red Skill icon, italic monospace)", "evidence": "f_0040", "confidence": "VERIFIED"},
+
+    {"t_start": 12.43, "t_end": 12.53, "type": "transition", "kind": "hard_cut", "description": "Hard cut to the SKILLS home page, darker-zoomed frame", "evidence": "sc_004", "confidence": "VERIFIED"},
+    {"t_start": 12.43, "t_end": 19.27, "type": "overlay_full_screen", "kind": "skills_home_page", "label": "skills.so home: triangle logo + Skills nav + Official (NEW pill) + Audits + Docs; SKILLS lockup + blurb 'Skills are reusable capabilities for AI agents…'; 'TRY IT NOW' npx command; 'AVAILABLE FOR THESE AGENTS' icon row; 'SKILLS LEADERBOARD' section", "evidence": "sc_004, f_0055, f_0075", "confidence": "VERIFIED"},
+    {"t_start": 12.52, "t_end": 17.04, "type": "voiceover", "text": "A massive new library just dropped that is over 1,000 pre-made Claude skills that you can install", "confidence": "VERIFIED"},
+    {"t_start": 13.50, "t_end": 19.00, "type": "motion", "kind": "ken_burns_scroll_down", "description": "Very subtle slow scroll-down on the skills home page through the leaderboard list (rows 29 ai-video-generation, 40 azure-ai, 59 vercel-composition-patterns, 60 ui-ux-pro-max, 62 brainstorming, etc.)", "evidence": "f_0075", "confidence": "VERIFIED"},
+    {"t_start": 17.04, "t_end": 21.66, "type": "voiceover", "text": "and use instantly for completely free. These skills turn Claude into a specialist for whatever", "confidence": "VERIFIED"},
+
+    {"t_start": 19.27, "t_end": 19.37, "type": "transition", "kind": "hard_cut", "description": "Hard cut to dark terminal with Claude Code session", "evidence": "sc_005", "confidence": "VERIFIED"},
+    {"t_start": 19.27, "t_end": 22.77, "type": "overlay_full_screen", "kind": "terminal_claude_code_session", "label": "Dark macOS terminal with Claude Code /skills panel, welcome banner, a prompt row and two column layout with a settings box; slight blur/zoom-in", "evidence": "sc_005", "confidence": "VERIFIED"},
+
+    {"t_start": 21.66, "t_end": 26.58, "type": "voiceover", "text": "task you have, like UI design, app testing, SEO, content writing, and much more.", "confidence": "VERIFIED"},
+    {"t_start": 22.77, "t_end": 22.87, "type": "transition", "kind": "hard_cut", "description": "Hard cut to frontend-design skill card on plain white background", "evidence": "sc_006", "confidence": "VERIFIED"},
+    {"t_start": 22.77, "t_end": 24.53, "type": "overlay_card", "kind": "skill_card_pill", "label": "Dark rounded-rect card centered-top: 'skills / anthropics / skills / frontend-design' breadcrumb + 'frontend-design' big title + code chip '$ npx skills add https://github.com/…' + copy icon; rest of frame white", "evidence": "sc_006", "confidence": "VERIFIED"},
+
+    {"t_start": 24.53, "t_end": 24.63, "type": "transition", "kind": "hard_cut", "description": "Hard cut, swap card to ai-seo skill", "evidence": "sc_007", "confidence": "VERIFIED"},
+    {"t_start": 24.53, "t_end": 26.74, "type": "overlay_card", "kind": "skill_card_pill", "label": "Same dark rounded-rect card: 'skills / coreyhaines31 / marketingskills / ai-seo' + 'ai-seo' + copy-command row on white", "evidence": "sc_007, f_0100", "confidence": "VERIFIED"},
+
+    {"t_start": 26.58, "t_end": 31.32, "type": "voiceover", "text": "And the best part, you can also run them inside of anti-gravity, codex, the Claude desktop app,", "confidence": "VERIFIED"},
+    {"t_start": 26.74, "t_end": 26.84, "type": "transition", "kind": "hard_cut", "description": "Hard cut to Windows Terminal with agent picker", "evidence": "sc_008", "confidence": "VERIFIED"},
+    {"t_start": 26.74, "t_end": 33.87, "type": "overlay_full_screen", "kind": "windows_terminal_agent_picker", "label": "Windows Terminal 'Administrator: Cmd' window. Green-accent bullet list of primary agents (Antigravity, Cline, Codex, Cursor, Deep Agents, Firebender, Gemini CLI, GitHub Copilot, Kimi Code CLI, OpenCode, Warp), then 'Additional agents' separator, Search field with cursor, radio-button list (Augment, IBM Bob, Claude Code, OpenClaw, CodeBuddy, Command Code, Continue, Cortex Code + 'Selected: Amp, Antigravity, Cline +9 more'). Selected items highlighted in white box", "evidence": "sc_008, f_0135", "confidence": "VERIFIED"},
+    {"t_start": 27.50, "t_end": 33.60, "type": "motion", "kind": "animated_selection_pulse", "description": "Highlighted items (Antigravity, Codex, iFlow CLI underline, Claude Code underline) pulse/fade-in sequentially as VO names each agent", "evidence": "sc_008, f_0135", "confidence": "VERIFIED"},
+
+    {"t_start": 31.32, "t_end": 36.18, "type": "voiceover", "text": "and basically any AI code editor out there. Just select the skill you want, copy its command,", "confidence": "VERIFIED"},
+    {"t_start": 33.87, "t_end": 33.97, "type": "transition", "kind": "hard_cut", "description": "Hard cut to apify-ultimate-scraper skill detail page (dark heavy-blur in parts)", "evidence": "sc_009", "confidence": "VERIFIED"},
+    {"t_start": 33.87, "t_end": 36.25, "type": "overlay_full_screen", "kind": "skill_detail_page", "label": "skills.so detail page for 'apify-ultimate-scraper' — breadcrumb 'skills / api_ / agent-skil_ / apify-ultimate-scra_' + big title 'apify-ultimate-scraper' + npx copy-command pill + SUMMARY section ('Automated… optimal Actors for 12+ platforms including Instagram, TikTok, YouTube, Facebook, Google Maps, and more…') with animated cursor-hand pointing at the copy icon", "evidence": "sc_009", "confidence": "VERIFIED"},
+    {"t_start": 34.40, "t_end": 35.80, "type": "overlay_graphic", "kind": "cursor_hand_animation", "description": "Hand-cursor icon drifts up and taps the copy button on the install command", "evidence": "sc_009", "confidence": "VERIFIED"},
+
+    {"t_start": 36.25, "t_end": 36.35, "type": "transition", "kind": "hard_cut", "description": "Hard cut to empty Administrator Command Prompt window", "evidence": "sc_010", "confidence": "VERIFIED"},
+    {"t_start": 36.25, "t_end": 40.96, "type": "overlay_full_screen", "kind": "windows_cmd_empty", "label": "Windows 10 Administrator Command Prompt header + 'Microsoft Windows [Version 10.0.26200.0117]' banner + prompt 'C:\\Users\\shahb>' with blinking cursor, hand-cursor mouse icon mid-frame", "evidence": "sc_010", "confidence": "VERIFIED"},
+    {"t_start": 36.46, "t_end": 40.76, "type": "voiceover", "text": "paste it into your terminal, choose your AI agent, and that's it, your new skill is ready to use.", "confidence": "VERIFIED"},
+
+    {"t_start": 40.96, "t_end": 41.04, "type": "transition", "kind": "white_flash_cut", "description": "Full-white 1–2 frame flash between CMD window and final face close-up", "evidence": "sc_011", "confidence": "VERIFIED"},
+    {"t_start": 41.04, "t_end": 44.84, "type": "a_roll", "kind": "indoor_studio_face_closeup", "label": "Tight close-up of Nick for CTA beat — eyes closed/blinking briefly at 41s, then direct-to-camera", "evidence": "sc_012, f_0165, f_0170, f_0175", "confidence": "VERIFIED"},
+    {"t_start": 41.22, "t_end": 44.66, "type": "voiceover", "text": "So go try it yourself, just comment Claude down below and I'll send you the link directly.", "confidence": "VERIFIED"},
+    {"t_start": 41.22, "t_end": 44.66, "type": "caption_cta", "kind": "white_outline_no_pill", "style": "bold white sans-serif with thin black outline, no background pill, center-lower placement, 2-3 words per beat", "example_words": ["So go try", "Just comment", "and I'll"], "note": "Caption style shifts from dark-pill Submagic (used in beats 0–41s) to white-outline-only for the CTA to feel more direct-camera and less 'overlay-y'", "evidence": "f_0165, f_0170, f_0175", "confidence": "VERIFIED"}
+  ],
+  "style_summary": {
+    "concept": "skills-library announcement with real-UI demo cuts + single face bookend",
+    "narrative_arc": [
+      "hook_you_are_missing_out",
+      "claim_skills_are_superpowers",
+      "proof_massive_library_dropped",
+      "what_the_skills_do",
+      "where_they_run",
+      "how_to_install_in_3_steps",
+      "cta_comment_for_link"
+    ],
+    "signature_elements": [
+      "high-density cuts (12 scene changes in ~45 s ≈ one every 3.7 s)",
+      "clean minimalist indoor backdrop (white wall + black acoustic foam panels) — opposite of Devin's warm studio",
+      "shotgun mic visible bottom-center of face close-ups",
+      "split-screen B-roll-on-top + face-on-bottom ONLY as the opening setup (1.4–4.2 s); switches to full-bleed B-roll for the body of the video",
+      "Submagic-style 2–3 word captions with dark translucent rounded-rect pill for the entire body",
+      "CTA caption style switches to white-outline-only (no pill) in the final ~4 s for direct-camera intimacy",
+      "red diagonal slash drawn across the SKILLS logo during 'NOT using' moment — simple but effective negation graphic",
+      "real platform screenshots (SKILLS home, skill cards, Claude desktop prompt, Windows terminal, macOS desktop ZIP) — no mocks",
+      "animated selection pulses / cursor-hand interactions inside screenshots to guide eye",
+      "hard cuts only — no glitch, flash, or gradient transitions (except one subtle white flash at 40.96 s between CMD and final face)"
+    ],
+    "caption_philosophy": "Submagic-dense. Every beat captioned with 2–3 words. Dark pill for most, white-outline for CTA only.",
+    "aspect_ratio_target": "9:16 Instagram Reels",
+    "color_accent": "#E1251C red (only used once, on the negation slash). Otherwise neutral monochrome.",
+    "contrast_with_devin1": "Higher cut density, no emphasis-caption slams, Submagic word-by-word captions (Devin has sparse narrative-pivot-only), minimalist vs. warm studio, split-screen used only for opening setup vs. not at all in Devin"
+  }
+}

@@ -1,0 +1,106 @@
+# ─── Secrets ─────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ─── Node / Remotion ─────────────────────────────────────────────────────────
+node_modules/
+.next/
+.remotion/
+.cache/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ─── OS / editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+
+# ─── Large media & user-specific inputs (source videos, raw avatar, renders) ─
+# Raw source videos — users bring their own. Anchored to REPO ROOT only, so
+# subdirs like remotion-studio/src/styles/ are not excluded.
+/Styles/
+/Video 1/
+/Video 2/
+/video 1/
+/video 2/
+
+# Purchased/licensed asset packs — not ours to redistribute
+/Packs/
+
+# Renders — rebuildable from source
+/outputs/*.mp4
+/outputs/*.mov
+/outputs/*.webm
+
+# ─── Remotion runtime assets we don't ship ──────────────────────────────────
+# Raw avatar videos (swapped per reel; regenerate locally)
+remotion-studio/public/avatar.mp4
+remotion-studio/public/avatar_*.mp4
+# Matted PNG sequences (regenerate with scripts/matte_avatar*.py, ~2000 files each)
+remotion-studio/public/matted_avatar/
+remotion-studio/public/matted_avatar_*/
+# Music beds that came from paid libraries (keep only the committed one)
+# (we ship music_bed_v6.mp3 since it's the locked v12 bed — if you can't, add exclusion)
+
+# ─── Audit artifacts — keep playbooks, skip raw media ────────────────────────
+_audit/**/frames/
+_audit/**/frames_scene/
+_audit/**/audio/audio.wav
+_audit/**/audio/waveform.png
+_audit/**/audio/silence.txt
+_audit/**/audio/spectrogram.png
+_audit/**/matte/
+_audit/**/matte_bench/
+_audit/matted/
+_audit/previews/
+_audit/outputs/
+_audit/veo_brolls/
+_audit/light_leak_analysis/
+_audit/**/stills/*.png
+_audit/**/scene_showinfo.log
+_audit/**/preview_*.png
+_audit/**/words_ts.txt
+
+# External reference toolkits (read-only; not authored here)
+ref/
+# Keep these audit artifacts:
+#   _audit/<creator>/<name>/EVENTS.json
+#   _audit/<creator>/<name>/PLAYBOOK.md
+#   _audit/<creator>/<name>/scene_times.txt
+#   _audit/<creator>/<name>/audio/transcript.json
+#   _audit/<creator>/<name>/words_ts.txt
+#   _audit/<creator>/<name>/run_whisper.py
+#   _audit/obsidian_seed/**/*.md
+
+# Playwright scratch output
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# Temp / scratch
+tmp/
+scratch/
+*.tmp
+*.bak

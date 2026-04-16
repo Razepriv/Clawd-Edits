@@ -1,0 +1,2027 @@
+{
+  "language": "en",
+  "language_prob": 0.9977620840072632,
+  "duration": 69.4523125,
+  "segments": [
+    {
+      "start": 0.02,
+      "end": 4.58,
+      "text": " My name is Devon Jato and my clients name is anywhere from $300,000 to $500,000 a year",
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.22,
+          "word": " My",
+          "prob": 0.4111401438713074
+        },
+        {
+          "start": 0.22,
+          "end": 0.36,
+          "word": " name",
+          "prob": 0.9564974308013916
+        },
+        {
+          "start": 0.36,
+          "end": 0.52,
+          "word": " is",
+          "prob": 0.9892143607139587
+        },
+        {
+          "start": 0.52,
+          "end": 0.76,
+          "word": " Devon",
+          "prob": 0.6784540712833405
+        },
+        {
+          "start": 0.76,
+          "end": 1.06,
+          "word": " Jato",
+          "prob": 0.46750178933143616
+        },
+        {
+          "start": 1.06,
+          "end": 1.22,
+          "word": " and",
+          "prob": 0.7248367071151733
+        },
+        {
+          "start": 1.22,
+          "end": 1.32,
+          "word": " my",
+          "prob": 0.9657022953033447
+        },
+        {
+          "start": 1.32,
+          "end": 1.58,
+          "word": " clients",
+          "prob": 0.7850465178489685
+        },
+        {
+          "start": 1.58,
+          "end": 1.82,
+          "word": " name",
+          "prob": 0.5247010588645935
+        },
+        {
+          "start": 1.82,
+          "end": 1.82,
+          "word": " is",
+          "prob": 0.5428256392478943
+        },
+        {
+          "start": 1.82,
+          "end": 2.22,
+          "word": " anywhere",
+          "prob": 0.5695278644561768
+        },
+        {
+          "start": 2.22,
+          "end": 2.38,
+          "word": " from",
+          "prob": 0.9569060802459717
+        },
+        {
+          "start": 2.38,
+          "end": 2.74,
+          "word": " $300",
+          "prob": 0.6354533582925797
+        },
+        {
+          "start": 2.74,
+          "end": 3.18,
+          "word": ",000",
+          "prob": 0.9397600293159485
+        },
+        {
+          "start": 3.18,
+          "end": 3.34,
+          "word": " to",
+          "prob": 0.8792157769203186
+        },
+        {
+          "start": 3.34,
+          "end": 3.7,
+          "word": " $500",
+          "prob": 0.9660242795944214
+        },
+        {
+          "start": 3.7,
+          "end": 4.28,
+          "word": ",000",
+          "prob": 0.9890367090702057
+        },
+        {
+          "start": 4.28,
+          "end": 4.44,
+          "word": " a",
+          "prob": 0.9791066646575928
+        },
+        {
+          "start": 4.44,
+          "end": 4.58,
+          "word": " year",
+          "prob": 0.9997290968894958
+        }
+      ]
+    },
+    {
+      "start": 4.58,
+      "end": 6.52,
+      "text": " to write viral social media scripts for them.",
+      "words": [
+        {
+          "start": 4.58,
+          "end": 4.74,
+          "word": " to",
+          "prob": 0.7160847783088684
+        },
+        {
+          "start": 4.74,
+          "end": 4.88,
+          "word": " write",
+          "prob": 0.9743708372116089
+        },
+        {
+          "start": 4.88,
+          "end": 5.3,
+          "word": " viral",
+          "prob": 0.378731906414032
+        },
+        {
+          "start": 5.3,
+          "end": 5.48,
+          "word": " social",
+          "prob": 0.9329096674919128
+        },
+        {
+          "start": 5.48,
+          "end": 5.72,
+          "word": " media",
+          "prob": 0.766389787197113
+        },
+        {
+          "start": 5.72,
+          "end": 5.96,
+          "word": " scripts",
+          "prob": 0.9855167269706726
+        },
+        {
+          "start": 5.96,
+          "end": 6.26,
+          "word": " for",
+          "prob": 0.9770400524139404
+        },
+        {
+          "start": 6.26,
+          "end": 6.52,
+          "word": " them.",
+          "prob": 0.9933577179908752
+        }
+      ]
+    },
+    {
+      "start": 6.76,
+      "end": 10.18,
+      "text": " And these are the two websites that I use across every single viral script that I make.",
+      "words": [
+        {
+          "start": 6.76,
+          "end": 6.78,
+          "word": " And",
+          "prob": 0.8975808024406433
+        },
+        {
+          "start": 6.78,
+          "end": 6.96,
+          "word": " these",
+          "prob": 0.9626067876815796
+        },
+        {
+          "start": 6.96,
+          "end": 7.06,
+          "word": " are",
+          "prob": 0.99554044008255
+        },
+        {
+          "start": 7.06,
+          "end": 7.16,
+          "word": " the",
+          "prob": 0.9914940595626831
+        },
+        {
+          "start": 7.16,
+          "end": 7.34,
+          "word": " two",
+          "prob": 0.955711305141449
+        },
+        {
+          "start": 7.34,
+          "end": 7.54,
+          "word": " websites",
+          "prob": 0.6696192026138306
+        },
+        {
+          "start": 7.54,
+          "end": 7.74,
+          "word": " that",
+          "prob": 0.7908723950386047
+        },
+        {
+          "start": 7.74,
+          "end": 7.74,
+          "word": " I",
+          "prob": 0.46812838315963745
+        },
+        {
+          "start": 7.74,
+          "end": 7.88,
+          "word": " use",
+          "prob": 0.9264912009239197
+        },
+        {
+          "start": 7.88,
+          "end": 8.12,
+          "word": " across",
+          "prob": 0.9677185416221619
+        },
+        {
+          "start": 8.12,
+          "end": 8.58,
+          "word": " every",
+          "prob": 0.9915557503700256
+        },
+        {
+          "start": 8.58,
+          "end": 8.94,
+          "word": " single",
+          "prob": 0.9980083107948303
+        },
+        {
+          "start": 8.94,
+          "end": 9.22,
+          "word": " viral",
+          "prob": 0.9466784596443176
+        },
+        {
+          "start": 9.22,
+          "end": 9.54,
+          "word": " script",
+          "prob": 0.9959383010864258
+        },
+        {
+          "start": 9.54,
+          "end": 9.9,
+          "word": " that",
+          "prob": 0.9601219892501831
+        },
+        {
+          "start": 9.9,
+          "end": 10.0,
+          "word": " I",
+          "prob": 0.9928545355796814
+        },
+        {
+          "start": 10.0,
+          "end": 10.18,
+          "word": " make.",
+          "prob": 0.9950350522994995
+        }
+      ]
+    },
+    {
+      "start": 10.6,
+      "end": 14.52,
+      "text": " Now my goal is to keep every single script as short and simple as possible.",
+      "words": [
+        {
+          "start": 10.6,
+          "end": 10.72,
+          "word": " Now",
+          "prob": 0.9111635684967041
+        },
+        {
+          "start": 10.72,
+          "end": 11.0,
+          "word": " my",
+          "prob": 0.5786275863647461
+        },
+        {
+          "start": 11.0,
+          "end": 11.2,
+          "word": " goal",
+          "prob": 0.9969513416290283
+        },
+        {
+          "start": 11.2,
+          "end": 11.5,
+          "word": " is",
+          "prob": 0.9822484254837036
+        },
+        {
+          "start": 11.5,
+          "end": 11.64,
+          "word": " to",
+          "prob": 0.9965776801109314
+        },
+        {
+          "start": 11.64,
+          "end": 11.78,
+          "word": " keep",
+          "prob": 0.9979225993156433
+        },
+        {
+          "start": 11.78,
+          "end": 12.18,
+          "word": " every",
+          "prob": 0.9870309233665466
+        },
+        {
+          "start": 12.18,
+          "end": 12.4,
+          "word": " single",
+          "prob": 0.9838238954544067
+        },
+        {
+          "start": 12.4,
+          "end": 12.68,
+          "word": " script",
+          "prob": 0.9849032163619995
+        },
+        {
+          "start": 12.68,
+          "end": 13.04,
+          "word": " as",
+          "prob": 0.8272296786308289
+        },
+        {
+          "start": 13.04,
+          "end": 13.28,
+          "word": " short",
+          "prob": 0.9458836317062378
+        },
+        {
+          "start": 13.28,
+          "end": 13.52,
+          "word": " and",
+          "prob": 0.8522398471832275
+        },
+        {
+          "start": 13.52,
+          "end": 13.84,
+          "word": " simple",
+          "prob": 0.9555902481079102
+        },
+        {
+          "start": 13.84,
+          "end": 14.08,
+          "word": " as",
+          "prob": 0.9920068383216858
+        },
+        {
+          "start": 14.08,
+          "end": 14.52,
+          "word": " possible.",
+          "prob": 0.9995597004890442
+        }
+      ]
+    },
+    {
+      "start": 14.94,
+      "end": 19.0,
+      "text": " So the first website that I use to keep in the script as short as possible is going to be",
+      "words": [
+        {
+          "start": 14.94,
+          "end": 15.02,
+          "word": " So",
+          "prob": 0.9701958298683167
+        },
+        {
+          "start": 15.02,
+          "end": 15.14,
+          "word": " the",
+          "prob": 0.9408237934112549
+        },
+        {
+          "start": 15.14,
+          "end": 15.36,
+          "word": " first",
+          "prob": 0.9864227175712585
+        },
+        {
+          "start": 15.36,
+          "end": 15.56,
+          "word": " website",
+          "prob": 0.21394942700862885
+        },
+        {
+          "start": 15.56,
+          "end": 15.78,
+          "word": " that",
+          "prob": 0.9730676412582397
+        },
+        {
+          "start": 15.78,
+          "end": 15.84,
+          "word": " I",
+          "prob": 0.5530479550361633
+        },
+        {
+          "start": 15.84,
+          "end": 15.94,
+          "word": " use",
+          "prob": 0.6613091826438904
+        },
+        {
+          "start": 15.94,
+          "end": 16.2,
+          "word": " to",
+          "prob": 0.41781502962112427
+        },
+        {
+          "start": 16.2,
+          "end": 16.24,
+          "word": " keep",
+          "prob": 0.8755319118499756
+        },
+        {
+          "start": 16.24,
+          "end": 16.42,
+          "word": " in",
+          "prob": 0.0649942010641098
+        },
+        {
+          "start": 16.42,
+          "end": 16.54,
+          "word": " the",
+          "prob": 0.7697619795799255
+        },
+        {
+          "start": 16.54,
+          "end": 16.76,
+          "word": " script",
+          "prob": 0.824901819229126
+        },
+        {
+          "start": 16.76,
+          "end": 17.06,
+          "word": " as",
+          "prob": 0.95966637134552
+        },
+        {
+          "start": 17.06,
+          "end": 17.34,
+          "word": " short",
+          "prob": 0.991693913936615
+        },
+        {
+          "start": 17.34,
+          "end": 17.68,
+          "word": " as",
+          "prob": 0.9702481031417847
+        },
+        {
+          "start": 17.68,
+          "end": 18.1,
+          "word": " possible",
+          "prob": 0.9975405931472778
+        },
+        {
+          "start": 18.1,
+          "end": 18.54,
+          "word": " is",
+          "prob": 0.7921431064605713
+        },
+        {
+          "start": 18.54,
+          "end": 18.7,
+          "word": " going",
+          "prob": 0.9756951332092285
+        },
+        {
+          "start": 18.7,
+          "end": 18.86,
+          "word": " to",
+          "prob": 0.9980340600013733
+        },
+        {
+          "start": 18.86,
+          "end": 19.0,
+          "word": " be",
+          "prob": 0.982955276966095
+        }
+      ]
+    },
+    {
+      "start": 19.0,
+      "end": 20.42,
+      "text": " a video art script timer.",
+      "words": [
+        {
+          "start": 19.0,
+          "end": 19.14,
+          "word": " a",
+          "prob": 0.4661710858345032
+        },
+        {
+          "start": 19.14,
+          "end": 19.3,
+          "word": " video",
+          "prob": 0.6854065656661987
+        },
+        {
+          "start": 19.3,
+          "end": 19.5,
+          "word": " art",
+          "prob": 0.2740877866744995
+        },
+        {
+          "start": 19.5,
+          "end": 19.92,
+          "word": " script",
+          "prob": 0.976006269454956
+        },
+        {
+          "start": 19.92,
+          "end": 20.42,
+          "word": " timer.",
+          "prob": 0.9306164979934692
+        }
+      ]
+    },
+    {
+      "start": 20.84,
+      "end": 24.24,
+      "text": " Now this website will tell you exactly on how long it will take for you to read out your",
+      "words": [
+        {
+          "start": 20.84,
+          "end": 20.96,
+          "word": " Now",
+          "prob": 0.91239994764328
+        },
+        {
+          "start": 20.96,
+          "end": 21.1,
+          "word": " this",
+          "prob": 0.5760398507118225
+        },
+        {
+          "start": 21.1,
+          "end": 21.26,
+          "word": " website",
+          "prob": 0.40261027216911316
+        },
+        {
+          "start": 21.26,
+          "end": 21.5,
+          "word": " will",
+          "prob": 0.8620759844779968
+        },
+        {
+          "start": 21.5,
+          "end": 21.62,
+          "word": " tell",
+          "prob": 0.9921914935112
+        },
+        {
+          "start": 21.62,
+          "end": 21.72,
+          "word": " you",
+          "prob": 0.9982805252075195
+        },
+        {
+          "start": 21.72,
+          "end": 21.98,
+          "word": " exactly",
+          "prob": 0.9827852845191956
+        },
+        {
+          "start": 21.98,
+          "end": 22.22,
+          "word": " on",
+          "prob": 0.6807420253753662
+        },
+        {
+          "start": 22.22,
+          "end": 22.34,
+          "word": " how",
+          "prob": 0.996588945388794
+        },
+        {
+          "start": 22.34,
+          "end": 22.68,
+          "word": " long",
+          "prob": 0.9904181361198425
+        },
+        {
+          "start": 22.68,
+          "end": 22.9,
+          "word": " it",
+          "prob": 0.9849117994308472
+        },
+        {
+          "start": 22.9,
+          "end": 22.98,
+          "word": " will",
+          "prob": 0.735082745552063
+        },
+        {
+          "start": 22.98,
+          "end": 23.18,
+          "word": " take",
+          "prob": 0.9984173774719238
+        },
+        {
+          "start": 23.18,
+          "end": 23.46,
+          "word": " for",
+          "prob": 0.9065568447113037
+        },
+        {
+          "start": 23.46,
+          "end": 23.58,
+          "word": " you",
+          "prob": 0.9967774748802185
+        },
+        {
+          "start": 23.58,
+          "end": 23.74,
+          "word": " to",
+          "prob": 0.996119499206543
+        },
+        {
+          "start": 23.74,
+          "end": 23.94,
+          "word": " read",
+          "prob": 0.9954841136932373
+        },
+        {
+          "start": 23.94,
+          "end": 24.08,
+          "word": " out",
+          "prob": 0.9822512269020081
+        },
+        {
+          "start": 24.08,
+          "end": 24.24,
+          "word": " your",
+          "prob": 0.9871044158935547
+        }
+      ]
+    },
+    {
+      "start": 24.24,
+      "end": 24.52,
+      "text": " script.",
+      "words": [
+        {
+          "start": 24.24,
+          "end": 24.52,
+          "word": " script.",
+          "prob": 0.9463568329811096
+        }
+      ]
+    },
+    {
+      "start": 24.8,
+      "end": 28.7,
+      "text": " So the first thing I do after I finish the scripts for you and me or my client is that I copy",
+      "words": [
+        {
+          "start": 24.8,
+          "end": 25.0,
+          "word": " So",
+          "prob": 0.9799804091453552
+        },
+        {
+          "start": 25.0,
+          "end": 25.22,
+          "word": " the",
+          "prob": 0.8778541088104248
+        },
+        {
+          "start": 25.22,
+          "end": 25.4,
+          "word": " first",
+          "prob": 0.9969684481620789
+        },
+        {
+          "start": 25.4,
+          "end": 25.56,
+          "word": " thing",
+          "prob": 0.9950488209724426
+        },
+        {
+          "start": 25.56,
+          "end": 25.62,
+          "word": " I",
+          "prob": 0.9544548392295837
+        },
+        {
+          "start": 25.62,
+          "end": 25.74,
+          "word": " do",
+          "prob": 0.9922613501548767
+        },
+        {
+          "start": 25.74,
+          "end": 25.98,
+          "word": " after",
+          "prob": 0.9740110635757446
+        },
+        {
+          "start": 25.98,
+          "end": 26.1,
+          "word": " I",
+          "prob": 0.9598637223243713
+        },
+        {
+          "start": 26.1,
+          "end": 26.3,
+          "word": " finish",
+          "prob": 0.9745974540710449
+        },
+        {
+          "start": 26.3,
+          "end": 26.36,
+          "word": " the",
+          "prob": 0.43111881613731384
+        },
+        {
+          "start": 26.36,
+          "end": 26.6,
+          "word": " scripts",
+          "prob": 0.5045916438102722
+        },
+        {
+          "start": 26.6,
+          "end": 26.78,
+          "word": " for",
+          "prob": 0.5643031001091003
+        },
+        {
+          "start": 26.78,
+          "end": 26.86,
+          "word": " you",
+          "prob": 0.8241996765136719
+        },
+        {
+          "start": 26.86,
+          "end": 26.96,
+          "word": " and",
+          "prob": 0.25259122252464294
+        },
+        {
+          "start": 26.96,
+          "end": 27.12,
+          "word": " me",
+          "prob": 0.9184280037879944
+        },
+        {
+          "start": 27.12,
+          "end": 27.34,
+          "word": " or",
+          "prob": 0.6934375166893005
+        },
+        {
+          "start": 27.34,
+          "end": 27.48,
+          "word": " my",
+          "prob": 0.9947453737258911
+        },
+        {
+          "start": 27.48,
+          "end": 27.8,
+          "word": " client",
+          "prob": 0.9567279815673828
+        },
+        {
+          "start": 27.8,
+          "end": 28.08,
+          "word": " is",
+          "prob": 0.9088026881217957
+        },
+        {
+          "start": 28.08,
+          "end": 28.22,
+          "word": " that",
+          "prob": 0.969021737575531
+        },
+        {
+          "start": 28.22,
+          "end": 28.42,
+          "word": " I",
+          "prob": 0.98203444480896
+        },
+        {
+          "start": 28.42,
+          "end": 28.7,
+          "word": " copy",
+          "prob": 0.9935275912284851
+        }
+      ]
+    },
+    {
+      "start": 28.7,
+      "end": 30.22,
+      "text": " you paste it into this text box.",
+      "words": [
+        {
+          "start": 28.7,
+          "end": 28.82,
+          "word": " you",
+          "prob": 0.07882186770439148
+        },
+        {
+          "start": 28.82,
+          "end": 28.98,
+          "word": " paste",
+          "prob": 0.009552434086799622
+        },
+        {
+          "start": 28.98,
+          "end": 29.2,
+          "word": " it",
+          "prob": 0.6471883654594421
+        },
+        {
+          "start": 29.2,
+          "end": 29.48,
+          "word": " into",
+          "prob": 0.7520262598991394
+        },
+        {
+          "start": 29.48,
+          "end": 29.74,
+          "word": " this",
+          "prob": 0.8670558333396912
+        },
+        {
+          "start": 29.74,
+          "end": 29.96,
+          "word": " text",
+          "prob": 0.7893503904342651
+        },
+        {
+          "start": 29.96,
+          "end": 30.22,
+          "word": " box.",
+          "prob": 0.9341110587120056
+        }
+      ]
+    },
+    {
+      "start": 30.48,
+      "end": 34.74,
+      "text": " And then however long the video is, I will not leave this website until I can lower that",
+      "words": [
+        {
+          "start": 30.48,
+          "end": 30.5,
+          "word": " And",
+          "prob": 0.6733210682868958
+        },
+        {
+          "start": 30.5,
+          "end": 30.62,
+          "word": " then",
+          "prob": 0.9272441267967224
+        },
+        {
+          "start": 30.62,
+          "end": 30.9,
+          "word": " however",
+          "prob": 0.9448168873786926
+        },
+        {
+          "start": 30.9,
+          "end": 31.22,
+          "word": " long",
+          "prob": 0.9893366098403931
+        },
+        {
+          "start": 31.22,
+          "end": 31.36,
+          "word": " the",
+          "prob": 0.91008061170578
+        },
+        {
+          "start": 31.36,
+          "end": 31.56,
+          "word": " video",
+          "prob": 0.9930745363235474
+        },
+        {
+          "start": 31.56,
+          "end": 32.0,
+          "word": " is,",
+          "prob": 0.9843922853469849
+        },
+        {
+          "start": 32.28,
+          "end": 32.34,
+          "word": " I",
+          "prob": 0.9788828492164612
+        },
+        {
+          "start": 32.34,
+          "end": 32.46,
+          "word": " will",
+          "prob": 0.7410790324211121
+        },
+        {
+          "start": 32.46,
+          "end": 32.72,
+          "word": " not",
+          "prob": 0.9723489284515381
+        },
+        {
+          "start": 32.72,
+          "end": 33.18,
+          "word": " leave",
+          "prob": 0.991936445236206
+        },
+        {
+          "start": 33.18,
+          "end": 33.52,
+          "word": " this",
+          "prob": 0.7617204785346985
+        },
+        {
+          "start": 33.52,
+          "end": 33.82,
+          "word": " website",
+          "prob": 0.7903370261192322
+        },
+        {
+          "start": 33.82,
+          "end": 34.08,
+          "word": " until",
+          "prob": 0.9186845421791077
+        },
+        {
+          "start": 34.08,
+          "end": 34.2,
+          "word": " I",
+          "prob": 0.9769619703292847
+        },
+        {
+          "start": 34.2,
+          "end": 34.3,
+          "word": " can",
+          "prob": 0.988737940788269
+        },
+        {
+          "start": 34.3,
+          "end": 34.52,
+          "word": " lower",
+          "prob": 0.5507587194442749
+        },
+        {
+          "start": 34.52,
+          "end": 34.74,
+          "word": " that",
+          "prob": 0.9464278221130371
+        }
+      ]
+    },
+    {
+      "start": 34.74,
+      "end": 35.84,
+      "text": " number by 10 seconds.",
+      "words": [
+        {
+          "start": 34.74,
+          "end": 35.02,
+          "word": " number",
+          "prob": 0.9851727485656738
+        },
+        {
+          "start": 35.02,
+          "end": 35.28,
+          "word": " by",
+          "prob": 0.9720911383628845
+        },
+        {
+          "start": 35.28,
+          "end": 35.5,
+          "word": " 10",
+          "prob": 0.8118451833724976
+        },
+        {
+          "start": 35.5,
+          "end": 35.84,
+          "word": " seconds.",
+          "prob": 0.9756402969360352
+        }
+      ]
+    },
+    {
+      "start": 36.08,
+      "end": 39.68,
+      "text": " Then once I'm knocked it down by at least 10 seconds, I go ahead and copy that script to",
+      "words": [
+        {
+          "start": 36.08,
+          "end": 36.3,
+          "word": " Then",
+          "prob": 0.9516385197639465
+        },
+        {
+          "start": 36.3,
+          "end": 36.52,
+          "word": " once",
+          "prob": 0.6257827281951904
+        },
+        {
+          "start": 36.52,
+          "end": 36.66,
+          "word": " I'm",
+          "prob": 0.8214094042778015
+        },
+        {
+          "start": 36.66,
+          "end": 36.84,
+          "word": " knocked",
+          "prob": 0.9870536923408508
+        },
+        {
+          "start": 36.84,
+          "end": 36.96,
+          "word": " it",
+          "prob": 0.4177224040031433
+        },
+        {
+          "start": 36.96,
+          "end": 37.1,
+          "word": " down",
+          "prob": 0.9970169067382812
+        },
+        {
+          "start": 37.1,
+          "end": 37.26,
+          "word": " by",
+          "prob": 0.9936532974243164
+        },
+        {
+          "start": 37.26,
+          "end": 37.4,
+          "word": " at",
+          "prob": 0.9673628807067871
+        },
+        {
+          "start": 37.4,
+          "end": 37.52,
+          "word": " least",
+          "prob": 0.986890971660614
+        },
+        {
+          "start": 37.52,
+          "end": 37.86,
+          "word": " 10",
+          "prob": 0.9754453897476196
+        },
+        {
+          "start": 37.86,
+          "end": 38.18,
+          "word": " seconds,",
+          "prob": 0.9951015114784241
+        },
+        {
+          "start": 38.38,
+          "end": 38.44,
+          "word": " I",
+          "prob": 0.9903419017791748
+        },
+        {
+          "start": 38.44,
+          "end": 38.58,
+          "word": " go",
+          "prob": 0.9726886749267578
+        },
+        {
+          "start": 38.58,
+          "end": 38.72,
+          "word": " ahead",
+          "prob": 0.9933125376701355
+        },
+        {
+          "start": 38.72,
+          "end": 38.82,
+          "word": " and",
+          "prob": 0.9935426712036133
+        },
+        {
+          "start": 38.82,
+          "end": 39.1,
+          "word": " copy",
+          "prob": 0.9956628680229187
+        },
+        {
+          "start": 39.1,
+          "end": 39.3,
+          "word": " that",
+          "prob": 0.967445969581604
+        },
+        {
+          "start": 39.3,
+          "end": 39.5,
+          "word": " script",
+          "prob": 0.993681788444519
+        },
+        {
+          "start": 39.5,
+          "end": 39.68,
+          "word": " to",
+          "prob": 0.7731407880783081
+        }
+      ]
+    },
+    {
+      "start": 39.68,
+      "end": 42.8,
+      "text": " show you over to the second website, himmingwayapp.com.",
+      "words": [
+        {
+          "start": 39.68,
+          "end": 39.8,
+          "word": " show",
+          "prob": 0.3240104913711548
+        },
+        {
+          "start": 39.8,
+          "end": 39.9,
+          "word": " you",
+          "prob": 0.7731223702430725
+        },
+        {
+          "start": 39.9,
+          "end": 40.0,
+          "word": " over",
+          "prob": 0.9321305155754089
+        },
+        {
+          "start": 40.0,
+          "end": 40.14,
+          "word": " to",
+          "prob": 0.9841275811195374
+        },
+        {
+          "start": 40.14,
+          "end": 40.22,
+          "word": " the",
+          "prob": 0.7297371029853821
+        },
+        {
+          "start": 40.22,
+          "end": 40.54,
+          "word": " second",
+          "prob": 0.913974404335022
+        },
+        {
+          "start": 40.54,
+          "end": 40.96,
+          "word": " website,",
+          "prob": 0.9714836478233337
+        },
+        {
+          "start": 41.36,
+          "end": 42.08,
+          "word": " himmingwayapp",
+          "prob": 0.5371169131249189
+        },
+        {
+          "start": 42.08,
+          "end": 42.8,
+          "word": ".com.",
+          "prob": 0.9973359405994415
+        }
+      ]
+    },
+    {
+      "start": 42.86,
+      "end": 46.54,
+      "text": " Now this one results will tell you the reading level of your script and then highlight which",
+      "words": [
+        {
+          "start": 42.86,
+          "end": 42.98,
+          "word": " Now",
+          "prob": 0.9141032695770264
+        },
+        {
+          "start": 42.98,
+          "end": 43.16,
+          "word": " this",
+          "prob": 0.7313649654388428
+        },
+        {
+          "start": 43.16,
+          "end": 43.22,
+          "word": " one",
+          "prob": 0.11144658923149109
+        },
+        {
+          "start": 43.22,
+          "end": 43.44,
+          "word": " results",
+          "prob": 0.6245875954627991
+        },
+        {
+          "start": 43.44,
+          "end": 43.62,
+          "word": " will",
+          "prob": 0.8631625175476074
+        },
+        {
+          "start": 43.62,
+          "end": 43.76,
+          "word": " tell",
+          "prob": 0.9891420602798462
+        },
+        {
+          "start": 43.76,
+          "end": 43.92,
+          "word": " you",
+          "prob": 0.988821268081665
+        },
+        {
+          "start": 43.92,
+          "end": 44.1,
+          "word": " the",
+          "prob": 0.9052961468696594
+        },
+        {
+          "start": 44.1,
+          "end": 44.4,
+          "word": " reading",
+          "prob": 0.9922227263450623
+        },
+        {
+          "start": 44.4,
+          "end": 44.72,
+          "word": " level",
+          "prob": 0.995951771736145
+        },
+        {
+          "start": 44.72,
+          "end": 44.98,
+          "word": " of",
+          "prob": 0.9903879761695862
+        },
+        {
+          "start": 44.98,
+          "end": 45.08,
+          "word": " your",
+          "prob": 0.9958940744400024
+        },
+        {
+          "start": 45.08,
+          "end": 45.32,
+          "word": " script",
+          "prob": 0.9868867993354797
+        },
+        {
+          "start": 45.32,
+          "end": 45.52,
+          "word": " and",
+          "prob": 0.5468190908432007
+        },
+        {
+          "start": 45.52,
+          "end": 45.6,
+          "word": " then",
+          "prob": 0.9498810172080994
+        },
+        {
+          "start": 45.6,
+          "end": 45.94,
+          "word": " highlight",
+          "prob": 0.8917158246040344
+        },
+        {
+          "start": 45.94,
+          "end": 46.54,
+          "word": " which",
+          "prob": 0.9670615196228027
+        }
+      ]
+    },
+    {
+      "start": 46.54,
+      "end": 48.68,
+      "text": " part of your script might be too complex for your viewer.",
+      "words": [
+        {
+          "start": 46.54,
+          "end": 46.74,
+          "word": " part",
+          "prob": 0.9577171206474304
+        },
+        {
+          "start": 46.74,
+          "end": 46.84,
+          "word": " of",
+          "prob": 0.9857169389724731
+        },
+        {
+          "start": 46.84,
+          "end": 46.9,
+          "word": " your",
+          "prob": 0.9829408526420593
+        },
+        {
+          "start": 46.9,
+          "end": 47.12,
+          "word": " script",
+          "prob": 0.9940565824508667
+        },
+        {
+          "start": 47.12,
+          "end": 47.36,
+          "word": " might",
+          "prob": 0.9865933656692505
+        },
+        {
+          "start": 47.36,
+          "end": 47.52,
+          "word": " be",
+          "prob": 0.9946223497390747
+        },
+        {
+          "start": 47.52,
+          "end": 47.7,
+          "word": " too",
+          "prob": 0.8344415426254272
+        },
+        {
+          "start": 47.7,
+          "end": 48.04,
+          "word": " complex",
+          "prob": 0.9915174841880798
+        },
+        {
+          "start": 48.04,
+          "end": 48.32,
+          "word": " for",
+          "prob": 0.9915444850921631
+        },
+        {
+          "start": 48.32,
+          "end": 48.4,
+          "word": " your",
+          "prob": 0.28204765915870667
+        },
+        {
+          "start": 48.4,
+          "end": 48.68,
+          "word": " viewer.",
+          "prob": 0.9928107857704163
+        }
+      ]
+    },
+    {
+      "start": 48.88,
+      "end": 52.36,
+      "text": " A good rule of thumb that I follow is that the great level of your script has to be a grade",
+      "words": [
+        {
+          "start": 48.88,
+          "end": 48.96,
+          "word": " A",
+          "prob": 0.8947106003761292
+        },
+        {
+          "start": 48.96,
+          "end": 49.06,
+          "word": " good",
+          "prob": 0.9957350492477417
+        },
+        {
+          "start": 49.06,
+          "end": 49.22,
+          "word": " rule",
+          "prob": 0.5049523115158081
+        },
+        {
+          "start": 49.22,
+          "end": 49.34,
+          "word": " of",
+          "prob": 0.8788927793502808
+        },
+        {
+          "start": 49.34,
+          "end": 49.46,
+          "word": " thumb",
+          "prob": 0.9995070695877075
+        },
+        {
+          "start": 49.46,
+          "end": 49.6,
+          "word": " that",
+          "prob": 0.7640944123268127
+        },
+        {
+          "start": 49.6,
+          "end": 49.72,
+          "word": " I",
+          "prob": 0.9932665824890137
+        },
+        {
+          "start": 49.72,
+          "end": 49.96,
+          "word": " follow",
+          "prob": 0.9499610066413879
+        },
+        {
+          "start": 49.96,
+          "end": 50.18,
+          "word": " is",
+          "prob": 0.9910484552383423
+        },
+        {
+          "start": 50.18,
+          "end": 50.32,
+          "word": " that",
+          "prob": 0.9820290207862854
+        },
+        {
+          "start": 50.32,
+          "end": 50.6,
+          "word": " the",
+          "prob": 0.8569173216819763
+        },
+        {
+          "start": 50.6,
+          "end": 50.8,
+          "word": " great",
+          "prob": 0.634960412979126
+        },
+        {
+          "start": 50.8,
+          "end": 51.04,
+          "word": " level",
+          "prob": 0.9941895008087158
+        },
+        {
+          "start": 51.04,
+          "end": 51.24,
+          "word": " of",
+          "prob": 0.9930926561355591
+        },
+        {
+          "start": 51.24,
+          "end": 51.36,
+          "word": " your",
+          "prob": 0.9890868663787842
+        },
+        {
+          "start": 51.36,
+          "end": 51.58,
+          "word": " script",
+          "prob": 0.9956920742988586
+        },
+        {
+          "start": 51.58,
+          "end": 51.78,
+          "word": " has",
+          "prob": 0.881824254989624
+        },
+        {
+          "start": 51.78,
+          "end": 51.96,
+          "word": " to",
+          "prob": 0.996697187423706
+        },
+        {
+          "start": 51.96,
+          "end": 52.1,
+          "word": " be",
+          "prob": 0.9957225322723389
+        },
+        {
+          "start": 52.1,
+          "end": 52.18,
+          "word": " a",
+          "prob": 0.8207187056541443
+        },
+        {
+          "start": 52.18,
+          "end": 52.36,
+          "word": " grade",
+          "prob": 0.8746629357337952
+        }
+      ]
+    },
+    {
+      "start": 52.36,
+      "end": 56.42,
+      "text": " 7 reading level or below, mainly because that is the average reading level in the United States.",
+      "words": [
+        {
+          "start": 52.36,
+          "end": 52.74,
+          "word": " 7",
+          "prob": 0.3719835877418518
+        },
+        {
+          "start": 52.74,
+          "end": 52.96,
+          "word": " reading",
+          "prob": 0.937693178653717
+        },
+        {
+          "start": 52.96,
+          "end": 53.22,
+          "word": " level",
+          "prob": 0.9947414398193359
+        },
+        {
+          "start": 53.22,
+          "end": 53.44,
+          "word": " or",
+          "prob": 0.9677839279174805
+        },
+        {
+          "start": 53.44,
+          "end": 53.74,
+          "word": " below,",
+          "prob": 0.9956396818161011
+        },
+        {
+          "start": 54.02,
+          "end": 54.12,
+          "word": " mainly",
+          "prob": 0.9975996613502502
+        },
+        {
+          "start": 54.12,
+          "end": 54.42,
+          "word": " because",
+          "prob": 0.9972208738327026
+        },
+        {
+          "start": 54.42,
+          "end": 54.58,
+          "word": " that",
+          "prob": 0.9709840416908264
+        },
+        {
+          "start": 54.58,
+          "end": 54.7,
+          "word": " is",
+          "prob": 0.9709441661834717
+        },
+        {
+          "start": 54.7,
+          "end": 54.8,
+          "word": " the",
+          "prob": 0.968059241771698
+        },
+        {
+          "start": 54.8,
+          "end": 55.12,
+          "word": " average",
+          "prob": 0.9994211196899414
+        },
+        {
+          "start": 55.12,
+          "end": 55.32,
+          "word": " reading",
+          "prob": 0.9985482096672058
+        },
+        {
+          "start": 55.32,
+          "end": 55.62,
+          "word": " level",
+          "prob": 0.9964393973350525
+        },
+        {
+          "start": 55.62,
+          "end": 55.76,
+          "word": " in",
+          "prob": 0.982775866985321
+        },
+        {
+          "start": 55.76,
+          "end": 55.88,
+          "word": " the",
+          "prob": 0.9944589138031006
+        },
+        {
+          "start": 55.88,
+          "end": 56.04,
+          "word": " United",
+          "prob": 0.8634815812110901
+        },
+        {
+          "start": 56.04,
+          "end": 56.42,
+          "word": " States.",
+          "prob": 0.9992775321006775
+        }
+      ]
+    },
+    {
+      "start": 56.42,
+      "end": 59.42,
+      "text": " These are two out of the five of my favorite scripting websites.",
+      "words": [
+        {
+          "start": 56.42,
+          "end": 56.82,
+          "word": " These",
+          "prob": 0.7648628950119019
+        },
+        {
+          "start": 56.82,
+          "end": 57.0,
+          "word": " are",
+          "prob": 0.991127073764801
+        },
+        {
+          "start": 57.0,
+          "end": 57.26,
+          "word": " two",
+          "prob": 0.8703202605247498
+        },
+        {
+          "start": 57.26,
+          "end": 57.46,
+          "word": " out",
+          "prob": 0.9728108048439026
+        },
+        {
+          "start": 57.46,
+          "end": 57.54,
+          "word": " of",
+          "prob": 0.9949862957000732
+        },
+        {
+          "start": 57.54,
+          "end": 57.64,
+          "word": " the",
+          "prob": 0.9248024225234985
+        },
+        {
+          "start": 57.64,
+          "end": 57.98,
+          "word": " five",
+          "prob": 0.9330605268478394
+        },
+        {
+          "start": 57.98,
+          "end": 58.22,
+          "word": " of",
+          "prob": 0.9708661437034607
+        },
+        {
+          "start": 58.22,
+          "end": 58.38,
+          "word": " my",
+          "prob": 0.9968544840812683
+        },
+        {
+          "start": 58.38,
+          "end": 58.7,
+          "word": " favorite",
+          "prob": 0.931490957736969
+        },
+        {
+          "start": 58.7,
+          "end": 59.06,
+          "word": " scripting",
+          "prob": 0.9170618057250977
+        },
+        {
+          "start": 59.06,
+          "end": 59.42,
+          "word": " websites.",
+          "prob": 0.9663529992103577
+        }
+      ]
+    },
+    {
+      "start": 59.78,
+      "end": 63.22,
+      "text": " Now I just posted two video breaking down all of the tools I've used while scripting.",
+      "words": [
+        {
+          "start": 59.78,
+          "end": 59.86,
+          "word": " Now",
+          "prob": 0.9595096111297607
+        },
+        {
+          "start": 59.86,
+          "end": 60.0,
+          "word": " I",
+          "prob": 0.5346165895462036
+        },
+        {
+          "start": 60.0,
+          "end": 60.12,
+          "word": " just",
+          "prob": 0.9077606797218323
+        },
+        {
+          "start": 60.12,
+          "end": 60.32,
+          "word": " posted",
+          "prob": 0.7297254800796509
+        },
+        {
+          "start": 60.32,
+          "end": 60.6,
+          "word": " two",
+          "prob": 0.24202197790145874
+        },
+        {
+          "start": 60.6,
+          "end": 60.8,
+          "word": " video",
+          "prob": 0.7092477083206177
+        },
+        {
+          "start": 60.8,
+          "end": 61.06,
+          "word": " breaking",
+          "prob": 0.6076015830039978
+        },
+        {
+          "start": 61.06,
+          "end": 61.26,
+          "word": " down",
+          "prob": 0.9933062195777893
+        },
+        {
+          "start": 61.26,
+          "end": 61.72,
+          "word": " all",
+          "prob": 0.9547698497772217
+        },
+        {
+          "start": 61.72,
+          "end": 61.96,
+          "word": " of",
+          "prob": 0.7551112771034241
+        },
+        {
+          "start": 61.96,
+          "end": 62.04,
+          "word": " the",
+          "prob": 0.8364466428756714
+        },
+        {
+          "start": 62.04,
+          "end": 62.24,
+          "word": " tools",
+          "prob": 0.8349817991256714
+        },
+        {
+          "start": 62.24,
+          "end": 62.44,
+          "word": " I've",
+          "prob": 0.656592607498169
+        },
+        {
+          "start": 62.44,
+          "end": 62.54,
+          "word": " used",
+          "prob": 0.9890846610069275
+        },
+        {
+          "start": 62.54,
+          "end": 62.74,
+          "word": " while",
+          "prob": 0.9286364316940308
+        },
+        {
+          "start": 62.74,
+          "end": 63.22,
+          "word": " scripting.",
+          "prob": 0.9835271835327148
+        }
+      ]
+    },
+    {
+      "start": 63.46,
+      "end": 66.48,
+      "text": " So if you want to send that over to you along with the two websites that I mentioned in",
+      "words": [
+        {
+          "start": 63.46,
+          "end": 63.52,
+          "word": " So",
+          "prob": 0.9482767581939697
+        },
+        {
+          "start": 63.52,
+          "end": 63.62,
+          "word": " if",
+          "prob": 0.9078471064567566
+        },
+        {
+          "start": 63.62,
+          "end": 63.7,
+          "word": " you",
+          "prob": 0.9933750033378601
+        },
+        {
+          "start": 63.7,
+          "end": 63.76,
+          "word": " want",
+          "prob": 0.3040343225002289
+        },
+        {
+          "start": 63.76,
+          "end": 63.86,
+          "word": " to",
+          "prob": 0.5872915387153625
+        },
+        {
+          "start": 63.86,
+          "end": 64.02,
+          "word": " send",
+          "prob": 0.9877299666404724
+        },
+        {
+          "start": 64.02,
+          "end": 64.16,
+          "word": " that",
+          "prob": 0.9662668704986572
+        },
+        {
+          "start": 64.16,
+          "end": 64.44,
+          "word": " over",
+          "prob": 0.769478440284729
+        },
+        {
+          "start": 64.44,
+          "end": 64.62,
+          "word": " to",
+          "prob": 0.9933346509933472
+        },
+        {
+          "start": 64.62,
+          "end": 64.74,
+          "word": " you",
+          "prob": 0.9949396848678589
+        },
+        {
+          "start": 64.74,
+          "end": 64.98,
+          "word": " along",
+          "prob": 0.6200200915336609
+        },
+        {
+          "start": 64.98,
+          "end": 65.18,
+          "word": " with",
+          "prob": 0.9929085969924927
+        },
+        {
+          "start": 65.18,
+          "end": 65.28,
+          "word": " the",
+          "prob": 0.9811853766441345
+        },
+        {
+          "start": 65.28,
+          "end": 65.42,
+          "word": " two",
+          "prob": 0.989028811454773
+        },
+        {
+          "start": 65.42,
+          "end": 65.78,
+          "word": " websites",
+          "prob": 0.990856409072876
+        },
+        {
+          "start": 65.78,
+          "end": 65.98,
+          "word": " that",
+          "prob": 0.8118880987167358
+        },
+        {
+          "start": 65.98,
+          "end": 66.04,
+          "word": " I",
+          "prob": 0.9941996335983276
+        },
+        {
+          "start": 66.04,
+          "end": 66.24,
+          "word": " mentioned",
+          "prob": 0.9416527152061462
+        },
+        {
+          "start": 66.24,
+          "end": 66.48,
+          "word": " in",
+          "prob": 0.9695262908935547
+        }
+      ]
+    },
+    {
+      "start": 66.48,
+      "end": 69.2,
+      "text": " this video, then go and comment the word link and I'll send it to you.",
+      "words": [
+        {
+          "start": 66.48,
+          "end": 66.7,
+          "word": " this",
+          "prob": 0.9918964505195618
+        },
+        {
+          "start": 66.7,
+          "end": 67.0,
+          "word": " video,",
+          "prob": 0.997512936592102
+        },
+        {
+          "start": 67.0,
+          "end": 67.22,
+          "word": " then",
+          "prob": 0.9765764474868774
+        },
+        {
+          "start": 67.22,
+          "end": 67.36,
+          "word": " go",
+          "prob": 0.9138952493667603
+        },
+        {
+          "start": 67.36,
+          "end": 67.44,
+          "word": " and",
+          "prob": 0.7730265855789185
+        },
+        {
+          "start": 67.44,
+          "end": 67.7,
+          "word": " comment",
+          "prob": 0.900573194026947
+        },
+        {
+          "start": 67.7,
+          "end": 67.84,
+          "word": " the",
+          "prob": 0.9800249934196472
+        },
+        {
+          "start": 67.84,
+          "end": 67.94,
+          "word": " word",
+          "prob": 0.9298328757286072
+        },
+        {
+          "start": 67.94,
+          "end": 68.2,
+          "word": " link",
+          "prob": 0.9072043299674988
+        },
+        {
+          "start": 68.2,
+          "end": 68.62,
+          "word": " and",
+          "prob": 0.5979678630828857
+        },
+        {
+          "start": 68.62,
+          "end": 68.68,
+          "word": " I'll",
+          "prob": 0.9890824854373932
+        },
+        {
+          "start": 68.68,
+          "end": 68.82,
+          "word": " send",
+          "prob": 0.9962080717086792
+        },
+        {
+          "start": 68.82,
+          "end": 68.96,
+          "word": " it",
+          "prob": 0.9840483665466309
+        },
+        {
+          "start": 68.96,
+          "end": 69.1,
+          "word": " to",
+          "prob": 0.9983166456222534
+        },
+        {
+          "start": 69.1,
+          "end": 69.2,
+          "word": " you.",
+          "prob": 0.9898444414138794
+        }
+      ]
+    }
+  ]
+}
