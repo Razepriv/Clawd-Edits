@@ -1,0 +1,121 @@
+{
+  "video": "D:/video editor/Videos/video_4.mp4",
+  "duration_s": 41.99,
+  "resolution": "1080x1920",
+  "fps": 25,
+  "aspect_ratio": "9:16",
+  "video_codec": "h264 (Main)",
+  "pix_fmt": "yuv420p",
+  "encoder": "h264_nvenc (Lavc59.37.100)",
+  "audio": {
+    "codec": "aac (LC)",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "bitrate_kbps": 127,
+    "music_present": false,
+    "mono_vo_only": true
+  },
+  "transcript_source": "faster-whisper base, en (word-level)",
+  "scene_changes": [],
+  "format_mode": "single_continuous_a_roll_no_cuts",
+  "visual_inventory": {
+    "subject": "Razeen Shaheed \u2014 faux.thinker AI avatar (same studio + wardrobe as Video 2 & 3)",
+    "framing": "medium-tight head + torso, direct-to-camera",
+    "wardrobe": "black pullover hoodie",
+    "backdrop": "warm-LED plant shelf, trailing pothos, hexagonal wall panels, chair back bottom-left",
+    "gesture": "moderate \u2014 hands enter frame occasionally around t=5s and t=30s (the 'pick two or three' beat). Slightly less gesture-density than Video 3, more than Video 2.",
+    "camera_motion": "static, locked-off"
+  },
+  "silences_over_0_2s_bucketed": [
+    {"start": 2.10, "end": 2.47, "boundary_for": "beat 1\u21922 (hook\u2192supporting)"},
+    {"start": 6.02, "end": 6.33, "boundary_for": "beat 2\u21923 (supporting\u2192name-reveal)"},
+    {"start": 8.76, "end": 9.22, "boundary_for": "beat 3\u21924 (name\u2192hot-takes)"},
+    {"start": 14.00, "end": 14.40, "boundary_for": "beat 4\u21925 (hot-takes\u2192proof-quote)"},
+    {"start": 20.55, "end": 20.99, "boundary_for": "beat 5\u21926 (proof\u2192reframe)"},
+    {"start": 25.70, "end": 26.37, "boundary_for": "beat 6\u21927 (reframe\u2192advice)"},
+    {"start": 30.29, "end": 31.07, "boundary_for": "beat 7\u21928 (advice\u2192cred-CTA)"},
+    {"start": 40.62, "end": 41.18, "boundary_for": "right before 'Drop it below' micro-CTA"}
+  ],
+  "beats": [
+    {"n": 1, "role": "HOOK",            "t_start": 0.00,  "t_end": 1.92,  "vo": "Stop saying Canva is dead.",                                                                "function": "pattern-interrupt contrarian hook"},
+    {"n": 2, "role": "SUPPORTING",      "t_start": 2.40,  "t_end": 5.98,  "vo": "Their CEO just endorsed the tool supposedly killing them.",                                  "function": "hint at the twist"},
+    {"n": 3, "role": "NAME_REVEAL",     "t_start": 6.36,  "t_end": 8.66,  "vo": "Anthropic dropped Claude Design yesterday.",                                                 "function": "context drop \u2014 \"yesterday\" = Apr 17 2026"},
+    {"n": 4, "role": "HOT_TAKES",       "t_start": 9.22,  "t_end": 13.92, "vo": "The takes were instant. Canva dead, Figma cooked, design tools over.",                       "function": "mock the internet hot-take feed"},
+    {"n": 5, "role": "PROOF_QUOTE",     "t_start": 14.40, "t_end": 20.48, "vo": "Except Canva's own CEO is quoted in the launch. Export to Canva is a named feature.",        "function": "one-two punch: the CEO + the named feature"},
+    {"n": 6, "role": "REFRAME",         "t_start": 20.94, "t_end": 25.70, "vo": "It's not a replacement. It's a pipeline. The ones who survive AI plug into it.",             "function": "the thesis \u2014 single-word QuoteSlam \"PIPELINE\""},
+    {"n": 7, "role": "ADVICE",          "t_start": 26.26, "t_end": 33.60, "vo": "Not panic about it. Stop ditching tools every time something new drops. Pick two or three that play nice and ship.", "function": "the practical takeaway"},
+    {"n": 8, "role": "CRED_PLUS_CTA",   "t_start": 33.94, "t_end": 41.68, "vo": "I'm running pitch decks through Claude Design into my Canva brand kit this week. Which tool are you keeping in 2026? Drop it below.", "function": "credibility + open-comment CTA"}
+  ],
+  "known_whisper_mishears_corrected": [
+    {"wrong": "Kanwa",      "right": "Canva",     "occurrences": "beats 1, 5, 8 \u2014 consistent"},
+    {"wrong": "Kanwa's",    "right": "Canva's",   "occurrences": "beat 5"},
+    {"wrong": "PidgeDex",   "right": "pitch decks", "occurrences": "beat 8 \u2014 matches Canva connector's 'Generate pitch decks and presentations' feature"}
+  ],
+  "reference_facts_extracted": {
+    "release": {
+      "product": "Claude Design",
+      "date": "April 17, 2026",
+      "initiative": "Anthropic Labs",
+      "source": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+    },
+    "canva_ceo_quote": {
+      "author": "Melanie Perkins \u2014 Co-Founder and CEO of Canva",
+      "quote_excerpt": "We're excited to build on our collaboration with Claude, making it seamless for people to bring ideas and drafts from Claude Design into Canva, where they instantly become fully editable and collaborative designs ready to refine, share, and publish.",
+      "use_in_reel": "beat 5 as QuoteCard component"
+    },
+    "export_formats": ["Canva", "PDF", "PPTX", "HTML"],
+    "benchmark_quote": {
+      "author": "Brilliant",
+      "quote": "Our most complex pages, which took 20+ prompts to recreate in other tools, only required 2 prompts in Claude Design."
+    },
+    "canva_connector_actions": [
+      "browse + search + summarize existing designs",
+      "create designs from conversational prompts",
+      "autofill brand templates with custom content",
+      "autofill charts with data",
+      "import via URL",
+      "resize for different formats",
+      "export as PNG",
+      "generate pitch decks and presentations",
+      "translate designs to other languages"
+    ]
+  },
+  "faux_thinker_style_fit": {
+    "v12_2_components_that_apply": [
+      "ProfileCard at t~0.3s",
+      "SplitStackBroll for Claude Design + Canva CEO quote screenshots",
+      "EmphasisCaption slams (two-line, brand-red gradient)",
+      "QuoteSlam (huge hero-word, one per reel \u2014 \"PIPELINE\")",
+      "WordCaptions single-word red at yPercent 80",
+      "Light-leak transitions between beats (7 beat boundaries available)",
+      "CommentPromptCard for CTA (open question, not DM-gated)",
+      "ComparisonCard with toggle (\"CANVA DEAD\" vs \"CANVA ALIVE\")"
+    ],
+    "net_new_components_this_reel_needs": [
+      "HotTakesFeed \u2014 scrolling viral-take timeline for beat 4 (\"Canva dead, Figma cooked, design tools over\")",
+      "QuoteCard \u2014 authoritative pull-quote card with Melanie Perkins + Canva logo + photo slot (beat 5)",
+      "ExportChipRow \u2014 animated chip row [PDF, PPTX, HTML, \u2192 Canva] with the Canva chip igniting in brand colors (beat 5)",
+      "PipelineDiagram \u2014 L\u2192R arrow flow: [Claude Design] \u2192 [Canva] \u2192 [Ship] with small logos (beats 6 & 8)",
+      "StackShipCard \u2014 3-tile tool stack with \"+ SHIP\" stamp (beat 7 \"pick two or three\")",
+      "DeadTakeStrikethrough \u2014 draw-on red strike across the word \"DEAD\" in the hook (beat 1). Lifted from the Nick-1 negation-slash pattern in our audit set.",
+      "BrandKitReveal \u2014 Canva brand-kit card showing faux.thinker logos + red swatch + Archivo Black + Inter (beat 8, visual proof of the \"brand kit this week\" claim)",
+      "YearToggleCard \u2014 2024/2025/2026 chip row with 2026 glowing (beat 8 CTA framing)"
+    ]
+  },
+  "hook_animation_candidates": {
+    "if_anime_hook_requested": [
+      "Anime scene: a tombstone labelled 'CANVA' with the Canva logo, then it cracks open and Melanie Perkins-style anime character rises from it holding a Claude Design tablet. 4-6 s. Matches 'Stop saying Canva is dead.'",
+      "Anime scene: three anime-style tech tools ('CANVA', 'FIGMA', 'CLAUDE DESIGN') standing in a line-up like team members; the Claude one shakes hands with the Canva one while the Figma one steps back. Matches 'pipeline' framing.",
+      "Simpler motion-graphics route (no Veo cost): giant 'CANVA DEAD' lower-third with red slash drawing across 'DEAD', shatter-glass transition reveals the Canva CEO quote card. All-Remotion, $0."
+    ]
+  },
+  "asset_gaps_before_render": [
+    "Scrape Anthropic Claude Design announcement page (hero + Melanie Perkins quote + export-format list)",
+    "Scrape claude.com/connectors/canva page (connector actions list + Canva branding)",
+    "Fetch Canva logo (brand-approved wordmark, SVG preferred)",
+    "Fetch Brilliant logo (for the 20\u219220 prompts benchmark quote \u2014 optional)",
+    "Optionally generate anime hook via Veo 3 Fast (~$0.90) if user opts in",
+    "rembg avatar_v4.mp4 \u2192 matted_avatar_v4/ (~1050 frames, ~11 min)",
+    "Build 4\u20135 Ken-Burns MP4s from scrapes"
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "language": "en",
+  "duration": 41.9626875,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.92,
+      "text": " Stop saying Kanwa is dead.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.44,
+          "word": " Stop"
+        },
+        {
+          "start": 0.44,
+          "end": 0.96,
+          "word": " saying"
+        },
+        {
+          "start": 0.96,
+          "end": 1.46,
+          "word": " Kanwa"
+        },
+        {
+          "start": 1.46,
+          "end": 1.68,
+          "word": " is"
+        },
+        {
+          "start": 1.68,
+          "end": 1.92,
+          "word": " dead."
+        }
+      ]
+    },
+    {
+      "start": 2.4,
+      "end": 5.98,
+      "text": " Their CEO just endorsed the tool, supposedly killing them.",
+      "words": [
+        {
+          "start": 2.4,
+          "end": 2.68,
+          "word": " Their"
+        },
+        {
+          "start": 2.68,
+          "end": 3.08,
+          "word": " CEO"
+        },
+        {
+          "start": 3.08,
+          "end": 3.58,
+          "word": " just"
+        },
+        {
+          "start": 3.58,
+          "end": 3.94,
+          "word": " endorsed"
+        },
+        {
+          "start": 3.94,
+          "end": 4.26,
+          "word": " the"
+        },
+        {
+          "start": 4.26,
+          "end": 4.54,
+          "word": " tool,"
+        },
+        {
+          "start": 4.92,
+          "end": 5.28,
+          "word": " supposedly"
+        },
+        {
+          "start": 5.28,
+          "end": 5.66,
+          "word": " killing"
+        },
+        {
+          "start": 5.66,
+          "end": 5.98,
+          "word": " them."
+        }
+      ]
+    },
+    {
+      "start": 6.36,
+      "end": 8.66,
+      "text": " Anthropic dropped Claude design yesterday.",
+      "words": [
+        {
+          "start": 6.36,
+          "end": 6.86,
+          "word": " Anthropic"
+        },
+        {
+          "start": 6.86,
+          "end": 7.32,
+          "word": " dropped"
+        },
+        {
+          "start": 7.32,
+          "end": 7.82,
+          "word": " Claude"
+        },
+        {
+          "start": 7.82,
+          "end": 8.1,
+          "word": " design"
+        },
+        {
+          "start": 8.1,
+          "end": 8.66,
+          "word": " yesterday."
+        }
+      ]
+    },
+    {
+      "start": 9.22,
+      "end": 10.34,
+      "text": " The takes were instant.",
+      "words": [
+        {
+          "start": 9.22,
+          "end": 9.3,
+          "word": " The"
+        },
+        {
+          "start": 9.3,
+          "end": 9.6,
+          "word": " takes"
+        },
+        {
+          "start": 9.6,
+          "end": 9.8,
+          "word": " were"
+        },
+        {
+          "start": 9.8,
+          "end": 10.34,
+          "word": " instant."
+        }
+      ]
+    },
+    {
+      "start": 10.82,
+      "end": 13.92,
+      "text": " Kanwa dead, Figma cooked, design tools over.",
+      "words": [
+        {
+          "start": 10.82,
+          "end": 11.14,
+          "word": " Kanwa"
+        },
+        {
+          "start": 11.14,
+          "end": 11.4,
+          "word": " dead,"
+        },
+        {
+          "start": 11.82,
+          "end": 12.12,
+          "word": " Figma"
+        },
+        {
+          "start": 12.12,
+          "end": 12.44,
+          "word": " cooked,"
+        },
+        {
+          "start": 12.88,
+          "end": 13.12,
+          "word": " design"
+        },
+        {
+          "start": 13.12,
+          "end": 13.5,
+          "word": " tools"
+        },
+        {
+          "start": 13.5,
+          "end": 13.92,
+          "word": " over."
+        }
+      ]
+    },
+    {
+      "start": 14.4,
+      "end": 17.48,
+      "text": " Except Kanwa's own CEO is quoted in the launch.",
+      "words": [
+        {
+          "start": 14.4,
+          "end": 14.62,
+          "word": " Except"
+        },
+        {
+          "start": 14.62,
+          "end": 15.38,
+          "word": " Kanwa's"
+        },
+        {
+          "start": 15.38,
+          "end": 15.66,
+          "word": " own"
+        },
+        {
+          "start": 15.66,
+          "end": 16.08,
+          "word": " CEO"
+        },
+        {
+          "start": 16.08,
+          "end": 16.48,
+          "word": " is"
+        },
+        {
+          "start": 16.48,
+          "end": 16.82,
+          "word": " quoted"
+        },
+        {
+          "start": 16.82,
+          "end": 17.16,
+          "word": " in"
+        },
+        {
+          "start": 17.16,
+          "end": 17.26,
+          "word": " the"
+        },
+        {
+          "start": 17.26,
+          "end": 17.48,
+          "word": " launch."
+        }
+      ]
+    },
+    {
+      "start": 18.38,
+      "end": 20.48,
+      "text": " Export to Kanwa is a named feature.",
+      "words": [
+        {
+          "start": 18.38,
+          "end": 18.7,
+          "word": " Export"
+        },
+        {
+          "start": 18.7,
+          "end": 18.94,
+          "word": " to"
+        },
+        {
+          "start": 18.94,
+          "end": 19.34,
+          "word": " Kanwa"
+        },
+        {
+          "start": 19.34,
+          "end": 19.6,
+          "word": " is"
+        },
+        {
+          "start": 19.6,
+          "end": 19.7,
+          "word": " a"
+        },
+        {
+          "start": 19.7,
+          "end": 20.1,
+          "word": " named"
+        },
+        {
+          "start": 20.1,
+          "end": 20.48,
+          "word": " feature."
+        }
+      ]
+    },
+    {
+      "start": 20.94,
+      "end": 21.86,
+      "text": " It's not a replacement.",
+      "words": [
+        {
+          "start": 20.94,
+          "end": 21.16,
+          "word": " It's"
+        },
+        {
+          "start": 21.16,
+          "end": 21.34,
+          "word": " not"
+        },
+        {
+          "start": 21.34,
+          "end": 21.48,
+          "word": " a"
+        },
+        {
+          "start": 21.48,
+          "end": 21.86,
+          "word": " replacement."
+        }
+      ]
+    },
+    {
+      "start": 22.36,
+      "end": 22.96,
+      "text": " It's a pipeline.",
+      "words": [
+        {
+          "start": 22.36,
+          "end": 22.54,
+          "word": " It's"
+        },
+        {
+          "start": 22.54,
+          "end": 22.62,
+          "word": " a"
+        },
+        {
+          "start": 22.62,
+          "end": 22.96,
+          "word": " pipeline."
+        }
+      ]
+    },
+    {
+      "start": 23.42,
+      "end": 25.7,
+      "text": " The ones who survive AI plug into it.",
+      "words": [
+        {
+          "start": 23.42,
+          "end": 23.52,
+          "word": " The"
+        },
+        {
+          "start": 23.52,
+          "end": 23.76,
+          "word": " ones"
+        },
+        {
+          "start": 23.76,
+          "end": 23.94,
+          "word": " who"
+        },
+        {
+          "start": 23.94,
+          "end": 24.28,
+          "word": " survive"
+        },
+        {
+          "start": 24.28,
+          "end": 24.6,
+          "word": " AI"
+        },
+        {
+          "start": 24.6,
+          "end": 25.16,
+          "word": " plug"
+        },
+        {
+          "start": 25.16,
+          "end": 25.48,
+          "word": " into"
+        },
+        {
+          "start": 25.48,
+          "end": 25.7,
+          "word": " it."
+        }
+      ]
+    },
+    {
+      "start": 26.26,
+      "end": 27.36,
+      "text": " Not panic about it.",
+      "words": [
+        {
+          "start": 26.26,
+          "end": 26.52,
+          "word": " Not"
+        },
+        {
+          "start": 26.52,
+          "end": 26.84,
+          "word": " panic"
+        },
+        {
+          "start": 26.84,
+          "end": 27.12,
+          "word": " about"
+        },
+        {
+          "start": 27.12,
+          "end": 27.36,
+          "word": " it."
+        }
+      ]
+    },
+    {
+      "start": 27.36,
+      "end": 30.2,
+      "text": " Stop ditching tools every time something new drops.",
+      "words": [
+        {
+          "start": 27.36,
+          "end": 28.0,
+          "word": " Stop"
+        },
+        {
+          "start": 28.0,
+          "end": 28.42,
+          "word": " ditching"
+        },
+        {
+          "start": 28.42,
+          "end": 28.64,
+          "word": " tools"
+        },
+        {
+          "start": 28.64,
+          "end": 29.04,
+          "word": " every"
+        },
+        {
+          "start": 29.04,
+          "end": 29.24,
+          "word": " time"
+        },
+        {
+          "start": 29.24,
+          "end": 29.64,
+          "word": " something"
+        },
+        {
+          "start": 29.64,
+          "end": 29.86,
+          "word": " new"
+        },
+        {
+          "start": 29.86,
+          "end": 30.2,
+          "word": " drops."
+        }
+      ]
+    },
+    {
+      "start": 30.94,
+      "end": 33.6,
+      "text": " Pick two or three that play nice and ship.",
+      "words": [
+        {
+          "start": 30.94,
+          "end": 31.14,
+          "word": " Pick"
+        },
+        {
+          "start": 31.14,
+          "end": 31.46,
+          "word": " two"
+        },
+        {
+          "start": 31.46,
+          "end": 31.62,
+          "word": " or"
+        },
+        {
+          "start": 31.62,
+          "end": 31.92,
+          "word": " three"
+        },
+        {
+          "start": 31.92,
+          "end": 32.28,
+          "word": " that"
+        },
+        {
+          "start": 32.28,
+          "end": 32.54,
+          "word": " play"
+        },
+        {
+          "start": 32.54,
+          "end": 32.76,
+          "word": " nice"
+        },
+        {
+          "start": 32.76,
+          "end": 33.36,
+          "word": " and"
+        },
+        {
+          "start": 33.36,
+          "end": 33.6,
+          "word": " ship."
+        }
+      ]
+    },
+    {
+      "start": 33.94,
+      "end": 35.7,
+      "text": " I'm running PidgeDex through Claude design",
+      "words": [
+        {
+          "start": 33.94,
+          "end": 34.08,
+          "word": " I'm"
+        },
+        {
+          "start": 34.08,
+          "end": 34.24,
+          "word": " running"
+        },
+        {
+          "start": 34.24,
+          "end": 34.72,
+          "word": " PidgeDex"
+        },
+        {
+          "start": 34.72,
+          "end": 35.1,
+          "word": " through"
+        },
+        {
+          "start": 35.1,
+          "end": 35.44,
+          "word": " Claude"
+        },
+        {
+          "start": 35.44,
+          "end": 35.7,
+          "word": " design"
+        }
+      ]
+    },
+    {
+      "start": 35.7,
+      "end": 38.14,
+      "text": " into my Kanwa brand kit this week.",
+      "words": [
+        {
+          "start": 35.7,
+          "end": 36.18,
+          "word": " into"
+        },
+        {
+          "start": 36.18,
+          "end": 36.38,
+          "word": " my"
+        },
+        {
+          "start": 36.38,
+          "end": 36.86,
+          "word": " Kanwa"
+        },
+        {
+          "start": 36.86,
+          "end": 37.1,
+          "word": " brand"
+        },
+        {
+          "start": 37.1,
+          "end": 37.34,
+          "word": " kit"
+        },
+        {
+          "start": 37.34,
+          "end": 37.8,
+          "word": " this"
+        },
+        {
+          "start": 37.8,
+          "end": 38.14,
+          "word": " week."
+        }
+      ]
+    },
+    {
+      "start": 38.56,
+      "end": 40.62,
+      "text": " Which tool are you keeping in 2026?",
+      "words": [
+        {
+          "start": 38.56,
+          "end": 38.76,
+          "word": " Which"
+        },
+        {
+          "start": 38.76,
+          "end": 38.96,
+          "word": " tool"
+        },
+        {
+          "start": 38.96,
+          "end": 39.18,
+          "word": " are"
+        },
+        {
+          "start": 39.18,
+          "end": 39.42,
+          "word": " you"
+        },
+        {
+          "start": 39.42,
+          "end": 39.7,
+          "word": " keeping"
+        },
+        {
+          "start": 39.7,
+          "end": 39.96,
+          "word": " in"
+        },
+        {
+          "start": 39.96,
+          "end": 40.62,
+          "word": " 2026?"
+        }
+      ]
+    },
+    {
+      "start": 41.18,
+      "end": 41.68,
+      "text": " Drop it below.",
+      "words": [
+        {
+          "start": 41.18,
+          "end": 41.32,
+          "word": " Drop"
+        },
+        {
+          "start": 41.32,
+          "end": 41.5,
+          "word": " it"
+        },
+        {
+          "start": 41.5,
+          "end": 41.68,
+          "word": " below."
+        }
+      ]
+    }
+  ]
+}

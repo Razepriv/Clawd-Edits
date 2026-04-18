@@ -40,6 +40,7 @@ SORT file.mtime DESC
 - [[Reels Produced/Faux Thinker Intro v12|faux.thinker Intro v12]] — ✅ approved, locked. 31.2 s intro Reel: Razeen introducing WebVerse Arena. 12 iteration versions; v12 is current canonical render.
 - [[Reels Produced/faux.thinker Opus 4.7 Launch v2|faux.thinker Opus 4.7 Launch v2]] — ✅ approved (2026-04-17). 79.3 s news-announcement reel on Anthropic's Claude Opus 4.7 release. 6 head-pop-out B-rolls (Anthropic release page / Mythos / Rakuten / Literal / Pricing / Effort chart) + Claudebench 58→70 RevenueChart + 2 emphasis slams + DMToast "Opus" CTA. Facts cross-verified against the actual release page. Added `RevenueChart.growthOnRight` and `EmphasisCaption.yPosition` as backwards-compatible prop extensions.
 - [[Reels Produced/faux.thinker Codex Launch v1|faux.thinker Codex Launch v1]] — ✅ approved (2026-04-18). 46.7 s news-opinion reel on OpenAI Codex multi-agent update. **First reel with an AI-generated anime hook clip** (Veo 3 Fast) + **8 brand-new Remotion components** (AnimeHookClip, MultiAgentOrchestra, TerminalAgentSim, SleepCycleOverlay, QuoteSlam, SideProjectBadge, ComparisonCard, CommentPromptCard). QuoteSlam "STAFF" is the new signature treatment for single-word kill-lines. Style guide bumped to v12.2.
+- [[Reels Produced/faux.thinker Canva Pipeline v1|faux.thinker Canva Pipeline v1]] — ✅ approved (2026-04-18). 42.2 s contrarian take on Anthropic's Claude Design launch (Apr 17 2026) + Canva integration. Anime hook (tombstone crack + anime-Perkins rising with crystal tablet) + **8 brand-new Remotion components** (DeadTakeStrikethrough, HotTakesFeed, QuoteCard, ExportChipRow, PipelineDiagram, StackShipCard, BrandKitReveal, YearToggleCard). QuoteSlam "PIPELINE" is the signature line. Uses verbatim Perkins CEO quote from the launch page. Style guide bumped to v12.3.
 
 ## Pipeline & assets
 
@@ -59,8 +60,9 @@ SORT file.mtime DESC
 | ElevenLabs (music + SFX generation) | ~$0.60 |
 | Veo 3 Fast (glitch test + probe, now retired) | ~$1.00 |
 | Veo 3 Fast (Codex anime hook, Apr 18) | ~$0.90 |
+| Veo 3 Fast (Canva anime hook, Apr 18) | ~$0.90 |
 | Playwright scraping + rembg matting + FFmpeg compositing | $0 |
-| **Total across all reels** | **~$2.50** |
+| **Total across all reels** | **~$3.40** |
 
 ## How this vault is organized
 

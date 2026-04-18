@@ -9,6 +9,7 @@ import { DEVIN1_SAMPLE_SPEC } from "./styles/devin1/sampleSpec";
 import { FAUX_THINKER_INTRO_SPEC } from "./styles/devin1/fauxThinkerIntroSpec";
 import { FAUX_THINKER_OPUS_SPEC } from "./styles/devin1/opusLaunchSpec";
 import { FAUX_THINKER_CODEX_SPEC } from "./styles/devin1/codexLaunchSpec";
+import { FAUX_THINKER_CANVA_SPEC } from "./styles/devin1/canvaPipelineSpec";
 
 export const RemotionRoot = () => {
   return (
@@ -104,6 +105,26 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={FAUX_THINKER_CODEX_SPEC}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.duration * 25),
+        })}
+      />
+
+      {/* FauxThinker Canva Pipeline reel — 42 s contrarian take on
+          Anthropic's Claude Design launch (Apr 17 2026). Opens with an
+          anime hook (Canva-tombstone crack + anime Perkins rising with a
+          glowing crystal tablet), then runs through 8 new v12.3 components:
+          DeadTakeStrikethrough, HotTakesFeed, QuoteCard (actual Perkins
+          quote from the launch), ExportChipRow (PDF/PPTX/HTML/→Canva with
+          Canva igniting), PipelineDiagram, StackShipCard, BrandKitReveal,
+          YearToggleCard (scanner→settle on 2026). */}
+      <Composition
+        id="FauxThinker-CanvaPipeline"
+        component={Devin1Apply}
+        fps={25}
+        width={1080}
+        height={1920}
+        defaultProps={FAUX_THINKER_CANVA_SPEC}
         calculateMetadata={({ props }) => ({
           durationInFrames: Math.round(props.duration * 25),
         })}

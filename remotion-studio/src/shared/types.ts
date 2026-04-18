@@ -313,6 +313,134 @@ export const OverlayEventSchema = z.discriminatedUnion("kind", [
     prompt: z.string(),
     header: z.string().optional(),
   }),
+
+  // ───────── Canva-pipeline reel components (v12.3 additions) ─────────
+  // DeadTakeStrikethrough: two-line hook with a crimson slash drawn across
+  // the second word. For "Stop saying CANVA (is) DEAD" pattern.
+  z.object({
+    kind: z.literal("dead_take_strikethrough"),
+    t_start: z.number(),
+    duration: z.number(),
+    preserveWord: z.string(),
+    struckWord: z.string(),
+    strikeStartFrame: z.number().optional(),
+    strikeDurationFrames: z.number().optional(),
+  }),
+  // HotTakesFeed: Twitter-style scrolling feed of viral takes with staggered
+  // entry. For "The takes were instant. Canva dead, Figma cooked, …".
+  z.object({
+    kind: z.literal("hot_takes_feed"),
+    t_start: z.number(),
+    duration: z.number(),
+    header: z.string().optional(),
+    takes: z.array(
+      z.object({
+        handle: z.string(),
+        name: z.string(),
+        text: z.string(),
+        avatarSeed: z.number().optional(),
+        timeLabel: z.string().optional(),
+      }),
+    ),
+    staggerFrames: z.number().optional(),
+  }),
+  // QuoteCard: authoritative pull-quote card with brand header strip,
+  // giant quotation mark, author footer. For CEO-quoted-in-launch moments.
+  z.object({
+    kind: z.literal("quote_card"),
+    t_start: z.number(),
+    duration: z.number(),
+    quote: z.string(),
+    author: z.string(),
+    role: z.string(),
+    brandLogoSrc: z.string().optional(),
+    brandColor: z.string().optional(),
+    accentStart: z.string().optional(),
+    accentEnd: z.string().optional(),
+  }),
+  // ExportChipRow: row of export-format chips with one chip igniting.
+  // For "Export to Canva is a named feature" moments.
+  z.object({
+    kind: z.literal("export_chip_row"),
+    t_start: z.number(),
+    duration: z.number(),
+    chips: z.array(
+      z.object({
+        label: z.string(),
+        highlight: z.boolean().optional(),
+        prefix: z.string().optional(),
+      }),
+    ),
+    header: z.string().optional(),
+    highlightStart: z.string().optional(),
+    highlightEnd: z.string().optional(),
+    igniteAtFrame: z.number().optional(),
+    yPercent: z.number().optional(),
+  }),
+  // PipelineDiagram: L→R arrow flow showing pipeline steps. For "It's a
+  // pipeline" + "pitch decks through Claude Design into Canva brand kit".
+  z.object({
+    kind: z.literal("pipeline_diagram"),
+    t_start: z.number(),
+    duration: z.number(),
+    header: z.string().optional(),
+    staggerFrames: z.number().optional(),
+    nodes: z.array(
+      z.object({
+        label: z.string(),
+        logoSrc: z.string().optional(),
+        gradientStart: z.string().optional(),
+        gradientEnd: z.string().optional(),
+        glyph: z.string().optional(),
+        highlight: z.boolean().optional(),
+      }),
+    ),
+  }),
+  // StackShipCard: 3-tile tool stack with a "+ SHIP" stamp landing last.
+  // For "Pick two or three that play nice and ship".
+  z.object({
+    kind: z.literal("stack_ship_card"),
+    t_start: z.number(),
+    duration: z.number(),
+    tools: z.array(
+      z.object({
+        label: z.string(),
+        logoSrc: z.string().optional(),
+        gradientStart: z.string().optional(),
+        gradientEnd: z.string().optional(),
+        glyph: z.string().optional(),
+      }),
+    ),
+    header: z.string().optional(),
+    shipLabel: z.string().optional(),
+    shipAtFrame: z.number().optional(),
+  }),
+  // BrandKitReveal: Canva-style brand-kit card with logo + palette + fonts.
+  z.object({
+    kind: z.literal("brand_kit_reveal"),
+    t_start: z.number(),
+    duration: z.number(),
+    brandName: z.string(),
+    subtitle: z.string().optional(),
+    logoSrc: z.string().optional(),
+    colors: z.tuple([z.string(), z.string(), z.string()]).optional(),
+    primaryFont: z.string().optional(),
+    bodyFont: z.string().optional(),
+    header: z.string().optional(),
+  }),
+  // YearToggleCard: year chips with one igniting (scanner → settle).
+  // For "Which tool are you keeping in 2026?".
+  z.object({
+    kind: z.literal("year_toggle_card"),
+    t_start: z.number(),
+    duration: z.number(),
+    years: z.array(z.union([z.string(), z.number()])),
+    highlightedYear: z.union([z.string(), z.number()]),
+    header: z.string().optional(),
+    subtitle: z.string().optional(),
+    settleAtFrame: z.number().optional(),
+    yPercent: z.number().optional(),
+  }),
 ]);
 
 export type OverlayEvent = z.infer<typeof OverlayEventSchema>;

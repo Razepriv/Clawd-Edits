@@ -27,6 +27,15 @@ import { QuoteSlam } from "./components/QuoteSlam";
 import { SideProjectBadge } from "./components/SideProjectBadge";
 import { ComparisonCard } from "./components/ComparisonCard";
 import { CommentPromptCard } from "./components/CommentPromptCard";
+// Canva-pipeline reel components (v12.3)
+import { DeadTakeStrikethrough } from "./components/DeadTakeStrikethrough";
+import { HotTakesFeed } from "./components/HotTakesFeed";
+import { QuoteCard } from "./components/QuoteCard";
+import { ExportChipRow } from "./components/ExportChipRow";
+import { PipelineDiagram } from "./components/PipelineDiagram";
+import { StackShipCard } from "./components/StackShipCard";
+import { BrandKitReveal } from "./components/BrandKitReveal";
+import { YearToggleCard } from "./components/YearToggleCard";
 
 // Apply composition — ingests an avatar video + a spec of overlay events
 // anchored to absolute seconds in the avatar timeline, and renders the
@@ -266,6 +275,87 @@ function RenderEvent({ event, resolveSrc }: RenderEventProps) {
           username={event.username}
           prompt={event.prompt}
           header={event.header}
+        />
+      );
+    // ───────── Canva-pipeline reel components (v12.3) ─────────
+    case "dead_take_strikethrough":
+      return (
+        <DeadTakeStrikethrough
+          preserveWord={event.preserveWord}
+          struckWord={event.struckWord}
+          strikeStartFrame={event.strikeStartFrame}
+          strikeDurationFrames={event.strikeDurationFrames}
+        />
+      );
+    case "hot_takes_feed":
+      return (
+        <HotTakesFeed
+          takes={event.takes}
+          header={event.header}
+          staggerFrames={event.staggerFrames}
+        />
+      );
+    case "quote_card":
+      return (
+        <QuoteCard
+          quote={event.quote}
+          author={event.author}
+          role={event.role}
+          brandLogoSrc={event.brandLogoSrc ? resolveSrc(event.brandLogoSrc) : undefined}
+          brandColor={event.brandColor}
+          accentStart={event.accentStart}
+          accentEnd={event.accentEnd}
+        />
+      );
+    case "export_chip_row":
+      return (
+        <ExportChipRow
+          chips={event.chips}
+          header={event.header}
+          highlightStart={event.highlightStart}
+          highlightEnd={event.highlightEnd}
+          igniteAtFrame={event.igniteAtFrame}
+          yPercent={event.yPercent}
+        />
+      );
+    case "pipeline_diagram":
+      return (
+        <PipelineDiagram
+          nodes={event.nodes}
+          header={event.header}
+          staggerFrames={event.staggerFrames}
+        />
+      );
+    case "stack_ship_card":
+      return (
+        <StackShipCard
+          tools={event.tools}
+          header={event.header}
+          shipLabel={event.shipLabel}
+          shipAtFrame={event.shipAtFrame}
+        />
+      );
+    case "brand_kit_reveal":
+      return (
+        <BrandKitReveal
+          brandName={event.brandName}
+          subtitle={event.subtitle}
+          logoSrc={event.logoSrc}
+          colors={event.colors}
+          primaryFont={event.primaryFont}
+          bodyFont={event.bodyFont}
+          header={event.header}
+        />
+      );
+    case "year_toggle_card":
+      return (
+        <YearToggleCard
+          years={event.years}
+          highlightedYear={event.highlightedYear}
+          header={event.header}
+          subtitle={event.subtitle}
+          settleAtFrame={event.settleAtFrame}
+          yPercent={event.yPercent}
         />
       );
   }
