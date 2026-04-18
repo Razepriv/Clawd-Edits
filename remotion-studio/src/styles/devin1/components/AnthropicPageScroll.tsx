@@ -150,20 +150,23 @@ export function AnthropicPageScroll({
             }}
           />
 
-          {/* Optional highlight ring */}
+          {/* Optional soft-amber spotlight glow around the landing target
+              (replaces the earlier hard red rectangle that looked like a
+              validation error). No border — just a radial-gradient wash
+              that pulls the eye toward the right area. */}
           {highlightBox ? (
             <div
               style={{
                 position: "absolute",
-                left: `${highlightBox.xPct}%`,
-                top: `${highlightBox.yPct}%`,
-                width: `${highlightBox.wPct}%`,
-                height: `${highlightBox.hPct}%`,
-                border: `3px solid ${brand.colors.accent}`,
-                borderRadius: 12,
-                boxShadow: `0 0 30px ${brand.colors.accent}66`,
+                left: `${highlightBox.xPct - 2}%`,
+                top: `${highlightBox.yPct - 2}%`,
+                width: `${highlightBox.wPct + 4}%`,
+                height: `${highlightBox.hPct + 4}%`,
+                background:
+                  "radial-gradient(ellipse at center, rgba(255,220,150,0.28) 0%, rgba(255,220,150,0.12) 45%, transparent 75%)",
                 opacity: highlightOpacity,
                 pointerEvents: "none",
+                filter: "blur(4px)",
               }}
             />
           ) : null}

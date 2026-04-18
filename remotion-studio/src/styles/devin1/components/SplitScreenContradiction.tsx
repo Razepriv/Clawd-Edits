@@ -49,6 +49,14 @@ export function SplitScreenContradiction({
   const halfHeight = height;
   const halfWidth = width / 2;
 
+  // Divider line opacity fades in with the rest of the composition
+  const dividerOpacity = interpolate(
+    frame,
+    [2, 12],
+    [0, 1],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
+
   return (
     <AbsoluteFill style={{ backgroundColor: brand.colors.background, pointerEvents: "none" }}>
       {/* LEFT half — the "Canva is dead" take (blurred, washed-out, crossed-out vibe) */}
@@ -67,7 +75,6 @@ export function SplitScreenContradiction({
           alignItems: "center",
           justifyContent: "center",
           padding: "120px 40px",
-          borderRight: `1px solid ${brand.colors.divider}`,
         }}
       >
         {/* Label pill top */}
@@ -105,6 +112,22 @@ export function SplitScreenContradiction({
           {leftBody}
         </div>
       </div>
+
+      {/* HARD vertical divider between the two halves — thin white line
+          with a subtle soft-glow so the eye registers "two sides" in <1 s. */}
+      <div
+        style={{
+          position: "absolute",
+          left: halfWidth - 1,
+          top: 120,
+          width: 2,
+          height: halfHeight - 240,
+          backgroundColor: "rgba(255,255,255,0.85)",
+          boxShadow:
+            "0 0 14px rgba(255,255,255,0.35), 0 0 30px rgba(255,255,255,0.15)",
+          opacity: dividerOpacity,
+        }}
+      />
 
       {/* RIGHT half — the endorsement quote */}
       <div
@@ -144,26 +167,28 @@ export function SplitScreenContradiction({
         <div
           style={{
             fontFamily: "Georgia, serif",
-            fontSize: 120,
+            fontSize: 140,
             lineHeight: 0.6,
             color: "#00C4CC",
-            opacity: 0.5,
+            opacity: 0.55,
             alignSelf: "flex-start",
-            marginBottom: 10,
+            marginBottom: 4,
+            marginLeft: -8,
           }}
         >
           &ldquo;
         </div>
-        {/* Quote body */}
+        {/* Quote body — PUNCHY 6-word payoff (matches left-side reading time) */}
         <div
           style={{
-            fontFamily: brand.fonts.ui,
-            fontSize: 36,
-            lineHeight: 1.3,
-            fontStyle: "italic",
-            fontWeight: 500,
+            fontFamily: brand.fonts.emphasis,
+            fontSize: 62,
+            lineHeight: 1.08,
+            letterSpacing: "-0.02em",
+            textTransform: "uppercase",
             color: brand.colors.textPrimary,
-            marginBottom: 28,
+            marginBottom: 36,
+            textShadow: "0 4px 18px rgba(0,0,0,0.7)",
           }}
         >
           {rightBody}
@@ -178,10 +203,10 @@ export function SplitScreenContradiction({
             flexDirection: "column",
           }}
         >
-          <span style={{ fontSize: 24, fontWeight: 700, color: brand.colors.textPrimary }}>
+          <span style={{ fontSize: 26, fontWeight: 700, color: brand.colors.textPrimary }}>
             {rightAuthor}
           </span>
-          <span style={{ fontSize: 20, color: brand.colors.textSecondary, marginTop: 2 }}>
+          <span style={{ fontSize: 22, color: brand.colors.textSecondary, marginTop: 2 }}>
             {rightRole}
           </span>
         </div>

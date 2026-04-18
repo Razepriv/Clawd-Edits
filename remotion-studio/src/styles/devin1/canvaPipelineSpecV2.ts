@@ -176,15 +176,18 @@ export const FAUX_THINKER_CANVA_V2_SPEC: ApplySpec = {
     // ═════════════════════════════════════════════════════════════════════
     // BEAT 0-1 — HOOK (0-3 s) : SplitScreenContradiction (text-only, no face)
     // ═════════════════════════════════════════════════════════════════════
+    // Hook: 3-word left / 6-word right for first-frame readability (<1.5 s
+    // scroll-decision window). Full Perkins quote moves to the 17.3 s
+    // QuoteCard where viewers have committed. "THE CEO" label creates
+    // sharper tension with "THE TAKE" (person vs take).
     {
       kind: "split_screen_contradiction",
       t_start: 0.0,
       duration: 3.20,
       leftLabel: "THE TAKE",
       leftBody: "CANVA IS DEAD.",
-      rightLabel: "THE LAUNCH",
-      rightBody:
-        "We're excited to build on our collaboration with Claude — bringing Claude Design into Canva.",
+      rightLabel: "THE CEO",
+      rightBody: "BRING CLAUDE DESIGN INTO CANVA.",
       rightAuthor: "Melanie Perkins",
       rightRole: "Co-Founder & CEO, Canva",
     },
@@ -217,7 +220,7 @@ export const FAUX_THINKER_CANVA_V2_SPEC: ApplySpec = {
       cursorLandX: 450,
       cursorLandY: 520,
       cursorLandAtFrame: 70, // ~2.8 s in → before exit
-      highlightBox: { xPct: 14, yPct: 24, wPct: 72, hPct: 10 },
+      // No highlightBox — the cursor click ripple is enough emphasis.
     },
     { kind: "sfx", t_start: 3.98, src: "sfx_pack/swoosh_1.mp3", volume: 0.9, duration: 0.6 },
     { kind: "sfx", t_start: 6.80, src: "sfx_pack/click.mp3", volume: 0.9, duration: 0.4 },
@@ -299,7 +302,8 @@ export const FAUX_THINKER_CANVA_V2_SPEC: ApplySpec = {
       cursorLandX: 300,
       cursorLandY: 700,
       cursorLandAtFrame: 60,
-      highlightBox: { xPct: 12, yPct: 28, wPct: 42, hPct: 40 },
+      // No highlightBox — keep the scroll clean, the QuoteCard that lands
+      // at 17.3 s does the authoritative highlighting of the quote.
     },
     { kind: "sfx", t_start: 14.38, src: "sfx_pack/swoosh_2.mp3", volume: 0.85, duration: 0.6 },
 
@@ -392,11 +396,17 @@ export const FAUX_THINKER_CANVA_V2_SPEC: ApplySpec = {
     // the Canva editor (from the YouTube demo). Sits UNDER the still-lit
     // NumberedList for the overlap window.
     // ═════════════════════════════════════════════════════════════════════
+    // Canva editor proof shot. Using the PAN-ZOOM Ken-Burns build: source
+    // scaled to fill 1920 height (→ 3413 wide), then a 1080x1920 window
+    // pans left→right across the Canva UI with a breathing zoom. Fills
+    // the full canvas with editor content at all times — no dead space.
+    // TODO(v3): swap `brollSrc` for Razeen's real Canva screen recording
+    // once captured (see asset-drop spec).
     {
       kind: "stacked_broll",
       t_start: 29.00,
       duration: 5.00,
-      brollSrc: "platform_recordings/canva_editor_kb.mp4",
+      brollSrc: "platform_recordings/canva_editor_panzoom_kb.mp4",
       avatarSrc: "avatar_v4.mp4",
       avatarStartSeconds: 29.00,
       mattedPatternPath: "matted_avatar_v4/mat_%04d.png",
