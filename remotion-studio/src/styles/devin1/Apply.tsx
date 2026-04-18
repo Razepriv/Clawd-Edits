@@ -36,6 +36,14 @@ import { PipelineDiagram } from "./components/PipelineDiagram";
 import { StackShipCard } from "./components/StackShipCard";
 import { BrandKitReveal } from "./components/BrandKitReveal";
 import { YearToggleCard } from "./components/YearToggleCard";
+// Canva-pipeline v2 re-cut components (v12.4)
+import { SplitScreenContradiction } from "./components/SplitScreenContradiction";
+import { DateTag } from "./components/DateTag";
+import { XHotTakeFlashcut } from "./components/XHotTakeFlashcut";
+import { AnthropicPageScroll } from "./components/AnthropicPageScroll";
+import { SaveMomentSlate } from "./components/SaveMomentSlate";
+import { NumberedList } from "./components/NumberedList";
+import { QuestionCaption } from "./components/QuestionCaption";
 
 // Apply composition — ingests an avatar video + a spec of overlay events
 // anchored to absolute seconds in the avatar timeline, and renders the
@@ -355,6 +363,89 @@ function RenderEvent({ event, resolveSrc }: RenderEventProps) {
           header={event.header}
           subtitle={event.subtitle}
           settleAtFrame={event.settleAtFrame}
+          yPercent={event.yPercent}
+        />
+      );
+    // ───────── Canva-pipeline v2 re-cut components (v12.4) ─────────
+    case "split_screen_contradiction":
+      return (
+        <SplitScreenContradiction
+          leftLabel={event.leftLabel}
+          leftBody={event.leftBody}
+          rightLabel={event.rightLabel}
+          rightBody={event.rightBody}
+          rightAuthor={event.rightAuthor}
+          rightRole={event.rightRole}
+          leftHue={event.leftHue}
+          rightHue={event.rightHue}
+        />
+      );
+    case "date_tag":
+      return (
+        <DateTag
+          text={event.text}
+          glyph={event.glyph}
+          topPx={event.topPx}
+          accentColor={event.accentColor}
+        />
+      );
+    case "x_hot_take_flashcut":
+      return (
+        <XHotTakeFlashcut
+          imageSrc={event.imageSrc}
+          name={event.name}
+          handle={event.handle}
+          blurHandle={event.blurHandle}
+          text={event.text}
+          timeLabel={event.timeLabel}
+          likes={event.likes}
+          retweets={event.retweets}
+          replies={event.replies}
+          avatarStart={event.avatarStart}
+          avatarEnd={event.avatarEnd}
+          cardWidth={event.cardWidth}
+        />
+      );
+    case "anthropic_page_scroll":
+      return (
+        <AnthropicPageScroll
+          imageSrc={event.imageSrc}
+          startScrollY={event.startScrollY}
+          endScrollY={event.endScrollY}
+          cursorLandX={event.cursorLandX}
+          cursorLandY={event.cursorLandY}
+          cursorLandAtFrame={event.cursorLandAtFrame}
+          highlightBox={event.highlightBox}
+        />
+      );
+    case "save_moment_slate":
+      return (
+        <SaveMomentSlate
+          text={event.text}
+          kicker={event.kicker}
+          hint={event.hint}
+          highlight={event.highlight}
+          dimOpacity={event.dimOpacity}
+        />
+      );
+    case "numbered_list":
+      return (
+        <NumberedList
+          items={event.items}
+          header={event.header}
+          staggerFrames={event.staggerFrames}
+          yPercent={event.yPercent}
+          xPx={event.xPx}
+          centered={event.centered}
+          cardWidth={event.cardWidth}
+        />
+      );
+    case "question_caption":
+      return (
+        <QuestionCaption
+          text={event.text}
+          highlight={event.highlight}
+          subtitle={event.subtitle}
           yPercent={event.yPercent}
         />
       );

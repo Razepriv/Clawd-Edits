@@ -441,6 +441,114 @@ export const OverlayEventSchema = z.discriminatedUnion("kind", [
     settleAtFrame: z.number().optional(),
     yPercent: z.number().optional(),
   }),
+
+  // ───────── Canva-pipeline v2 re-cut components (v12.4 additions) ─────────
+  // SplitScreenContradiction: text-only split-screen hook (no face in frame).
+  // Left = blurred hot take. Right = authoritative counter-quote.
+  z.object({
+    kind: z.literal("split_screen_contradiction"),
+    t_start: z.number(),
+    duration: z.number(),
+    leftLabel: z.string(),
+    leftBody: z.string(),
+    rightLabel: z.string(),
+    rightBody: z.string(),
+    rightAuthor: z.string(),
+    rightRole: z.string(),
+    leftHue: z.string().optional(),
+    rightHue: z.string().optional(),
+  }),
+  // DateTag: top-center timestamp pill for event framing.
+  z.object({
+    kind: z.literal("date_tag"),
+    t_start: z.number(),
+    duration: z.number(),
+    text: z.string(),
+    glyph: z.string().optional(),
+    topPx: z.number().optional(),
+    accentColor: z.string().optional(),
+  }),
+  // XHotTakeFlashcut: single X/Twitter card for flash-cut sequences.
+  // Can render from a real screenshot (imageSrc) or a realistic mock.
+  z.object({
+    kind: z.literal("x_hot_take_flashcut"),
+    t_start: z.number(),
+    duration: z.number(),
+    imageSrc: z.string().optional(),
+    name: z.string().optional(),
+    handle: z.string().optional(),
+    blurHandle: z.boolean().optional(),
+    text: z.string().optional(),
+    timeLabel: z.string().optional(),
+    likes: z.number().optional(),
+    retweets: z.number().optional(),
+    replies: z.number().optional(),
+    avatarStart: z.string().optional(),
+    avatarEnd: z.string().optional(),
+    cardWidth: z.number().optional(),
+  }),
+  // AnthropicPageScroll: simulated browser scroll with cursor landing
+  // + optional highlight ring around the landing target.
+  z.object({
+    kind: z.literal("anthropic_page_scroll"),
+    t_start: z.number(),
+    duration: z.number(),
+    imageSrc: z.string(),
+    startScrollY: z.number().optional(),
+    endScrollY: z.number().optional(),
+    cursorLandX: z.number().optional(),
+    cursorLandY: z.number().optional(),
+    cursorLandAtFrame: z.number().optional(),
+    highlightBox: z
+      .object({
+        xPct: z.number(),
+        yPct: z.number(),
+        wPct: z.number(),
+        hPct: z.number(),
+      })
+      .optional(),
+  }),
+  // SaveMomentSlate: full-frame bold-text moment, dims background, 3s hold.
+  z.object({
+    kind: z.literal("save_moment_slate"),
+    t_start: z.number(),
+    duration: z.number(),
+    text: z.string(),
+    kicker: z.string().optional(),
+    hint: z.string().optional(),
+    highlight: z.string().optional(),
+    dimOpacity: z.number().optional(),
+  }),
+  // NumberedList: numbered list card with gradient number glyphs. Defaults
+  // to horizontally centered + positioned BELOW the face (yPercent 62) so
+  // it stays inside the safe zone without covering the speaker.
+  z.object({
+    kind: z.literal("numbered_list"),
+    t_start: z.number(),
+    duration: z.number(),
+    items: z.array(
+      z.object({
+        text: z.string(),
+        highlight: z.string().optional(),
+      }),
+    ),
+    header: z.string().optional(),
+    staggerFrames: z.number().optional(),
+    yPercent: z.number().optional(),
+    xPx: z.number().optional(),
+    centered: z.boolean().optional(),
+    cardWidth: z.number().optional(),
+  }),
+  // QuestionCaption: pinned question overlay with brand-red border + tape corner.
+  z.object({
+    kind: z.literal("question_caption"),
+    t_start: z.number(),
+    duration: z.number(),
+    text: z.string(),
+    highlight: z.string().optional(),
+    subtitle: z.string().optional(),
+    yPercent: z.number().optional(),
+  }),
 ]);
 
 export type OverlayEvent = z.infer<typeof OverlayEventSchema>;

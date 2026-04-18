@@ -10,6 +10,7 @@ import { FAUX_THINKER_INTRO_SPEC } from "./styles/devin1/fauxThinkerIntroSpec";
 import { FAUX_THINKER_OPUS_SPEC } from "./styles/devin1/opusLaunchSpec";
 import { FAUX_THINKER_CODEX_SPEC } from "./styles/devin1/codexLaunchSpec";
 import { FAUX_THINKER_CANVA_SPEC } from "./styles/devin1/canvaPipelineSpec";
+import { FAUX_THINKER_CANVA_V2_SPEC } from "./styles/devin1/canvaPipelineSpecV2";
 
 export const RemotionRoot = () => {
   return (
@@ -125,6 +126,33 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={FAUX_THINKER_CANVA_SPEC}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.duration * 25),
+        })}
+      />
+
+      {/* FauxThinker Canva Pipeline v2 — re-cut per user's new edit plan:
+          - 0-3 s split-screen textual hook (no face in scene 1)
+          - DateTag "APR 17, 2026 · CLAUDE DESIGN LAUNCH" top-center
+          - 4-8 s AnthropicPageScroll with cursor landing on headline
+          - 10-14 s 3× X hot-take flash-cut (blurred handles)
+          - 14-18 s scroll down to Perkins quote on Anthropic page
+          - 17-20 s QuoteCard with verbatim Perkins quote
+          - 18-20 s ExportChipRow (PDF/PPTX/HTML/→Canva)
+          - 20-23 s SaveMomentSlate "It's not a replacement. It's a pipeline."
+          - 26-33 s NumberedList (3-rule advice)
+          - 29-34 s Canva editor proof shot + stacked B-roll
+          - 34-38 s QuestionCaption "Which tool are you keeping in 2026?"
+          - 39-42 s CommentPromptCard CTA
+          All overlays respect IG safe zones (middle 70 %, clear of
+          top 10 % / bottom 20 % / right 15 %). 7 new v12.4 components. */}
+      <Composition
+        id="FauxThinker-CanvaPipeline-v2"
+        component={Devin1Apply}
+        fps={25}
+        width={1080}
+        height={1920}
+        defaultProps={FAUX_THINKER_CANVA_V2_SPEC}
         calculateMetadata={({ props }) => ({
           durationInFrames: Math.round(props.duration * 25),
         })}
