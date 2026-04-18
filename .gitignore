@@ -43,11 +43,13 @@ Thumbs.db
 /Styles/
 /Video 1/
 /Video 2/
+/Videos/
 /video 1/
 /video 2/
 
 # Purchased/licensed asset packs — not ours to redistribute
 /Packs/
+/Packs.rar
 
 # Renders — rebuildable from source
 /outputs/*.mp4
@@ -82,6 +84,7 @@ _audit/**/stills/*.png
 _audit/**/scene_showinfo.log
 _audit/**/preview_*.png
 _audit/**/words_ts.txt
+_audit/**/anime_preview/
 
 # External reference toolkits (read-only; not authored here)
 ref/

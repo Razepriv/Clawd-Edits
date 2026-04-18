@@ -1,0 +1,98 @@
+{
+  "video": "D:/video editor/Videos/Insta_Video_3.mp4",
+  "duration_s": 46.49,
+  "resolution": "1080x1920",
+  "fps": 25,
+  "aspect_ratio": "9:16",
+  "video_codec": "h264 (Main)",
+  "pix_fmt": "yuv420p",
+  "encoder": "h264_nvenc (Lavc59.37.100)",
+  "audio": {
+    "codec": "aac (LC)",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "bitrate_kbps": 127,
+    "music_present": false,
+    "mono_vo_only": true
+  },
+  "transcript_source": "faster-whisper base, en (word-level)",
+  "scene_changes": [],
+  "format_mode": "single_continuous_a_roll_no_cuts",
+  "visual_inventory": {
+    "subject": "Razeen Shaheed — faux.thinker AI avatar",
+    "framing": "medium-tight, head + torso + occasional hand gestures enter frame from bottom",
+    "wardrobe": "black pullover hoodie (identical to Video 2)",
+    "backdrop": "warm-LED plant shelf, trailing pothos, hexagonal wall panels, chair back bottom-left (identical to Video 2)",
+    "lighting": "warm 2800-3200K key + rim from shelf, matches Video 2 \u2014 same session or same setup",
+    "gesture": "HIGH gesture density \u2014 hands visible entering frame in ~40% of frames (f_0050, f_0100, f_0130, f_0180). Affects where we can safely place bottom-center captions",
+    "camera_motion": "static, locked-off"
+  },
+  "silences_over_0_2s_bucketed": [
+    {"start": 2.41, "end": 2.94, "duration": 0.53, "boundary_for": "beat 1\u21922"},
+    {"start": 4.57, "end": 4.98, "duration": 0.41},
+    {"start": 8.79, "end": 9.46, "duration": 0.67, "boundary_for": "beat 2\u21923"},
+    {"start": 10.43, "end": 10.76, "duration": 0.33},
+    {"start": 11.62, "end": 12.04, "duration": 0.42},
+    {"start": 13.25, "end": 13.88, "duration": 0.63},
+    {"start": 14.72, "end": 15.31, "duration": 0.59},
+    {"start": 16.16, "end": 16.52, "duration": 0.36},
+    {"start": 18.59, "end": 18.90, "duration": 0.31},
+    {"start": 21.17, "end": 21.49, "duration": 0.31},
+    {"start": 22.61, "end": 23.44, "duration": 0.83, "boundary_for": "beat 4\u21925"},
+    {"start": 26.34, "end": 26.96, "duration": 0.62, "boundary_for": "beat 5\u21926"},
+    {"start": 30.85, "end": 31.70, "duration": 0.86, "boundary_for": "beat 6\u21927"},
+    {"start": 35.68, "end": 35.91, "duration": 0.23},
+    {"start": 38.21, "end": 38.91, "duration": 0.70},
+    {"start": 41.30, "end": 42.14, "duration": 0.85, "boundary_for": "beat 7\u21928"},
+    {"start": 42.77, "end": 44.51, "duration": 1.74, "boundary_for": "big beat break before CTA"}
+  ],
+  "beats": [
+    {"n": 1, "role": "HOOK",            "t_start": 0.00,  "t_end": 2.41,  "vo": "Codex just stopped being a coding tool.",                                                                                                                        "function": "pattern-interrupt"},
+    {"n": 2, "role": "STAKES",          "t_start": 2.94,  "t_end": 6.06,  "vo": "OpenAI shipped six updates. One actually matters.",                                                                                                              "function": "narrow-the-focus"},
+    {"n": 3, "role": "PROOF_DEMO",      "t_start": 6.36,  "t_end": 20.56, "vo": "Codex now runs multiple agents on your machine. One fixes a bug, one runs the test suite, one reviews the output \u2014 while you sleep. And when you wake up, it tells you what to work on next.", "function": "the multi-agent payload"},
+    {"n": 4, "role": "FRAME_SHIFT",     "t_start": 20.56, "t_end": 22.61, "vo": "The AI is no longer waiting for work. It is queuing yours.",                                                                                                      "function": "perspective reversal \u2014 great emphasis slam candidate"},
+    {"n": 5, "role": "PAYOFF",          "t_start": 23.44, "t_end": 27.78, "vo": "For a solo agency, this is not a productivity boost. It is the first version of having staff.",                                                                    "function": "the killer line \u2014 must-land emphasis slam"},
+    {"n": 6, "role": "CRED_BALANCE",    "t_start": 27.78, "t_end": 33.96, "vo": "I am not switching from Claude, but I am running this on a side project for two weeks to see what breaks.",                                                      "function": "credibility through measured stance"},
+    {"n": 7, "role": "PHILOSOPHICAL",   "t_start": 33.96, "t_end": 40.74, "vo": "The question is not which AI you talk to. It is which one you let run your machine.",                                                                            "function": "reframe the whole AI category \u2014 emphasis slam candidate"},
+    {"n": 8, "role": "CTA",             "t_start": 40.74, "t_end": 46.26, "vo": "Are you trying it? Drop the model you are sticking with.",                                                                                                       "function": "engagement prompt (comment question, NOT DM-gated)"}
+  ],
+  "known_whisper_mishears_corrected": [
+    {"wrong": "stop being",      "right": "stopped being",          "beat": 1},
+    {"wrong": "Open AI",         "right": "OpenAI",                 "beat": 2},
+    {"wrong": "one test sit",    "right": "one runs the test suite","beat": 3},
+    {"wrong": "having stuff",    "right": "having staff",           "beat": 5, "note": "This is the entire payline \u2014 must be right"},
+    {"wrong": "site project",    "right": "side project",           "beat": 6}
+  ],
+  "faux_thinker_style_fit": {
+    "what_maps_cleanly_to_v12": [
+      "ProfileCard at open (no name spoken in script \u2014 would anchor to t=0.4s)",
+      "EmphasisCaption slams (3-4 candidates)",
+      "SplitStackBroll for any Codex screenshots",
+      "Light leaks + shutter SFX between beats",
+      "Single-word red captions at yPercent 78 (but subject to hand-gesture conflict)",
+      "Muscle Prodigy music bed at 0.11",
+      "FFmpeg fade-out + loudnorm + AAC 192k post"
+    ],
+    "what_is_NEW_and_unique_to_this_video": [
+      "Multi-agent orchestration visual \u2014 no existing component; needs a new <MultiAgentOrchestra> that shows 3 parallel lanes with live status indicators (bug-fixer / test-suite / reviewer)",
+      "Terminal-simulation B-roll \u2014 fake a codex CLI showing 3 agents in parallel with colored prefixes + ticking output. This is the 'having staff' visual proof",
+      "Sleep-cycle metaphor \u2014 'while you sleep' needs a visual \u2014 candidate: subtle moon/sun overlay, sleeping eye icon, or a ticking clock animation",
+      "Side-project-badge pill \u2014 'SIDE PROJECT \u00b7 2 WEEKS' label for beat 6",
+      "ComparisonCard \u2014 two-column visual for 'talk to AI (left) vs let it run your machine (right)' reframe in beat 7. Much stronger than EmphasisCaption for comparison content",
+      "CommentPromptCard \u2014 replaces DMToast for beat 8. The CTA is an open question ('Drop the model you are sticking with'), not a DM trigger",
+      "'HAVING STAFF' is the signature line \u2014 deserves a typographic treatment stronger than standard EmphasisCaption. Consider QuoteCard with hand-drawn-underline on STAFF"
+    ],
+    "hand_gesture_caption_conflict": "Razeen's hands enter frame frequently between y=70% and y=95%. Default yPercent=78 for single-word captions will sometimes land on hands. Options: (a) move captions to yPercent=85 (tighter to bottom); (b) add a caption-bg translucent pill so gesture contrast is preserved; (c) use auto-shift \u2014 detect hand in frame and bump caption up"
+  },
+  "asset_gaps_before_render": [
+    "Playwright scrapes needed:",
+    "  - OpenAI Codex announcement page (openai.com/blog/ or openai.com/codex)",
+    "  - OpenAI changelog listing the '6 updates'",
+    "  - Codex CLI / IDE integration screenshot (VSCode agent panel, or terminal with codex command)",
+    "Logos needed: OpenAI, Codex (wordmark)",
+    "rembg matting of avatar_insta3.mp4 (~1163 frames, ~13 min CPU)",
+    "New Remotion components to build (see above)",
+    "No music changes \u2014 reuse music_bed_v6.mp3",
+    "No SFX additions \u2014 reuse sfx_pack/ (braam, swoosh, click, shutter) + notification for CTA"
+  ]
+}

@@ -8,6 +8,7 @@ import { DEVIN_JATHO, FAUX_THINKER } from "./brand/tokens";
 import { DEVIN1_SAMPLE_SPEC } from "./styles/devin1/sampleSpec";
 import { FAUX_THINKER_INTRO_SPEC } from "./styles/devin1/fauxThinkerIntroSpec";
 import { FAUX_THINKER_OPUS_SPEC } from "./styles/devin1/opusLaunchSpec";
+import { FAUX_THINKER_CODEX_SPEC } from "./styles/devin1/codexLaunchSpec";
 
 export const RemotionRoot = () => {
   return (
@@ -85,6 +86,24 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={FAUX_THINKER_OPUS_SPEC}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.duration * 25),
+        })}
+      />
+
+      {/* FauxThinker Codex launch Reel — 46 s OpenAI Codex reveal.
+          Opens with a 2.4 s anime hook clip visualising code erupting from a
+          laptop into 3 hologram agents, then lands on the avatar. Uses 7 new
+          components: AnimeHookClip + MultiAgentOrchestra + TerminalAgentSim +
+          SleepCycleOverlay + QuoteSlam ("STAFF") + SideProjectBadge +
+          ComparisonCard + CommentPromptCard (open CTA). */}
+      <Composition
+        id="FauxThinker-Codex"
+        component={Devin1Apply}
+        fps={25}
+        width={1080}
+        height={1920}
+        defaultProps={FAUX_THINKER_CODEX_SPEC}
         calculateMetadata={({ props }) => ({
           durationInFrames: Math.round(props.duration * 25),
         })}

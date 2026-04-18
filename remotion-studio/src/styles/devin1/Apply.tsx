@@ -18,6 +18,15 @@ import { ProfileCard } from "./components/ProfileCard";
 import { ReadabilityScale } from "./components/ReadabilityScale";
 import { RevenueChart } from "./components/RevenueChart";
 import { URLPill } from "./components/URLPill";
+// Codex-reel components (v12.2)
+import { AnimeHookClip } from "./components/AnimeHookClip";
+import { MultiAgentOrchestra } from "./components/MultiAgentOrchestra";
+import { TerminalAgentSim } from "./components/TerminalAgentSim";
+import { SleepCycleOverlay } from "./components/SleepCycleOverlay";
+import { QuoteSlam } from "./components/QuoteSlam";
+import { SideProjectBadge } from "./components/SideProjectBadge";
+import { ComparisonCard } from "./components/ComparisonCard";
+import { CommentPromptCard } from "./components/CommentPromptCard";
 
 // Apply composition — ingests an avatar video + a spec of overlay events
 // anchored to absolute seconds in the avatar timeline, and renders the
@@ -198,6 +207,65 @@ function RenderEvent({ event, resolveSrc }: RenderEventProps) {
           brollHeightPercent={event.brollHeightPercent}
           avatarMargin={event.avatarMargin}
           avatarRadius={event.avatarRadius}
+        />
+      );
+    // ───────── Codex-reel components (v12.2) ─────────
+    case "anime_hook_clip":
+      return (
+        <AnimeHookClip
+          src={event.src}
+          startFromSeconds={event.startFromSeconds}
+          label={event.label}
+          tintColor={event.tintColor}
+        />
+      );
+    case "multi_agent_orchestra":
+      return (
+        <MultiAgentOrchestra
+          lanes={event.lanes}
+          header={event.header}
+          staggerFrames={event.staggerFrames}
+        />
+      );
+    case "terminal_agent_sim":
+      return <TerminalAgentSim lines={event.lines} title={event.title} />;
+    case "sleep_cycle_overlay":
+      return <SleepCycleOverlay label={event.label} phaseOffset={event.phaseOffset} />;
+    case "quote_slam":
+      return (
+        <QuoteSlam
+          preLine={event.preLine}
+          heroWord={event.heroWord}
+          afterNote={event.afterNote}
+          heroGradientStart={event.heroGradientStart}
+          heroGradientEnd={event.heroGradientEnd}
+          yPosition={event.yPosition}
+        />
+      );
+    case "side_project_badge":
+      return (
+        <SideProjectBadge
+          label={event.label}
+          meta={event.meta}
+          yPercent={event.yPercent}
+          xPercent={event.xPercent}
+        />
+      );
+    case "comparison_card":
+      return (
+        <ComparisonCard
+          leftLabel={event.leftLabel}
+          rightLabel={event.rightLabel}
+          header={event.header}
+          toggleAtFrame={event.toggleAtFrame}
+        />
+      );
+    case "comment_prompt_card":
+      return (
+        <CommentPromptCard
+          username={event.username}
+          prompt={event.prompt}
+          header={event.header}
         />
       );
   }

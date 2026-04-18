@@ -212,6 +212,107 @@ export const OverlayEventSchema = z.discriminatedUnion("kind", [
     // Optional caption (e.g. "n8n") to overlay on the cutaway.
     label: z.string().optional(),
   }),
+
+  // ───────── Codex-reel components (v12.2 additions) ─────────
+  // AnimeHookClip: full-frame anime/cartoon MP4 wrapper for the hook beat
+  // with brand-red vignette + film-grain tint so the clip sits inside the
+  // faux.thinker aesthetic instead of feeling foreign.
+  z.object({
+    kind: z.literal("anime_hook_clip"),
+    t_start: z.number(),
+    duration: z.number(),
+    src: z.string(),
+    startFromSeconds: z.number().optional(),
+    label: z.string().optional(),
+    tintColor: z.string().optional(),
+  }),
+  // MultiAgentOrchestra: 3-lane card visualising parallel agents (bug-fixer
+  // / test-runner / reviewer) with pulsing status dots + progress bars.
+  z.object({
+    kind: z.literal("multi_agent_orchestra"),
+    t_start: z.number(),
+    duration: z.number(),
+    header: z.string().optional(),
+    lanes: z.array(
+      z.object({
+        badge: z.string(),
+        title: z.string(),
+        status: z.string(),
+        state: z.enum(["running", "done"]).optional(),
+      }),
+    ),
+    staggerFrames: z.number().optional(),
+  }),
+  // TerminalAgentSim: fake codex CLI with scripted log lines that appear on
+  // schedule. Sits underneath MultiAgentOrchestra for beat-3 authenticity.
+  z.object({
+    kind: z.literal("terminal_agent_sim"),
+    t_start: z.number(),
+    duration: z.number(),
+    title: z.string().optional(),
+    lines: z.array(
+      z.object({
+        agent: z.string(),
+        agentColor: z.string().optional(),
+        text: z.string(),
+        atFrame: z.number(),
+        kind: z.enum(["command", "log", "ok", "fail"]).optional(),
+      }),
+    ),
+  }),
+  // SleepCycleOverlay: moon + ticking-clock metaphor for "while you sleep".
+  z.object({
+    kind: z.literal("sleep_cycle_overlay"),
+    t_start: z.number(),
+    duration: z.number(),
+    label: z.string().optional(),
+    phaseOffset: z.number().optional(),
+  }),
+  // QuoteSlam: huge hero-word typographic slam with italic pre-line + hand-
+  // drawn underline sweep. Stronger than EmphasisCaption for single-word
+  // kill-lines like "STAFF".
+  z.object({
+    kind: z.literal("quote_slam"),
+    t_start: z.number(),
+    duration: z.number(),
+    preLine: z.string(),
+    heroWord: z.string(),
+    afterNote: z.string().optional(),
+    heroGradientStart: z.string().optional(),
+    heroGradientEnd: z.string().optional(),
+    yPosition: z.enum(["center", "upper"]).optional(),
+  }),
+  // SideProjectBadge: small pill with ticking clock (e.g. "SIDE PROJECT / 2 WEEKS").
+  z.object({
+    kind: z.literal("side_project_badge"),
+    t_start: z.number(),
+    duration: z.number(),
+    label: z.string(),
+    meta: z.string().optional(),
+    yPercent: z.number().optional(),
+    xPercent: z.number().optional(),
+  }),
+  // ComparisonCard: two-column "left vs right" card with cross-fade toggle
+  // that literalises a rhetorical pivot ("talk to AI vs let it run your machine").
+  z.object({
+    kind: z.literal("comparison_card"),
+    t_start: z.number(),
+    duration: z.number(),
+    leftLabel: z.string(),
+    rightLabel: z.string(),
+    header: z.string().optional(),
+    toggleAtFrame: z.number().optional(),
+  }),
+  // CommentPromptCard: Instagram comment-box with typewriter prompt — used
+  // when the CTA is an open question, not a DM-gated delivery.
+  z.object({
+    kind: z.literal("comment_prompt_card"),
+    t_start: z.number(),
+    duration: z.number(),
+    username: z.string().optional(),
+    prompt: z.string(),
+    header: z.string().optional(),
+  }),
 ]);
 
 export type OverlayEvent = z.infer<typeof OverlayEventSchema>;
