@@ -176,35 +176,33 @@ export const FAUX_THINKER_CANVA_V2_SPEC: ApplySpec = {
     // ═════════════════════════════════════════════════════════════════════
     // BEAT 0-1 — HOOK (0-3 s) : SplitScreenContradiction (text-only, no face)
     // ═════════════════════════════════════════════════════════════════════
-    // Hook: 3-word left / 6-word right for first-frame readability (<1.5 s
-    // scroll-decision window). Full Perkins quote moves to the 17.3 s
-    // QuoteCard where viewers have committed. "THE CEO" label creates
-    // sharper tension with "THE TAKE" (person vs take).
+    // Hook: 3.0 s comic-book clip generated via Veo 3 Fast — dark cemetery,
+    // "Canva RIP" tombstone shatters, CEO figure rises heroically. Delivers
+    // the reel's thesis ("Canva is NOT dead") visually before VO 0 s.
+    // Replaces the v2.3 SplitScreenContradiction + old canva_rises.mp4.
     {
-      kind: "split_screen_contradiction",
+      kind: "anime_hook_clip",
       t_start: 0.0,
-      duration: 3.20,
-      leftLabel: "THE TAKE",
-      leftBody: "CANVA IS DEAD.",
-      rightLabel: "THE CEO",
-      rightBody: "BRING CLAUDE DESIGN INTO CANVA.",
-      rightAuthor: "Melanie Perkins",
-      rightRole: "Co-Founder & CEO, Canva",
+      duration: 3.0,
+      src: "hook_anime/canva_rises_v2.mp4",
+      startFromSeconds: 0.0,
+      label: "CLAUDE DESIGN × CANVA",
     },
-    // DateTag stays through the hook into beat 2
+    // DateTag rides on top of the comic clip
     {
       kind: "date_tag",
       t_start: 0.0,
-      duration: 3.20,
+      duration: 3.0,
       text: "APR 17, 2026 · CLAUDE DESIGN LAUNCH",
       glyph: "✦",
       topPx: 220,
     },
     { kind: "sfx", t_start: 0.0, src: "sfx_pack/no_fluff_braam.mp3", volume: 0.95, duration: 1.1 },
 
-    // Light-leak transition from hook → avatar (3.05-3.75)
-    { kind: "overlay_video", t_start: 3.05, duration: 0.70, src: "light_leaks/ll_1.mp4", blendMode: "screen", opacity: 0.95, scale: 1 },
-    { kind: "sfx", t_start: 3.03, src: "sfx_pack/shutter.mp3", volume: 0.85, duration: 0.6 },
+    // Light-leak transition hook → avatar (2.85-3.45) — starts just before
+    // hook ends so the transition into the a-roll is seamless
+    { kind: "overlay_video", t_start: 2.85, duration: 0.60, src: "light_leaks/ll_1.mp4", blendMode: "screen", opacity: 0.95, scale: 1 },
+    { kind: "sfx", t_start: 2.83, src: "sfx_pack/shutter.mp3", volume: 0.85, duration: 0.6 },
 
     // ═════════════════════════════════════════════════════════════════════
     // BEAT 3 — AnthropicPageScroll #1 (4-8.4 s) : cursor lands on
