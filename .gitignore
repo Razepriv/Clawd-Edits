@@ -5,6 +5,10 @@
 *.pem
 *.key
 secrets.json
+# Persistent Playwright profile — contains logged-in session cookies for
+# X / Canva / Anthropic / etc. NEVER commit. Regenerable by running
+# scripts/launch_profile.py and signing in again.
+.playwright-profile/
 
 # ─── Node / Remotion ─────────────────────────────────────────────────────────
 node_modules/

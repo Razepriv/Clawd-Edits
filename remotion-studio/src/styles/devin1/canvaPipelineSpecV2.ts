@@ -235,52 +235,32 @@ export const FAUX_THINKER_CANVA_V2_SPEC: ApplySpec = {
     // Real screenshots drop in via imageSrc when captured; mocks in the
     // meantime. Handles blurred per edit-plan brief.
     // ═════════════════════════════════════════════════════════════════════
+    // REAL X hot-take screenshots captured via scripts/grab_proofs.py --x
+    //   take_1 = @optionsly — Figma/Canva/Claude Design 4-point take
+    //   take_2 = @sedem6    — "CLAUDE ISN'T REPLACING FIGMA" anti-hype poster
+    //   take_3 = @bygregorr — genuine question about picking Claude Design
     {
       kind: "x_hot_take_flashcut",
       t_start: 10.70,
       duration: 1.30,
-      name: "design_bro",
-      handle: "@designbro_xyz",
-      blurHandle: true,
-      text: "Canva is DEAD. Claude Design killed it overnight. 💀",
-      timeLabel: "2h",
-      likes: 2400,
-      retweets: 512,
-      replies: 143,
-      avatarStart: "#FF3B79",
-      avatarEnd: "#7D2AE8",
+      imageSrc: "x_takes/take_1.png",
+      cardWidth: 860,
     },
     { kind: "sfx", t_start: 10.68, src: "sfx_pack/hit_1.mp3", volume: 0.85, duration: 0.5 },
     {
       kind: "x_hot_take_flashcut",
       t_start: 11.78,
       duration: 1.30,
-      name: "figma_dev",
-      handle: "@figma_____dev",
-      blurHandle: true,
-      text: "Figma is COOKED. Nobody's opening Figma in 6 months.",
-      timeLabel: "4h",
-      likes: 890,
-      retweets: 203,
-      replies: 67,
-      avatarStart: "#00C4CC",
-      avatarEnd: "#5B8EFF",
+      imageSrc: "x_takes/take_2.png",
+      cardWidth: 520,
     },
     { kind: "sfx", t_start: 11.76, src: "sfx_pack/hit_2.mp3", volume: 0.85, duration: 0.5 },
     {
       kind: "x_hot_take_flashcut",
       t_start: 12.88,
       duration: 1.50,
-      name: "ai_hype",
-      handle: "@ai_____hype_",
-      blurHandle: true,
-      text: "Design tools are OVER. One Claude prompt replaces the entire stack.",
-      timeLabel: "5h",
-      likes: 1740,
-      retweets: 421,
-      replies: 198,
-      avatarStart: "#FFB020",
-      avatarEnd: "#FF3B3B",
+      imageSrc: "x_takes/take_3.png",
+      cardWidth: 860,
     },
     { kind: "sfx", t_start: 12.86, src: "sfx_pack/hit_1.mp3", volume: 0.85, duration: 0.5 },
 
@@ -396,17 +376,17 @@ export const FAUX_THINKER_CANVA_V2_SPEC: ApplySpec = {
     // the Canva editor (from the YouTube demo). Sits UNDER the still-lit
     // NumberedList for the overlap window.
     // ═════════════════════════════════════════════════════════════════════
-    // Canva editor proof shot. Using the PAN-ZOOM Ken-Burns build: source
-    // scaled to fill 1920 height (→ 3413 wide), then a 1080x1920 window
-    // pans left→right across the Canva UI with a breathing zoom. Fills
-    // the full canvas with editor content at all times — no dead space.
-    // TODO(v3): swap `brollSrc` for Razeen's real Canva screen recording
-    // once captured (see asset-drop spec).
+    // REAL Canva dashboard recording — captured via Playwright at Razeen's
+    // actual signed-in canva.com profile (grab_proofs.py --canva). Source
+    // 1280x800 landscape pan-zoomed to 1080x1920 via ffmpeg crop with a
+    // time-varying x expression so the window pans L→R across the real
+    // dashboard (shows "What will you design today?" + design-type tiles +
+    // Recents row with actual saved designs). Zero dead space.
     {
       kind: "stacked_broll",
       t_start: 29.00,
       duration: 5.00,
-      brollSrc: "platform_recordings/canva_editor_panzoom_kb.mp4",
+      brollSrc: "platform_recordings/canva_real_panzoom_kb.mp4",
       avatarSrc: "avatar_v4.mp4",
       avatarStartSeconds: 29.00,
       mattedPatternPath: "matted_avatar_v4/mat_%04d.png",
