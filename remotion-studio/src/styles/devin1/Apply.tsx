@@ -121,6 +121,7 @@ function RenderEvent({ event, resolveSrc }: RenderEventProps) {
           line2GradientStart={event.line2GradientStart}
           line2GradientEnd={event.line2GradientEnd}
           yPosition={event.yPosition}
+          yPercent={event.yPercent}
         />
       );
     case "url_pill":

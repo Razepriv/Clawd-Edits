@@ -42,6 +42,10 @@ export const OverlayEventSchema = z.discriminatedUnion("kind", [
     // head-pop-out B-roll. "upper" (~y 25 %) sits in the clean B-roll zone
     // above the head breakout — use when the slam fires during a B-roll.
     yPosition: z.enum(["center", "upper"]).optional(),
+    // Absolute y-percent override: pins the slam's top edge to this
+    // percentage of the canvas height (e.g. 62 → below the chin). Takes
+    // precedence over `yPosition` when set.
+    yPercent: z.number().optional(),
   }),
   z.object({
     kind: z.literal("url_pill"),

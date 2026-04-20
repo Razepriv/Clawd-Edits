@@ -11,6 +11,7 @@ import { FAUX_THINKER_OPUS_SPEC } from "./styles/devin1/opusLaunchSpec";
 import { FAUX_THINKER_CODEX_SPEC } from "./styles/devin1/codexLaunchSpec";
 import { FAUX_THINKER_CANVA_SPEC } from "./styles/devin1/canvaPipelineSpec";
 import { FAUX_THINKER_CANVA_V2_SPEC } from "./styles/devin1/canvaPipelineSpecV2";
+import { FAUX_THINKER_VERCEL_BREACH_SPEC } from "./styles/devin1/vercelBreachSpec";
 
 export const RemotionRoot = () => {
   return (
@@ -153,6 +154,27 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={FAUX_THINKER_CANVA_V2_SPEC}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.duration * 25),
+        })}
+      />
+
+      {/* FauxThinker Vercel × Context.ai breach reel — 49 s breaking-news
+          contrarian take on the Apr 19 2026 Vercel security incident.
+          Opens with a Veo-3 Fast comic hook (data center + cracked Vercel
+          triangle + exploding OAuth tokens / Google shards), then the
+          a-roll with: real Vercel KB bulletin B-roll (head-pop-out),
+          Google Workspace icon swoop, DM-toast "127 apps connected"
+          receipt, 3-step audit checklist, three real X takes (@SecureChap
+          attack-chain, @NEARDevHub advisory, @heygreendev audit-advice),
+          IOC factoid, and a final "COMMENT AUDIT" CTA card. */}
+      <Composition
+        id="FauxThinker-VercelBreach"
+        component={Devin1Apply}
+        fps={25}
+        width={1080}
+        height={1920}
+        defaultProps={FAUX_THINKER_VERCEL_BREACH_SPEC}
         calculateMetadata={({ props }) => ({
           durationInFrames: Math.round(props.duration * 25),
         })}

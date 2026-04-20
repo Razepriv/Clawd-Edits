@@ -14,6 +14,12 @@ export interface EmphasisCaptionProps {
   // slam fires during a stacked_broll so it lands in the clean B-roll zone
   // above the head breakout instead of on top of the face.
   yPosition?: "center" | "upper";
+  // Absolute y-percent override. When set (e.g. 62), the slam's TOP edge
+  // is pinned to this percentage of the canvas height — use this to force
+  // the slam below the chin (~y 62 %) during full-frame a-roll so the
+  // caption never covers the speaker's face. Takes precedence over
+  // `yPosition`.
+  yPercent?: number;
 }
 
 // Devin 1 emphasis caption — two-line bold condensed uppercase.
@@ -26,6 +32,7 @@ export function EmphasisCaption({
   line2GradientStart,
   line2GradientEnd,
   yPosition = "center",
+  yPercent,
 }: EmphasisCaptionProps) {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -49,6 +56,9 @@ export function EmphasisCaption({
   // "center" = ~y 50 % (paddingTop 45 %) = original v12 position, sits over face.
   // "upper"  = ~y 25 % (paddingTop 12 %) = sits in B-roll-only zone ABOVE the
   //           head-pop-out breakout (head starts ~y 54 % in the canonical 3-layer).
+  // `yPercent` override: pin TOP edge to exact y percentage of canvas HEIGHT
+  // (not width — CSS percentage paddings are width-relative, so we use `top`).
+  const pinned = typeof yPercent === "number";
   const paddingTop = yPosition === "upper" ? "12%" : "45%";
 
   return (
@@ -56,11 +66,12 @@ export function EmphasisCaption({
       style={{
         position: "absolute",
         inset: 0,
+        top: pinned ? `${yPercent}%` : 0,
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: yPosition === "upper" ? "flex-start" : "center",
-        paddingTop,
+        justifyContent: pinned || yPosition === "upper" ? "flex-start" : "center",
+        paddingTop: pinned ? 0 : paddingTop,
         opacity,
         transform: `translateY(${translateY}px) scale(${scale})`,
         fontFamily: brand.fonts.emphasis,

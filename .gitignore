@@ -111,3 +111,8 @@ tmp/
 scratch/
 *.tmp
 *.bak
+
+# Telegram agent runtime state (contains private chat_id + incoming feedback)
+_audit/**/telegram_state.json
+_audit/**/telegram_inbox.md
+_audit/**/telegram_agent.log
