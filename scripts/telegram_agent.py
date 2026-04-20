@@ -108,6 +108,31 @@ def send_text(chat_id: int, text: str, parse_mode: str | None = "Markdown") -> N
     requests.post(_api("sendMessage"), json=payload, timeout=20)
 
 
+def _probe_video(path: Path) -> tuple[int, int, float]:
+    """Return (width, height, duration_seconds) via imageio-ffmpeg ffprobe
+    replacement (ffprobe binary isn't always bundled, so we shell to ffmpeg
+    and parse stderr)."""
+    import re
+    import subprocess
+    ffmpeg = Path(
+        r"C:/Users/Asus/AppData/Roaming/Python/Python312/site-packages/"
+        r"imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe"
+    )
+    out = subprocess.run(
+        [str(ffmpeg), "-i", str(path)],
+        capture_output=True, text=True,
+    ).stderr
+    w = h = 0
+    dur = 0.0
+    m = re.search(r"(\d{3,5})x(\d{3,5})", out)
+    if m:
+        w, h = int(m.group(1)), int(m.group(2))
+    md = re.search(r"Duration:\s*(\d+):(\d+):(\d+\.\d+)", out)
+    if md:
+        dur = int(md.group(1)) * 3600 + int(md.group(2)) * 60 + float(md.group(3))
+    return w, h, dur
+
+
 def send_video(chat_id: int, path: Path, caption: str = "") -> dict[str, Any]:
     size = path.stat().st_size
     if size > MAX_VIDEO_BYTES:
@@ -117,9 +142,24 @@ def send_video(chat_id: int, path: Path, caption: str = "") -> dict[str, Any]:
             f"bot upload cap. I will send a compressed version.",
         )
         return {"skipped": True}
+
+    # Probe width/height/duration so Telegram renders the video in its
+    # native aspect ratio (1080x1920 = 9:16) instead of defaulting to a
+    # 4:5 player frame when these fields are missing from sendVideo.
+    width, height, duration = _probe_video(path)
     with path.open("rb") as f:
         files = {"video": (path.name, f, "video/mp4")}
-        data = {"chat_id": str(chat_id), "caption": caption, "supports_streaming": "true"}
+        data = {
+            "chat_id": str(chat_id),
+            "caption": caption,
+            "supports_streaming": "true",
+            "parse_mode": "Markdown",
+        }
+        if width and height:
+            data["width"] = str(width)
+            data["height"] = str(height)
+        if duration:
+            data["duration"] = str(int(round(duration)))
         r = requests.post(_api("sendVideo"), data=data, files=files, timeout=180)
     return r.json()
 
