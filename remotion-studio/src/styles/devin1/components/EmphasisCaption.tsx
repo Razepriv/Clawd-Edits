@@ -61,6 +61,18 @@ export function EmphasisCaption({
   const pinned = typeof yPercent === "number";
   const paddingTop = yPosition === "upper" ? "12%" : "45%";
 
+  // Auto-fit: clamp fontSize so the LONGEST line never exceeds
+  // `safeWidth`. Archivo Black in uppercase with the Devin1 letterSpacing
+  // runs ~0.72 em-width per glyph; we use 940 px safe width (70 px inset
+  // each side of a 1080 px canvas) to leave breathing room for the drop
+  // shadow and gradient text-fill.
+  const baseFont = DEVIN1.caption.fontSize;
+  const safeWidth = 940;
+  const perChar = 0.72;
+  const longestLen = Math.max(line1.length, line2.length) || 1;
+  const widthFit = Math.floor(safeWidth / (perChar * longestLen));
+  const fontSize = Math.max(88, Math.min(baseFont, widthFit));
+
   return (
     <div
       style={{
@@ -81,7 +93,7 @@ export function EmphasisCaption({
     >
       <span
         style={{
-          fontSize: DEVIN1.caption.fontSize,
+          fontSize,
           lineHeight: DEVIN1.caption.lineHeight,
           letterSpacing: `${DEVIN1.caption.tracking}em`,
           color: brand.colors.textPrimary,
@@ -93,7 +105,7 @@ export function EmphasisCaption({
       </span>
       <span
         style={{
-          fontSize: DEVIN1.caption.fontSize,
+          fontSize,
           lineHeight: DEVIN1.caption.lineHeight,
           letterSpacing: `${DEVIN1.caption.tracking}em`,
           textTransform: "uppercase",

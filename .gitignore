@@ -116,3 +116,10 @@ scratch/
 _audit/**/telegram_state.json
 _audit/**/telegram_inbox.md
 _audit/**/telegram_agent.log
+
+# Cohousy pipeline — heavy assets (regenerable from source)
+remotion-studio/public/cohousy/matted_001/
+remotion-studio/public/cohousy/avatar_cohousy_001.mp4
+_audit/cohousy/matte/
+_audit/cohousy/audio.wav
+_audit/cohousy/frames/

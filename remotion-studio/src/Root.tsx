@@ -12,6 +12,7 @@ import { FAUX_THINKER_CODEX_SPEC } from "./styles/devin1/codexLaunchSpec";
 import { FAUX_THINKER_CANVA_SPEC } from "./styles/devin1/canvaPipelineSpec";
 import { FAUX_THINKER_CANVA_V2_SPEC } from "./styles/devin1/canvaPipelineSpecV2";
 import { FAUX_THINKER_VERCEL_BREACH_SPEC } from "./styles/devin1/vercelBreachSpec";
+import { COHOUSY_001_SPEC } from "./cohousy/cohousy001Spec";
 
 export const RemotionRoot = () => {
   return (
@@ -175,6 +176,28 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={FAUX_THINKER_VERCEL_BREACH_SPEC}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.duration * 25),
+        })}
+      />
+
+      {/* Cohousy reel #001 — Santhosh's 40.84 s Hindi pitch for cohousy's
+          property-management service for Pune flat owners. Completely
+          isolated brand (orange #FF8002 palette, Tiro Devanagari Hindi
+          typography, purpose-built CohousyBigStat / CohousyPromiseList /
+          CohousyComparisonBox / CohousyMoneyFlow / CohousyLogoLockup /
+          CohousyCTAFollow components). Opens with a Veo-3 hook clip of a
+          Pune skyline, brass apartment key + rupee-coin stream, then
+          delivers the 4-row promise list, rent-receipt money flow,
+          BROKER-vs-SYSTEM comparison, 30+/98%/100% stats trio, and a
+          follow-for-details CTA. All overlays strictly below the chin. */}
+      <Composition
+        id="Cohousy-001"
+        component={Devin1Apply}
+        fps={25}
+        width={1080}
+        height={1920}
+        defaultProps={COHOUSY_001_SPEC}
         calculateMetadata={({ props }) => ({
           durationInFrames: Math.round(props.duration * 25),
         })}

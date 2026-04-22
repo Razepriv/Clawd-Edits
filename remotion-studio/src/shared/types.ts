@@ -553,6 +553,81 @@ export const OverlayEventSchema = z.discriminatedUnion("kind", [
     subtitle: z.string().optional(),
     yPercent: z.number().optional(),
   }),
+
+  // ───────── Cohousy components (v1 — property-management reel kit) ─────────
+  // CohousyBigStat: giant stat card for "30+ FLATS / 98% OCCUPANCY /
+  // 100% ON-TIME RENT". Orange gradient number, below-chin placement
+  // (y 62 %) so it never covers the speaker's face.
+  z.object({
+    kind: z.literal("cohousy_big_stat"),
+    t_start: z.number(),
+    duration: z.number(),
+    value: z.string(),
+    label: z.string(),
+    sub: z.string().optional(),
+    yPercent: z.number().optional(),
+  }),
+  // CohousyPromiseList: 4-row check-mark list of what the service does
+  // ("We bring tenants / Collect rent / Handle maintenance / Handle legal").
+  // Each row fades in staggered with an orange check icon.
+  z.object({
+    kind: z.literal("cohousy_promise_list"),
+    t_start: z.number(),
+    duration: z.number(),
+    header: z.string().optional(),
+    rows: z.array(
+      z.object({
+        text: z.string(),
+        highlight: z.string().optional(),
+      }),
+    ),
+    staggerFrames: z.number().optional(),
+    yPercent: z.number().optional(),
+  }),
+  // CohousyComparisonBox: "BROKER  ×   vs   SYSTEM ✓" horizontal card.
+  // For the pivot line "ye broker nahi hai, ye ek system hai".
+  z.object({
+    kind: z.literal("cohousy_comparison_box"),
+    t_start: z.number(),
+    duration: z.number(),
+    leftLabel: z.string(),
+    leftTag: z.string(),
+    leftBullets: z.array(z.string()),
+    rightLabel: z.string(),
+    rightTag: z.string(),
+    rightBullets: z.array(z.string()),
+    yPercent: z.number().optional(),
+  }),
+  // CohousyMoneyFlow: animated ₹ → landlord card showing rupees flying
+  // into a "RENT RECEIVED" receipt. Used behind "sirf rent receive karna".
+  z.object({
+    kind: z.literal("cohousy_money_flow"),
+    t_start: z.number(),
+    duration: z.number(),
+    amount: z.string(),
+    label: z.string(),
+    sub: z.string().optional(),
+    yPercent: z.number().optional(),
+  }),
+  // CohousyLogoLockup: clean orange COHOUSY wordmark + roof icon + tagline.
+  // Used as a full-frame reveal over the Veo hook tail and the outro CTA.
+  z.object({
+    kind: z.literal("cohousy_logo_lockup"),
+    t_start: z.number(),
+    duration: z.number(),
+    tagline: z.string().optional(),
+    sub: z.string().optional(),
+    variant: z.enum(["hero", "outro"]).default("hero"),
+  }),
+  // CohousyCTAFollow: "FOLLOW FOR DETAILS →" action card at the end.
+  z.object({
+    kind: z.literal("cohousy_cta_follow"),
+    t_start: z.number(),
+    duration: z.number(),
+    headline: z.string(),
+    sub: z.string(),
+    handle: z.string().default("@cohousy"),
+  }),
 ]);
 
 export type OverlayEvent = z.infer<typeof OverlayEventSchema>;
@@ -564,7 +639,9 @@ export const ApplySpecSchema = z.object({
   // Total video duration in seconds (must match the avatar video).
   duration: z.number(),
   // Brand to apply.
-  brandKey: z.enum(["faux_thinker", "devin_jatho"]).default("faux_thinker"),
+  brandKey: z
+    .enum(["faux_thinker", "devin_jatho", "cohousy"])
+    .default("faux_thinker"),
   // Ordered list of overlay events anchored to avatar timeline.
   events: z.array(OverlayEventSchema),
   // Optional music bed (replaces any generated music from pipeline).

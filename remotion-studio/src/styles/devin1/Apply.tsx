@@ -1,6 +1,13 @@
 import { AbsoluteFill, Audio, OffthreadVideo, Sequence, staticFile, useVideoConfig } from "remotion";
 import { BrandProvider } from "../../brand/BrandProvider";
 import { DEVIN_JATHO, FAUX_THINKER } from "../../brand/tokens";
+import { COHOUSY } from "../../brand/cohousy";
+import { CohousyBigStat } from "../../cohousy/components/CohousyBigStat";
+import { CohousyPromiseList } from "../../cohousy/components/CohousyPromiseList";
+import { CohousyComparisonBox } from "../../cohousy/components/CohousyComparisonBox";
+import { CohousyMoneyFlow } from "../../cohousy/components/CohousyMoneyFlow";
+import { CohousyLogoLockup } from "../../cohousy/components/CohousyLogoLockup";
+import { CohousyCTAFollow } from "../../cohousy/components/CohousyCTAFollow";
 import { ChromaKeyOverlay } from "../../shared/ChromaKeyOverlay";
 import { GlitchFlash } from "../../shared/GlitchFlash";
 import { OverlayVideo } from "../../shared/OverlayVideo";
@@ -54,7 +61,12 @@ import { QuestionCaption } from "./components/QuestionCaption";
 // This means drift is impossible — the avatar's VO drives everything.
 export function Devin1Apply(spec: ApplySpec) {
   const { fps } = useVideoConfig();
-  const brand = spec.brandKey === "devin_jatho" ? DEVIN_JATHO : FAUX_THINKER;
+  const brand =
+    spec.brandKey === "devin_jatho"
+      ? DEVIN_JATHO
+      : spec.brandKey === "cohousy"
+        ? COHOUSY
+        : FAUX_THINKER;
 
   const resolveSrc = (src: string): string =>
     src.startsWith("http") || src.startsWith("file:") ? src : staticFile(src);
@@ -448,6 +460,61 @@ function RenderEvent({ event, resolveSrc }: RenderEventProps) {
           highlight={event.highlight}
           subtitle={event.subtitle}
           yPercent={event.yPercent}
+        />
+      );
+    case "cohousy_big_stat":
+      return (
+        <CohousyBigStat
+          value={event.value}
+          label={event.label}
+          sub={event.sub}
+          yPercent={event.yPercent}
+        />
+      );
+    case "cohousy_promise_list":
+      return (
+        <CohousyPromiseList
+          header={event.header}
+          rows={event.rows}
+          staggerFrames={event.staggerFrames}
+          yPercent={event.yPercent}
+        />
+      );
+    case "cohousy_comparison_box":
+      return (
+        <CohousyComparisonBox
+          leftLabel={event.leftLabel}
+          leftTag={event.leftTag}
+          leftBullets={event.leftBullets}
+          rightLabel={event.rightLabel}
+          rightTag={event.rightTag}
+          rightBullets={event.rightBullets}
+          yPercent={event.yPercent}
+        />
+      );
+    case "cohousy_money_flow":
+      return (
+        <CohousyMoneyFlow
+          amount={event.amount}
+          label={event.label}
+          sub={event.sub}
+          yPercent={event.yPercent}
+        />
+      );
+    case "cohousy_logo_lockup":
+      return (
+        <CohousyLogoLockup
+          tagline={event.tagline}
+          sub={event.sub}
+          variant={event.variant}
+        />
+      );
+    case "cohousy_cta_follow":
+      return (
+        <CohousyCTAFollow
+          headline={event.headline}
+          sub={event.sub}
+          handle={event.handle}
         />
       );
   }

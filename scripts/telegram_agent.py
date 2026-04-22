@@ -54,7 +54,7 @@ STATE_FILE = AUDIT_DIR / "telegram_state.json"
 INBOX_FILE = AUDIT_DIR / "telegram_inbox.md"
 STILLS_DIR = AUDIT_DIR / "stills"
 
-LATEST_RENDER_GLOB = "faux_thinker_vercel_breach_v*.mp4"
+LATEST_RENDER_GLOB = "*.mp4"
 API_BASE = "https://api.telegram.org"
 POLL_TIMEOUT = 25  # seconds per long-poll
 MAX_VIDEO_BYTES = 50 * 1024 * 1024  # Telegram bot upload cap for videos
@@ -171,17 +171,23 @@ def send_photo(chat_id: int, path: Path, caption: str = "") -> None:
         requests.post(_api("sendPhoto"), data=data, files=files, timeout=60)
 
 
-def push_latest(chat_id: int | None = None) -> int:
+def push_latest(chat_id: int | None = None, path_override: Path | None = None) -> int:
     state = _load_state()
     cid = chat_id or state.get("owner_chat_id")
     if cid is None:
         print("No owner chat registered yet. Run the bot and /start first.",
               file=sys.stderr)
         return 1
-    clip = _latest_clip()
-    if clip is None:
-        send_text(cid, "No finished clips under `outputs/` yet.")
-        return 1
+    if path_override is not None:
+        clip = path_override
+        if not clip.exists():
+            print(f"Path not found: {clip}", file=sys.stderr)
+            return 1
+    else:
+        clip = _latest_clip()
+        if clip is None:
+            send_text(cid, "No finished clips under `outputs/` yet.")
+            return 1
     caption = (
         f"*{clip.name}*\n"
         f"size: {clip.stat().st_size/1024/1024:.1f} MB\n"
@@ -337,11 +343,13 @@ def check_inbox() -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--send-latest", action="store_true", help="Push latest clip to owner chat, then exit.")
+    ap.add_argument("--path", default=None, help="Push a specific file path (overrides --send-latest discovery).")
     ap.add_argument("--check-inbox", action="store_true", help="Print the feedback inbox, then exit.")
     args = ap.parse_args()
 
     if args.send_latest:
-        return push_latest()
+        override = Path(args.path).resolve() if args.path else None
+        return push_latest(path_override=override)
     if args.check_inbox:
         return check_inbox()
     return run_agent()
