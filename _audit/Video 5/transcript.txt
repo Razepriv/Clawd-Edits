@@ -1,18 +1,8 @@
-[  0.00 ->   1.36] Versal just got breached.
-[  1.84 ->   3.64] If you deploy there, pay attention.
-[  4.08 ->   5.98] Everyone is saying, rotate your keys.
-[  6.54 ->   7.80] That is not the real story.
-[  8.40 ->  10.48] The attacker did not break into Versal.
-[ 10.86 ->  14.16] They broke into an AI tool a Versal employee was using.
-[ 14.90 ->  17.06] That tool had Google Workspace access.
-[ 17.78 ->  20.44] Now think, how many random AI tools
-[ 20.44 ->  22.98] are still connected to your own Google account?
-[ 23.72 ->  27.36] Every shiny app you tested last month, still authorized.
-[ 27.88 ->  29.58] That is your attack surface.
-[ 30.08 ->  31.10] Three things today.
-[ 31.64 ->  35.62] One, revoke every AI app you do not use from Google permissions.
-[ 36.18 ->  40.24] Two, your API keys on Versal are not encrypted by default.
-[ 40.70 ->  41.60] Mark them sensitive.
-[ 42.22 ->  44.32] Three, rotate the exposed ones.
-[ 44.78 ->  46.86] I have been auditing my whole stack this morning.
-[ 47.36 ->  49.12] Comment audit for my full checklist.
+[  0.00 ->   6.06] Vercel just got breezed. If you deploy there, pay attention. Everyone is saying rotate your keys.
+[  6.46 ->  12.68] That is not the real story. The attacker did not break into Vercel. They broke into an AI tool a
+[ 12.68 ->  20.06] Vercel employee was using. That tool had Google Workspace access. Now think, how many random AI
+[ 20.06 ->  26.10] tools are still connected to your own Google account? Every shiny app you tested last month,
+[ 26.10 ->  34.46] still authorized. That is your attack surface. Three things today. One, revoke every AI app you do not
+[ 34.46 ->  41.22] use from Google permissions. Two, your API keys on Vercel are not encrypted by default. Mark them
+[ 41.22 ->  46.92] sensitive. Three, rotate the exposed ones. I have been auditing my whole stack this morning.
+[ 47.18 ->  49.18] Comment audit for my full checklist.
