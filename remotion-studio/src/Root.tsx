@@ -12,6 +12,7 @@ import { FAUX_THINKER_CODEX_SPEC } from "./styles/devin1/codexLaunchSpec";
 import { FAUX_THINKER_CANVA_SPEC } from "./styles/devin1/canvaPipelineSpec";
 import { FAUX_THINKER_CANVA_V2_SPEC } from "./styles/devin1/canvaPipelineSpecV2";
 import { FAUX_THINKER_VERCEL_BREACH_SPEC } from "./styles/devin1/vercelBreachSpec";
+import { FAUX_THINKER_COPILOT_TRAIN_SPEC } from "./styles/devin1/copilotTrainSpec";
 import { COHOUSY_001_SPEC } from "./cohousy/cohousy001Spec";
 
 export const RemotionRoot = () => {
@@ -176,6 +177,31 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={FAUX_THINKER_VERCEL_BREACH_SPEC}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.duration * 25),
+        })}
+      />
+
+      {/* FauxThinker Copilot-training reel — 42 s breaking-news contrarian
+          take on GitHub Copilot starting to train on every line of user
+          code by default on Apr 24 2026 (opt-out model). Opens with a
+          Veo-3 Fast comic hook (server room + laptop Octocat + golden
+          code streams being siphoned into an obsidian AI-brain skull),
+          then the a-roll with: OPT-IN/OPT-OUT contradiction slam, URL
+          pill github.com/settings/copilot, HN thread head-pop B-roll,
+          ENTERPRISE/EVERYONE-ELSE class-line slam, two real X takes
+          (@DrSouvic Enabled-state + @Splatoon1ikahan Disabled-state),
+          3-step fix checklist, changelog head-pop B-roll, ONE-LEAKED-
+          REPO stakes slam, and a "COMMENT opt out" CTA card. All SFX
+          at 0.28, music bed music_bed_v6.mp3 at 0.10, faux.thinker
+          RED #E91212 accent. */}
+      <Composition
+        id="FauxThinker-CopilotTrain"
+        component={Devin1Apply}
+        fps={25}
+        width={1080}
+        height={1920}
+        defaultProps={FAUX_THINKER_COPILOT_TRAIN_SPEC}
         calculateMetadata={({ props }) => ({
           durationInFrames: Math.round(props.duration * 25),
         })}

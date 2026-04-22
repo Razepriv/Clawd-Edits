@@ -123,3 +123,10 @@ remotion-studio/public/cohousy/avatar_cohousy_001.mp4
 _audit/cohousy/matte/
 _audit/cohousy/audio.wav
 _audit/cohousy/frames/
+
+# Video 6 / copilot-train pipeline — heavy assets regenerable from source
+remotion-studio/public/matted_avatar_v6/
+remotion-studio/public/avatar_v6.mp4
+_audit/Video 6/matte/
+_audit/Video 6/audio.wav
+_audit/Video 6/frames/
