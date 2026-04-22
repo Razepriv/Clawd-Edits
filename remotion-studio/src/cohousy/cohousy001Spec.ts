@@ -109,11 +109,11 @@ export const COHOUSY_001_SPEC: ApplySpec = {
       tagline: "FLAT MANAGEMENT, DONE RIGHT.",
       variant: "hero",
     },
-    { kind: "sfx", t_start: 0.0, src: "sfx_pack/no_fluff_braam.mp3", volume: 0.9, duration: 1.2 },
+    { kind: "sfx", t_start: 0.0, src: "sfx_pack/no_fluff_braam.mp3", volume: 0.30, duration: 1.2 },
 
     // Shutter transition hook → avatar
     { kind: "overlay_video", t_start: 2.85, duration: 0.55, src: "light_leaks/ll_1.mp4", blendMode: "screen", opacity: 0.9, scale: 1 },
-    { kind: "sfx", t_start: 2.83, src: "sfx_pack/shutter.mp3", volume: 0.85, duration: 0.6 },
+    { kind: "sfx", t_start: 2.83, src: "sfx_pack/shutter.mp3", volume: 0.30, duration: 0.6 },
 
     // ═════════════════════════════════════════════════════════════════
     // BEAT 1 — LIVE PILL (3.2-8.0) : top-center orange pill with hook Q
@@ -142,7 +142,7 @@ export const COHOUSY_001_SPEC: ApplySpec = {
     // ═════════════════════════════════════════════════════════════════
     // RGB glitch pre-slam
     { kind: "glitch_flash", t_start: 8.85, duration: 0.35, intensity: 0.85, slices: 10, flash: true },
-    { kind: "sfx", t_start: 8.85, src: "sfx_pack/hit_1.mp3", volume: 0.9, duration: 0.6 },
+    { kind: "sfx", t_start: 8.85, src: "sfx_pack/hit_1.mp3", volume: 0.30, duration: 0.6 },
     {
       kind: "emphasis_caption",
       t_start: 9.0,
@@ -163,7 +163,7 @@ export const COHOUSY_001_SPEC: ApplySpec = {
 
     // Shutter → promise list
     { kind: "overlay_video", t_start: 13.55, duration: 0.5, src: "light_leaks/ll_3.mp4", blendMode: "screen", opacity: 0.9, scale: 1 },
-    { kind: "sfx", t_start: 13.53, src: "sfx_pack/shutter.mp3", volume: 0.85, duration: 0.6 },
+    { kind: "sfx", t_start: 13.53, src: "sfx_pack/shutter.mp3", volume: 0.30, duration: 0.6 },
 
     // ═════════════════════════════════════════════════════════════════
     // BEAT 3 — THE PROMISE (13.9-20.95) : 4-row check-list of services
@@ -184,11 +184,11 @@ export const COHOUSY_001_SPEC: ApplySpec = {
         { text: "LEGAL भी हम देखते हैं", highlight: "LEGAL" },
       ],
     },
-    { kind: "sfx", t_start: 13.88, src: "sfx_pack/click.mp3", volume: 0.85, duration: 0.5 },
+    { kind: "sfx", t_start: 13.88, src: "sfx_pack/click.mp3", volume: 0.30, duration: 0.5 },
 
     // Shutter → money flow
     { kind: "overlay_video", t_start: 20.9, duration: 0.5, src: "light_leaks/ll_4.mp4", blendMode: "screen", opacity: 0.9, scale: 1 },
-    { kind: "sfx", t_start: 20.88, src: "sfx_pack/shutter.mp3", volume: 0.8, duration: 0.6 },
+    { kind: "sfx", t_start: 20.88, src: "sfx_pack/shutter.mp3", volume: 0.30, duration: 0.6 },
 
     // ═════════════════════════════════════════════════════════════════
     // BEAT 4 — RECEIVE (21.0-24.0) : rupee coins → rent receipt card
@@ -207,7 +207,7 @@ export const COHOUSY_001_SPEC: ApplySpec = {
     // BEAT 5 — BROKER vs SYSTEM (24.2-28.6) : side-by-side comparison
     // ═════════════════════════════════════════════════════════════════
     { kind: "glitch_flash", t_start: 24.1, duration: 0.3, intensity: 0.85, slices: 8, flash: true },
-    { kind: "sfx", t_start: 24.1, src: "sfx_pack/hit_2.mp3", volume: 0.9, duration: 0.6 },
+    { kind: "sfx", t_start: 24.1, src: "sfx_pack/hit_2.mp3", volume: 0.30, duration: 0.6 },
     {
       kind: "cohousy_comparison_box",
       t_start: 24.2,
@@ -231,7 +231,7 @@ export const COHOUSY_001_SPEC: ApplySpec = {
 
     // Shutter → stats
     { kind: "overlay_video", t_start: 28.55, duration: 0.5, src: "light_leaks/ll_5.mp4", blendMode: "screen", opacity: 0.9, scale: 1 },
-    { kind: "sfx", t_start: 28.53, src: "sfx_pack/shutter.mp3", volume: 0.85, duration: 0.6 },
+    { kind: "sfx", t_start: 28.53, src: "sfx_pack/shutter.mp3", volume: 0.30, duration: 0.6 },
 
     // ═════════════════════════════════════════════════════════════════
     // BEAT 6 — PROOF STATS TRIO (28.7-37.0) : three big stat slams
@@ -248,7 +248,7 @@ export const COHOUSY_001_SPEC: ApplySpec = {
       sub: "Under active management",
       yPercent: 50,
     },
-    { kind: "sfx", t_start: 28.68, src: "sfx_pack/hit_1.mp3", volume: 0.9, duration: 0.6 },
+    { kind: "sfx", t_start: 28.68, src: "sfx_pack/hit_1.mp3", volume: 0.30, duration: 0.6 },
     {
       kind: "cohousy_big_stat",
       t_start: 31.9,
@@ -258,7 +258,7 @@ export const COHOUSY_001_SPEC: ApplySpec = {
       sub: "Across our portfolio",
       yPercent: 50,
     },
-    { kind: "sfx", t_start: 31.88, src: "sfx_pack/hit_2.mp3", volume: 0.9, duration: 0.6 },
+    { kind: "sfx", t_start: 31.88, src: "sfx_pack/hit_2.mp3", volume: 0.30, duration: 0.6 },
     {
       kind: "cohousy_big_stat",
       t_start: 34.5,
@@ -268,13 +268,13 @@ export const COHOUSY_001_SPEC: ApplySpec = {
       sub: "Paid to owners every month",
       yPercent: 50,
     },
-    { kind: "sfx", t_start: 34.48, src: "sfx_pack/hit_1.mp3", volume: 0.9, duration: 0.6 },
+    { kind: "sfx", t_start: 34.48, src: "sfx_pack/hit_1.mp3", volume: 0.30, duration: 0.6 },
 
     // ═════════════════════════════════════════════════════════════════
     // BEAT 7 — CTA (37.0-40.8) : Follow for details
     // ═════════════════════════════════════════════════════════════════
     { kind: "overlay_video", t_start: 36.9, duration: 0.5, src: "light_leaks/ll_2.mp4", blendMode: "screen", opacity: 0.9, scale: 1 },
-    { kind: "sfx", t_start: 36.88, src: "sfx_pack/shutter.mp3", volume: 0.85, duration: 0.6 },
+    { kind: "sfx", t_start: 36.88, src: "sfx_pack/shutter.mp3", volume: 0.30, duration: 0.6 },
     {
       kind: "cohousy_cta_follow",
       t_start: 37.05,
@@ -283,7 +283,7 @@ export const COHOUSY_001_SPEC: ApplySpec = {
       sub: "Pune मे flat है? DM करो.",
       handle: "@cohousy",
     },
-    { kind: "sfx", t_start: 37.05, src: "sfx/notification.mp3", volume: 0.85, duration: 0.7 },
+    { kind: "sfx", t_start: 37.05, src: "sfx/notification.mp3", volume: 0.30, duration: 0.7 },
 
     // ═════════════════════════════════════════════════════════════════
     // WORD CAPTIONS — Devanagari single-word ticker, bottom safe zone.
