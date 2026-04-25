@@ -13,6 +13,7 @@ import { FAUX_THINKER_CANVA_SPEC } from "./styles/devin1/canvaPipelineSpec";
 import { FAUX_THINKER_CANVA_V2_SPEC } from "./styles/devin1/canvaPipelineSpecV2";
 import { FAUX_THINKER_VERCEL_BREACH_SPEC } from "./styles/devin1/vercelBreachSpec";
 import { FAUX_THINKER_COPILOT_TRAIN_SPEC } from "./styles/devin1/copilotTrainSpec";
+import { FAUX_THINKER_BASECAMP_SPEC } from "./styles/devin1/basecampSpec";
 import { COHOUSY_001_SPEC } from "./cohousy/cohousy001Spec";
 
 export const RemotionRoot = () => {
@@ -202,6 +203,32 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={FAUX_THINKER_COPILOT_TRAIN_SPEC}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.duration * 25),
+        })}
+      />
+
+      {/* FauxThinker basecamp reel — 42 s contrarian take on
+          basecamp.apexaios.io (the "Virtual Hacker House") as a LinkedIn
+          alternative for builders, anchored to Cohort 1 (Apr-Jul 2026,
+          free for builders). Opens with a Veo 3 Fast hook (blue LinkedIn-
+          style profile card cracking with golden sparks revealing an
+          amber terminal of live commits behind it), then runs the
+          mechanic ("streaks · peer reviews · verified commits feed your
+          builder score"), live basecamp B-roll head-pop, Chennai
+          credibility pill, two real X takes (@intenxe_ops anti-LinkedIn
+          + @suraj_sharma14 hireable-skills), YES/NO comparison
+          ("STUCK ON UPWORK? -> THIS IS YOUR MOVE" / "ALREADY POSTING?
+          -> SKIP IT"), thesis slam ("PICK ONE. BE UNDENIABLE."), cohort
+          offer factoid, and a "Drop it below" CTA card. faux.thinker RED
+          #E91212 — basecamp gold #F5C542 confined to the B-roll only. */}
+      <Composition
+        id="FauxThinker-Basecamp"
+        component={Devin1Apply}
+        fps={25}
+        width={1080}
+        height={1920}
+        defaultProps={FAUX_THINKER_BASECAMP_SPEC}
         calculateMetadata={({ props }) => ({
           durationInFrames: Math.round(props.duration * 25),
         })}

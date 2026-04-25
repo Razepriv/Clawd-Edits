@@ -130,3 +130,10 @@ remotion-studio/public/avatar_v6.mp4
 _audit/Video 6/matte/
 _audit/Video 6/audio.wav
 _audit/Video 6/frames/
+
+# Video 7 / basecamp pipeline — heavy assets regenerable from source
+remotion-studio/public/matted_avatar_v7/
+remotion-studio/public/avatar_v7.mp4
+_audit/Video 7/matte/
+_audit/Video 7/audio.wav
+_audit/Video 7/frames/

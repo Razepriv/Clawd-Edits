@@ -1,0 +1,7 @@
+[  0.00 ->   6.20] Stop fixing your LinkedIn. Something just made it irrelevant for builders. It's called basecamp.
+[  6.74 ->  12.66] You ship in public. Streaks, peer reviews, verified commits, all feed a public score
+[ 12.66 ->  19.04] recruiters paid to search. My honest take from someone running an agency solo from Chennai,
+[ 19.66 ->  25.58] not San Francisco. If you are stuck on upwork, this is your move. If you already post your work
+[ 25.58 ->  31.80] publicly, skip it. Stacking three platforms does not make you hireable. Pick one, be undeniable.
+[ 32.52 ->  37.50] Cohort one runs April to July free for builders. Where are you putting your effort,
+[ 37.94 ->  41.38] basecamp, GitHub or your own audience? Drop it below.
