@@ -146,22 +146,63 @@ def txt2img(prompt: str, aspect_ratio: str = "9:16", seed: int | None = None) ->
 
 def img2vid(
     image_url: str,
-    prompt: str = "Slow cinematic dolly in, premium dop motion",
+    prompt: str = "Slow cinematic dolly in, premium camera motion",
     model: str = "dop-turbo",
 ) -> dict[str, Any]:
-    """DoP image-to-video. `image_url` must be a publicly reachable URL.
+    """Image-to-video. Routes to the right Higgsfield endpoint by model
+    slug:
 
-    Unlike Flux txt2img (flat), the DoP endpoint requires a `params`
-    wrapper around the actual inputs. Returns a JobSet response with
-    `id` + `jobs[]`."""
-    payload = {
-        "params": {
+      dop-lite / dop-turbo / dop-standard  -> /v1/image2video/dop
+        (Higgsfield's own Director-of-Photography model — fast, cheap,
+         takes `input_images` plural)
+      veo-3-fast / veo-3-preview          -> /v1/image2video/veo3
+        (Google Veo 3, takes `input_image` singular)
+      kling                                -> /v1/image2video/kling
+        (Kuaishou Kling, `input_image` singular, no model field)
+      seedance                             -> /v1/image2video/seedance
+        (ByteDance Seedance, `input_image` singular, no model field)
+
+    All endpoints expect a `params` wrapper. All return a JobSet shape
+    that can be polled via `/requests/{id}/status`."""
+    is_dop = model.startswith("dop-")
+    is_veo = model.startswith("veo-")
+    is_kling = model in ("kling", "kling-2", "kling-2-1")
+    is_seedance = model in ("seedance", "seedance-1", "seedance-2")
+
+    if is_dop:
+        endpoint = "v1/image2video/dop"
+        params: dict[str, Any] = {
             "model": model,
             "prompt": prompt,
             "input_images": [{"type": "image_url", "image_url": image_url}],
         }
-    }
-    resp = _post("v1/image2video/dop", payload)
+    elif is_veo:
+        endpoint = "v1/image2video/veo3"
+        params = {
+            "model": model,
+            "prompt": prompt,
+            "input_image": {"type": "image_url", "image_url": image_url},
+        }
+    elif is_kling:
+        endpoint = "v1/image2video/kling"
+        params = {
+            "prompt": prompt,
+            "input_image": {"type": "image_url", "image_url": image_url},
+        }
+    elif is_seedance:
+        endpoint = "v1/image2video/seedance"
+        params = {
+            "prompt": prompt,
+            "input_image": {"type": "image_url", "image_url": image_url},
+        }
+    else:
+        raise ValueError(
+            f"Unknown model '{model}'. Known: dop-{{lite,turbo,standard}}, "
+            f"veo-3-{{fast,preview}}, kling, seedance"
+        )
+
+    payload = {"params": params}
+    resp = _post(endpoint, payload)
     return _poll(resp)
 
 
@@ -266,7 +307,15 @@ def main() -> int:
     p_vid = sub.add_parser("img2vid", help="Image-to-video via DoP")
     p_vid.add_argument("--image-url", required=True)
     p_vid.add_argument("--prompt", default="Slow cinematic dolly in")
-    p_vid.add_argument("--model", default="dop-turbo", choices=["dop-lite", "dop-turbo", "dop-standard"])
+    p_vid.add_argument(
+        "--model",
+        default="dop-turbo",
+        choices=[
+            "dop-lite", "dop-turbo", "dop-standard",
+            "veo-3-fast", "veo-3-preview",
+            "kling", "seedance",
+        ],
+    )
     p_vid.add_argument("--out", required=True)
     p_vid.set_defaults(fn=cmd_img2vid)
 
@@ -275,7 +324,15 @@ def main() -> int:
     p_br.add_argument("--motion", default="Slow cinematic dolly in, premium DoP camera move", help="Camera motion prompt")
     p_br.add_argument("--aspect", default="9:16")
     p_br.add_argument("--seed", type=int, default=None)
-    p_br.add_argument("--model", default="dop-turbo", choices=["dop-lite", "dop-turbo", "dop-standard"])
+    p_br.add_argument(
+        "--model",
+        default="veo-3-fast",
+        choices=[
+            "dop-lite", "dop-turbo", "dop-standard",
+            "veo-3-fast", "veo-3-preview",
+            "kling", "seedance",
+        ],
+    )
     p_br.add_argument("--out", required=True)
     p_br.set_defaults(fn=cmd_broll)
 

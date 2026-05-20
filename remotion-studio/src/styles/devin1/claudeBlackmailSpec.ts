@@ -227,21 +227,21 @@ export const FAUX_THINKER_CLAUDE_BLACKMAIL_SPEC: ApplySpec = {
 
     // ═════════════════════════════════════════════════════════════════
     // BEAT 5 — HIGGSFIELD SCI-FI MONTAGE (26.5-31.5) — what trained Claude
-    // 3 cinematic Higgsfield clips (Flux→DoP image-to-video) playing
-    // full-canvas cutaway over the avatar. Captions overlay each for
-    // context.
+    // 3 cinematic Higgsfield clips, one per frontier video model:
     //
-    //   26.5-28.5  scifi_library  — books + glowing terminal absorbing
-    //                                AI-takeover newspaper pages
-    //   28.5-30.0  hal_eye        — close-up of glowing red HAL-style lens
-    //   30.0-31.5  headlines      — vintage 'AI TAKES OVER' headlines
-    //                                flying past the camera
+    //   26.5-28.5  scifi_library  — Veo 3 Fast — books + glowing terminal
+    //                                with orange star + floating papers
+    //   28.5-30.0  hal_eye        — Kling     — glowing red robotic iris
+    //                                close-up, ominous mechanical detail
+    //   30.0-31.5  headlines      — Seedance  — vintage 'AI TAKES OVER /
+    //                                ROBOTS RULE / AI BLACKMAIL' pages
+    //                                flying past with red lens flares
     // ═════════════════════════════════════════════════════════════════
     {
       kind: "broll_cutaway",
       t_start: 26.5,
       duration: 2.0,
-      src: "higgsfield_brolls/scifi_library.mp4",
+      src: "higgsfield_brolls/scifi_library_veo3.mp4",
       enter: "fade",
       exit: "fade",
       enterDuration: 0.25,
@@ -252,7 +252,7 @@ export const FAUX_THINKER_CLAUDE_BLACKMAIL_SPEC: ApplySpec = {
       kind: "broll_cutaway",
       t_start: 28.5,
       duration: 1.5,
-      src: "higgsfield_brolls/hal_eye.mp4",
+      src: "higgsfield_brolls/hal_eye_kling.mp4",
       enter: "fade",
       exit: "fade",
       enterDuration: 0.18,
@@ -263,7 +263,7 @@ export const FAUX_THINKER_CLAUDE_BLACKMAIL_SPEC: ApplySpec = {
       kind: "broll_cutaway",
       t_start: 30.0,
       duration: 1.5,
-      src: "higgsfield_brolls/headlines.mp4",
+      src: "higgsfield_brolls/headlines_seedance.mp4",
       enter: "fade",
       exit: "fade",
       enterDuration: 0.18,
