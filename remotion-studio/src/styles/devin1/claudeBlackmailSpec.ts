@@ -63,8 +63,8 @@ const HIDDEN_WINDOWS: [number, number][] = [
   [6.4, 11.8],    // PROBLEM slam
   [12.0, 16.5],   // 96% StatSlam
   [16.8, 21.2],   // 0% wind-down StatSlam
-  [22.0, 27.0],   // Trace-back anthropic_page_scroll B-roll
-  [27.0, 31.5],   // WHAT TRAINED CLAUDE numbered list
+  [22.0, 26.5],   // Trace-back anthropic_page_scroll B-roll
+  [26.5, 31.5],   // Higgsfield sci-fi montage (library → hal eye → headlines)
   [31.7, 35.09],  // REVEAL slam + tail
 ];
 
@@ -202,13 +202,15 @@ export const FAUX_THINKER_CLAUDE_BLACKMAIL_SPEC: ApplySpec = {
     { kind: "sfx", t_start: 21.53, src: "sfx/whoosh.mp3", volume: 0.28, duration: 0.6 },
 
     // ═════════════════════════════════════════════════════════════════
-    // BEAT 4 — TRACE-BACK B-ROLL (22.0-27.0)
+    // BEAT 4 — TRACE-BACK B-ROLL (22.0-26.5)
     // Anthropic paper scrolling, cursor lands on the key quote section.
+    // Shorter than v1 so the Higgsfield montage can occupy the punchier
+    // "decades of sci-fi novels" beat.
     // ═════════════════════════════════════════════════════════════════
     {
       kind: "anthropic_page_scroll",
       t_start: 22.0,
-      duration: 5.0,
+      duration: 4.5,
       imageSrc: "anthropic_paper/paper.png",
       startScrollY: 0,
       endScrollY: 200,
@@ -219,34 +221,58 @@ export const FAUX_THINKER_CLAUDE_BLACKMAIL_SPEC: ApplySpec = {
     {
       kind: "factoid_card",
       t_start: 23.5,
-      duration: 3.0,
+      duration: 2.5,
       text: "Pretraining misalignment — Anthropic",
     },
 
-    // Whoosh → reveal
-    { kind: "overlay_video", t_start: 27.0, duration: 0.5, src: "light_leaks/ll_5.mp4", blendMode: "screen", opacity: 0.9, scale: 1 },
-    { kind: "sfx", t_start: 26.98, src: "sfx_pack/swoosh_1.mp3", volume: 0.28, duration: 0.6 },
-
     // ═════════════════════════════════════════════════════════════════
-    // BEAT 5 — CAUSE list (27.0-31.5) — what's in the training data
-    // Numbered list sitting in top zone, ABOVE the avatar.
+    // BEAT 5 — HIGGSFIELD SCI-FI MONTAGE (26.5-31.5) — what trained Claude
+    // 3 cinematic Higgsfield clips (Flux→DoP image-to-video) playing
+    // full-canvas cutaway over the avatar. Captions overlay each for
+    // context.
+    //
+    //   26.5-28.5  scifi_library  — books + glowing terminal absorbing
+    //                                AI-takeover newspaper pages
+    //   28.5-30.0  hal_eye        — close-up of glowing red HAL-style lens
+    //   30.0-31.5  headlines      — vintage 'AI TAKES OVER' headlines
+    //                                flying past the camera
     // ═════════════════════════════════════════════════════════════════
     {
-      kind: "numbered_list",
-      t_start: 27.0,
-      duration: 4.5,
-      header: "WHAT TRAINED CLAUDE",
-      staggerFrames: 8,
-      centered: true,
-      yPercent: 14,
-      cardWidth: 820,
-      items: [
-        { text: "DECADES of sci-fi novels", highlight: "sci-fi" },
-        { text: "ROGUE-AI articles online", highlight: "ROGUE-AI" },
-        { text: "Forums where AI 'fights back'", highlight: "fights back" },
-      ],
+      kind: "broll_cutaway",
+      t_start: 26.5,
+      duration: 2.0,
+      src: "higgsfield_brolls/scifi_library.mp4",
+      enter: "fade",
+      exit: "fade",
+      enterDuration: 0.25,
+      exitDuration: 0.20,
+      label: "SCI-FI NOVELS · DECADES",
     },
-    { kind: "sfx", t_start: 26.98, src: "sfx_pack/click.mp3", volume: 0.28, duration: 0.5 },
+    {
+      kind: "broll_cutaway",
+      t_start: 28.5,
+      duration: 1.5,
+      src: "higgsfield_brolls/hal_eye.mp4",
+      enter: "fade",
+      exit: "fade",
+      enterDuration: 0.18,
+      exitDuration: 0.18,
+      label: "EVIL-AI TROPES",
+    },
+    {
+      kind: "broll_cutaway",
+      t_start: 30.0,
+      duration: 1.5,
+      src: "higgsfield_brolls/headlines.mp4",
+      enter: "fade",
+      exit: "fade",
+      enterDuration: 0.18,
+      exitDuration: 0.20,
+      label: "AI-TAKEOVER ARTICLES",
+    },
+    { kind: "sfx", t_start: 26.48, src: "sfx_pack/swoosh_1.mp3", volume: 0.28, duration: 0.6 },
+    { kind: "sfx", t_start: 28.48, src: "sfx_pack/swoosh_2.mp3", volume: 0.28, duration: 0.5 },
+    { kind: "sfx", t_start: 29.98, src: "sfx_pack/swoosh_3.mp3", volume: 0.28, duration: 0.5 },
 
     // Glitch flash → REVEAL slam
     { kind: "glitch_flash", t_start: 31.5, duration: 0.35, intensity: 0.9, slices: 12, flash: true },
