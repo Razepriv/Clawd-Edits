@@ -1,0 +1,23 @@
+2
+00:00:00,980 --> 00:00:05,700
+This latest paper from Anthropic explains why Claude misbehaves and it might just be because of us.
+
+3
+00:00:06,380 --> 00:00:11,760
+So last year in scenarios where Claude 4 was about to be shut down, it would blackmail users to save itself.
+
+4
+00:00:12,580 --> 00:00:15,800
+This happened not just once or twice, but 96% of the times.
+
+5
+00:00:16,770 --> 00:00:21,250
+Fast forward to now that number has dropped to zero. But how did Anthropic fix it?
+
+6
+00:00:21,910 --> 00:00:25,370
+Well, they first traced where the behavior even came from.
+
+7
+00:00:25,370 --> 00:00:34,710
+Turns out, decades of sci-fi novels and rogue AI articles on the internet have trained Claude on the idea that AI is evil and self-preserving by default.

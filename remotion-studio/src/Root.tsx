@@ -14,6 +14,7 @@ import { FAUX_THINKER_CANVA_V2_SPEC } from "./styles/devin1/canvaPipelineSpecV2"
 import { FAUX_THINKER_VERCEL_BREACH_SPEC } from "./styles/devin1/vercelBreachSpec";
 import { FAUX_THINKER_COPILOT_TRAIN_SPEC } from "./styles/devin1/copilotTrainSpec";
 import { FAUX_THINKER_BASECAMP_SPEC } from "./styles/devin1/basecampSpec";
+import { FAUX_THINKER_CLAUDE_BLACKMAIL_SPEC } from "./styles/devin1/claudeBlackmailSpec";
 import { COHOUSY_001_SPEC } from "./cohousy/cohousy001Spec";
 
 export const RemotionRoot = () => {
@@ -229,6 +230,27 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={FAUX_THINKER_BASECAMP_SPEC}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.duration * 25),
+        })}
+      />
+
+      {/* FauxThinker Claude-blackmail reel — 35 s explainer on the
+          Anthropic 'From shortcuts to sabotage' paper (Nov 21 2025).
+          Source shot LANDSCAPE (1920x1080) on iPhone, tone-mapped from
+          HEVC HDR @ 60 fps to SDR @ 25 fps. Uses new LandscapeSplitFrame
+          to park the avatar in the bottom 53 % band and keep the top
+          47 % free for slams + B-rolls. Animated 96→0 StatSlam wind-down
+          is the centerpiece. Real Anthropic blog page scrolling as
+          B-roll. Reveal slam "WE TAUGHT IT / TO BE EVIL." pays off the
+          hook's "it might be because of us." Whoosh SFX at every cut. */}
+      <Composition
+        id="FauxThinker-ClaudeBlackmail"
+        component={Devin1Apply}
+        fps={25}
+        width={1080}
+        height={1920}
+        defaultProps={FAUX_THINKER_CLAUDE_BLACKMAIL_SPEC}
         calculateMetadata={({ props }) => ({
           durationInFrames: Math.round(props.duration * 25),
         })}

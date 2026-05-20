@@ -554,6 +554,38 @@ export const OverlayEventSchema = z.discriminatedUnion("kind", [
     yPercent: z.number().optional(),
   }),
 
+  // ───────── faux.thinker landscape-source split-screen layout ─────────
+  // LandscapeSplitFrame: base layer for landscape (1920x1080) avatars
+  // composited into a 1080x1920 canvas. Avatar lives in the bottom band;
+  // overlays land in the top zone. Used by reels where the source was
+  // shot landscape (e.g. claudeBlackmailSpec).
+  z.object({
+    kind: z.literal("landscape_split_frame"),
+    t_start: z.number(),
+    duration: z.number(),
+    avatarSrc: z.string(),
+    splitRatio: z.number().optional(),
+    bgColor: z.string().optional(),
+    softSeam: z.boolean().optional(),
+  }),
+  // StatSlam: big animated number slam with counter animation. Default
+  // sits at yPercent 26 (top zone) for landscape-split layouts. Use the
+  // `endValue` + `counterFrames` props to animate "96 → 0" reveals.
+  z.object({
+    kind: z.literal("stat_slam"),
+    t_start: z.number(),
+    duration: z.number(),
+    value: z.number(),
+    endValue: z.number().optional(),
+    suffix: z.string().optional(),
+    label: z.string(),
+    sub: z.string().optional(),
+    yPercent: z.number().optional(),
+    gradientStart: z.string().optional(),
+    gradientEnd: z.string().optional(),
+    counterFrames: z.number().optional(),
+  }),
+
   // ───────── Cohousy components (v1 — property-management reel kit) ─────────
   // CohousyBigStat: giant stat card for "30+ FLATS / 98% OCCUPANCY /
   // 100% ON-TIME RENT". Orange gradient number, below-chin placement
@@ -648,6 +680,12 @@ export const ApplySpecSchema = z.object({
   musicSrc: z.string().optional(),
   // Music volume relative to voice (default 0.15 = ducked well under VO).
   musicVolume: z.number().min(0).max(1).default(0.15),
+  // When true, suppress the default full-frame avatar render. Use this
+  // for landscape-source reels where a `landscape_split_frame` event
+  // renders the avatar in a split-screen layout instead. Audio from the
+  // source is still extracted via a hidden audio-only track so the VO
+  // remains the drive of the timeline.
+  landscapeSource: z.boolean().optional(),
 });
 
 export type ApplySpec = z.infer<typeof ApplySpecSchema>;

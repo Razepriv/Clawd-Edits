@@ -1,0 +1,6 @@
+[  0.98 ->   5.70] This latest paper from Anthropic explains why Claude misbehaves and it might just be because of us.
+[  6.38 ->  11.76] So last year in scenarios where Claude 4 was about to be shut down, it would blackmail users to save itself.
+[ 12.58 ->  15.80] This happened not just once or twice, but 96% of the times.
+[ 16.77 ->  21.25] Fast forward to now that number has dropped to zero. But how did Anthropic fix it?
+[ 21.91 ->  25.37] Well, they first traced where the behavior even came from.
+[ 25.37 ->  34.71] Turns out, decades of sci-fi novels and rogue AI articles on the internet have trained Claude on the idea that AI is evil and self-preserving by default.

@@ -51,6 +51,8 @@ import { AnthropicPageScroll } from "./components/AnthropicPageScroll";
 import { SaveMomentSlate } from "./components/SaveMomentSlate";
 import { NumberedList } from "./components/NumberedList";
 import { QuestionCaption } from "./components/QuestionCaption";
+import { LandscapeSplitFrame } from "./components/LandscapeSplitFrame";
+import { StatSlam } from "./components/StatSlam";
 
 // Apply composition — ingests an avatar video + a spec of overlay events
 // anchored to absolute seconds in the avatar timeline, and renders the
@@ -74,8 +76,19 @@ export function Devin1Apply(spec: ApplySpec) {
   return (
     <BrandProvider brand={brand}>
       <AbsoluteFill style={{ backgroundColor: brand.colors.background }}>
-        {/* Base: avatar video covers full frame. */}
-        <OffthreadVideo src={resolveSrc(spec.avatarVideoSrc)} muted={false} />
+        {/* Base avatar layer.
+            - landscapeSource=true (e.g. iPhone landscape reels): a hidden
+              audio-only OffthreadVideo so the VO still drives the timeline,
+              but the video pixels stay invisible. A `landscape_split_frame`
+              event then renders the avatar visually in a split layout.
+            - landscapeSource=false (default): standard full-frame avatar. */}
+        {spec.landscapeSource ? (
+          <div style={{ position: "absolute", width: 0, height: 0, overflow: "hidden" }}>
+            <OffthreadVideo src={resolveSrc(spec.avatarVideoSrc)} muted={false} />
+          </div>
+        ) : (
+          <OffthreadVideo src={resolveSrc(spec.avatarVideoSrc)} muted={false} />
+        )}
 
         {/* Optional music bed, ducked under avatar VO. */}
         {spec.musicSrc ? (
@@ -515,6 +528,29 @@ function RenderEvent({ event, resolveSrc }: RenderEventProps) {
           headline={event.headline}
           sub={event.sub}
           handle={event.handle}
+        />
+      );
+    case "landscape_split_frame":
+      return (
+        <LandscapeSplitFrame
+          avatarSrc={event.avatarSrc}
+          splitRatio={event.splitRatio}
+          bgColor={event.bgColor}
+          softSeam={event.softSeam}
+        />
+      );
+    case "stat_slam":
+      return (
+        <StatSlam
+          value={event.value}
+          endValue={event.endValue}
+          suffix={event.suffix}
+          label={event.label}
+          sub={event.sub}
+          yPercent={event.yPercent}
+          gradientStart={event.gradientStart}
+          gradientEnd={event.gradientEnd}
+          counterFrames={event.counterFrames}
         />
       );
   }

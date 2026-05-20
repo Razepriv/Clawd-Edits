@@ -137,3 +137,8 @@ remotion-studio/public/avatar_v7.mp4
 _audit/Video 7/matte/
 _audit/Video 7/audio.wav
 _audit/Video 7/frames/
+
+# Video 8 / claudeBlackmail pipeline — heavy assets regenerable from source
+remotion-studio/public/avatar_v8.mp4
+_audit/Video 8/audio.wav
+_audit/Video 8/frames/
